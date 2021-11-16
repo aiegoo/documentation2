@@ -18,7 +18,7 @@ Although you already [reviewed some of your docs](docapis_review_processes.html)
 
 When you're working on documentation prior to release, you have the full attention of the product team for reviewing and approving the docs. You have a group of product managers, engineers, and others at your present disposal. But when you receive feedback on docs post-release, that same group of people might no longer be present, or they might be hard to locate, especially if you're updating docs you didn't work on. You might have to assess feedback on products you know next to nothing about and reach out to people you've never interacted with before.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 When working with post-release feedback, you also have the challenge of sifting through feedback from people who might not even be your target audience. The feedback might be from customers rather than developers, for example. Or the feedback might be from people looking for a support lifeline when other channels fail them. Or it might just be spam.
 
@@ -38,7 +38,7 @@ Although this side position is becoming more common, in tests that I've done, mo
 
 Again, follow standard web practices for placement of common elements.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Requirements to submit text
 
@@ -92,7 +92,7 @@ This script assumes that the feedback URL has query strings added, such as `http
 
 (Yes, this is a hack, but if you need to workaround the http referrer restrictions, a technique like this might be necessary.)
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Qualitative versus quantitative feedback
 
@@ -112,7 +112,7 @@ I also recommend adding some placeholder text that encourages users to be descri
 
 If you need metrics around feedback, you could quantify the number of comments received for each doc set, and then indicate what actions were taken. What percentage of the feedback was actionable, and how many tickets did you close related to doc feedback, etc.? How many tickets were from humans versus bots?
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## Process for handling feedback
 

@@ -13,14 +13,14 @@ last-modified: 2019-11-17
 
 This part of the activity might be challenging, but here is where you'll start building some examples for your portfolio.
 
-{% include random_ad1.html %}
+{: .note}
 
 1.  In the same project as before, identify one of the API reference topics that needs help. (If the API has a new reference endpoint to document, focus on this endpoint.)
 2.  Edit the topic to improve it. (If it's a new endpoint, write the documentation for it.)
 6.  Create a [pull request](pubapis_github_pull_requests.html) and contribute your edits to the project.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
-{% include random_ad1.html %}
+{: .note}
 
-{% include random_ad4.html %}
+{: .note2}

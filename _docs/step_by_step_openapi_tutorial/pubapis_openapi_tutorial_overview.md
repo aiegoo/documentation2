@@ -26,7 +26,7 @@ When choosing an editor to write OpenAPI code by hand, the most common is the [S
 
 {% include course_image.html url="http://editor.swagger.io/" size="large" filename="swagger_editor_pic" ext_print="png" ext_web="png" alt="The Swagger Editor validates your specification content dynamically and shows you the display on the right" caption="The Swagger Editor validates your specification content dynamically and shows you the display on the right" %}
 
-{% include random_ad4.html %}
+{: .note2}
 
 While you're coding in the Swagger Editor, if you make an error, you can quickly fix it before continuing rather than waiting until a later time to run a build and sort out errors.
 
@@ -59,7 +59,7 @@ You can find many Swagger tutorials online. What makes mine different? Besides t
 
 Many other display frameworks besides [Swagger UI](https://github.com/swagger-api/swagger-ui) can parse and display information in an OpenAPI specification document, and you can even create your own custom parsing tools.
 
-{% include random_ad2.html %}
+{: .note2}
 
 [Swagger UI](https://github.com/swagger-api/swagger-ui) is sponsored by [Smartbear](https://smartbear.com/), the same company that is heavily invested in the [OpenAPI initiative](https://www.openapis.org/) and which develops [SwaggerHub](pubapis_swaggerhub_smartbear.html) (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/), as the Linux Foundation drives this [initiative](https://www.openapis.org/). The OpenAPI spec's development is driven by [many companies and organizations](https://www.openapis.org/membership/members).
 
@@ -73,7 +73,7 @@ Before continuing, I want to clarify the difference between "Swagger" and "OpenA
 
 People still often refer to both names interchangeably, but "OpenAPI" is how the spec should be referred to. The "OpenAPI specification document" or "OpenAPI document" is the Swagger YAML file that you create to describe your API. For other terms, see the [API Glossary](api-glossary.html). See also [What Is the Difference Between Swagger and OpenAPI?](https://blog.smartbear.com/open-source/what-is-the-difference-between-swagger-and-openapi/).
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Customizing Swagger UI
 
@@ -81,7 +81,7 @@ You might be concerned that Swagger UI outputs look similar. First, note that yo
 
 With my OpenAPI projects, I usually customize the Swagger UI's colors a bit, add a custom logo and a few other custom styles. With one project, I integrated [Bootstrap](https://getbootstrap.com/) so that I could have [modals](https://getbootstrap.com/docs/4.1/components/modal/) where users could generate their authorization codes. You can even add [collapse-and-expand features](https://getbootstrap.com/docs/4.1/components/collapse/) in the `description` element to provide more information to users.
 
-{% include random_ad1.html %}
+{: .note}
 
 Beyond these simple modifications, however, it takes a bit of web-developer prowess to significantly alter the Swagger UI display. It's possible, but you need web development skills.
 

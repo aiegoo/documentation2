@@ -35,7 +35,7 @@ Creating an outline precedes the actual writing of content. An outline is a list
 
 You can even review the outline with other groups you interviewed before you begin writing, if you want. It depends on how confident you are and how extensive the documentation is. The outline is basically your content plan.
 
-{% include random_ad1.html %}
+{: .note}
 
 It might be worth calling out some other fundamentals to tech writing here. In a creative writing project, you might have only a general sense of how you'll get from your starting point to the conflict to the resolution. As creative writers start writing, they get into a flow and sometimes the story takes them in directions they didn't intend.
 
@@ -45,7 +45,7 @@ Writing documentation is a much different experience. You're operating in an _ex
 
 So the outline is your friend. In an outline, the initial bullet points don't need to be polished or have strong coherence. You're just sketching out the plan, and you can rearrange sections and bullet points as much as you want. If the documentation is extensive and you're unsure about the approach, you can set up meetings with the same people previously described to talk them through the outline.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Note that unlike other forms of writing, documentation uses a lot of section headings. An academic essay might not have any subheadings, but documentation uses section headings every few paragraphs. Section headings reduce the need for a more formal order and flow to the content, so in some ways writing documentation is easier than other forms of writing. You can always just tack on information in another section heading.
 
@@ -69,7 +69,7 @@ After I wake up and have some coffee and breakfast, check email and news, I devo
 
 The second strategy I use is to set a four-hour timer using a Focus app. This is just an app that keeps track of time on task, similar to the Pomodoro technique. I find that four hours of writing is the most that I can squeeze out during a day. I set 4 one-hour sessions, and if I find myself getting off task during the session, I pause it. (For more on this technique, see [Writing productivity tip: Focus sessions](/blog/writing-productivity-through-focus-sessions/).)
 
-{% include random_ad4.html %}
+{: .note2}
 
 With the timer set, I look at the outline, and then I just dive right into it. I allow myself to veer from the specific outline if the flow of the content dictates it. As a best practice, I try to connect the ideas from one sentence to another in a flow-like way. The general pattern is that a sentence ends on an idea that the next one begins on. If you keep that flow, from old-to-new information, it will provide more of a flow to your sentences.
 
@@ -81,7 +81,7 @@ It's good to get the first draft of content on the page. After that, I can begin
 
 Even though I've been a professional writer for many years, I don't have a lot of writing stamina. After I can get several hours of writing in, I often tap out. Writing is somewhat like exercising. I can't just sit down for hours on end writing documentation. Very few can. Instead, if I chip away at a larger content project a little bit each day over a series of weeks, I'm usually much more successful.
 
-{% comment %}{% include random_ad4.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## 3.5. Make a running list of questions you have {#questions}
 

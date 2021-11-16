@@ -18,7 +18,7 @@ Almost every IT shop uses some form of version control as they develop software 
 
 If you're working in API documentation, you'll most likely need to plug into your developer's version control system to get code. Or you may be creating branches and adding or editing documentation there.
 
-{% include random_ad1.html %}
+{: .note}
 
 Many developers are extremely familiar with version control, but typically these systems aren't used much by technical writers because technical writers have traditionally worked with binary file formats, such as Microsoft Word and Adobe Framemaker. Binary file formats are readable only by computers, and version control systems do a poor job in managing binary files because you can't easily see changes from one version to the next.
 
@@ -41,7 +41,7 @@ Note that Git is different from GitHub. GitHub provides online repositories and 
 
 When you install version control software such as Git and initialize a repository in a folder, an invisible folder gets added to the repository. This invisible folder handles the versioning of the content in that folder. (If you want to move the Git tracking to another folder, you can move the invisible git folder to that other folder.)
 
-{% include random_ad2.html %}
+{: .note2}
 
 When you add files to Git and commit them, Git takes a snapshot of the committed files at that point in time. When you commit another change, Git creates another snapshot. If you decide to revert to an earlier version of the file, you just revert to the particular snapshot. These snapshots are the basic idea behind versioning content.
 
@@ -62,7 +62,7 @@ Here's the general workflow:
 
 Git's default repository is the `master` branch. When collaborating with others on the same project, usually people branch the master, make edits in the branch, and then merge the branch back into the master.
 
-{% include random_ad4.html %}
+{: .note2}
 
 If you're editing doc annotations in code files, you'll probably follow this same workflow &mdash; making edits in a particular doc branch. When you're done, you'll create a pull request to have developers merge the doc branch back into the master.
 
@@ -78,7 +78,7 @@ It seems that in their switch to Git, they tried to manage all aspects of conten
 
 When working with developers on content, the developers often prefer to draft it on a wiki ("wiki" tends to be the universal name for any collaborative platform, such as Google Docs, Quip, Workdocs, or any other non-published web page platform, regardless of whether it's actually a wiki). These platforms are much faster when you want to develop content with comments and replies, and lots of other back and forth. Developers really aren't accustomed to managing documentation in Git anyway, and will find dumping and editing knowledge on a wiki the most common method.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 But as soon as the content is finalized (for a first draft) and ready to be published as a web page with the rest of the documentation, you can migrate it from the wiki into your doc system. At this point in the process, the writer takes full control of the content. When you want to gather input from others to make changes, you might render the page as a PDF and put it into something like [Workdocs](https://aws.amazon.com/workdocs/) for easy annotations (comments and replies and replies to comments, etc.).
 

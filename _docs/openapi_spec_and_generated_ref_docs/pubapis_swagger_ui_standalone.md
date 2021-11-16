@@ -11,12 +11,12 @@ last-modified: 2018-08-02
 
 <p>This page can only be viewed online in your computer's web browser{% if site.format == "kindle" %}(not through Kindle's browser){% endif %}. Go to <a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html">https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html</a> to view it.</p>
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% include random_ad1.html %}
+{: .note}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
-{% include random_ad4.html %}
+{: .note2}
 
 {% include image_ad_right.html %}

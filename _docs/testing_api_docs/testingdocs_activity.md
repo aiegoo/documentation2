@@ -14,7 +14,7 @@ Now that you've read about testing, it's time to get some more hands-on practice
 * TOC
 {:toc}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Test a topic
 
@@ -30,11 +30,11 @@ Now that you've read about testing, it's time to get some more hands-on practice
 
 3.  If you found information that was incorrect, either log an issue or reach out to the QA lead with the feedback.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Find out test details
 
-{% include random_ad4.html %}
+{: .note2}
 
 Identify who performs the testing on the project. Reach out and interact with the QA lead for the project to gather as much information as you can about how testing is done.
 
@@ -48,4 +48,4 @@ Find answers to the following questions:
 * What kind of testing does the team do before a release?
 * If you encounter a bug while testing, how should you report it?
 
-{% include random_ad1.html %}
+{: .note}

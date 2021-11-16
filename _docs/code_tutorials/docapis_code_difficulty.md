@@ -40,7 +40,7 @@ Code itself is non-linear. What appears at the top (e.g., variables) might not b
 
 The central paradigm most technical writers follow is a task-based model where you begin with step 1, 2, 3, and so on until you reach the end of the task. This isn't the case with code documentation. Code is non-linear by nature. You can't simply start from the top and proceed to the bottom. Although I attempted a somewhat section-by-section explanation in my code explanation, I had to skip over some lines or note that they were part of logic explained in later sections.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Overall, this non-linearity is very different from the procedural approach usually followed in tech docs.
 
@@ -62,7 +62,7 @@ Additionally, we're not documenting basics &mdash; we're documenting how to impl
 
 Another challenge is making sure the code samples work from release to release. I pasted in the full Lambda code to provide context, but within a couple of weeks, I tweaked the code sample a bit. I then had to update the Lambda code as well as my section-by-section explanations. If you have dozens of code samples spread throughout your docs, maintaining this code from release to release will be arduous. How do you ensure it works? Do you separate the code from narrative context so that it can be more regularly tested?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Separating the code to enable testing sounds like a good idea, but as soon as you separate code from the conceptual explanation, you risk the possibility that someone will update the code in such a way that it no longer matches the explanation.
 
@@ -72,7 +72,7 @@ Finally, I should note that when I document code, I feel a bit like an outsider 
 
 An efficient technique in code (e.g., recursive loops that expand resources as needed) can be beautiful, evoking an aesthetic in the engineer's mind. In my perspective as a technical writer, it's unlikely that I'll approach code with the same reverence and awe. My more mundane approach to code might make it difficult to resonate with developer users.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## The importance of code documentation
 
@@ -92,7 +92,7 @@ In fact, in the [2021 State of API report by SmartBear](https://smartbear.com/st
 
 Despite the importance of code samples, they're often neglected or missing from API docs. After all, it's much easier to just cover reference material and let developers figure out how to actually use it constructively. In this section of my API course, I'll provide concrete strategies for successfully incorporating code samples into your documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## What to do if you don't understand the code
 

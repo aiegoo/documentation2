@@ -21,7 +21,7 @@ Use the [Eventbrite API](https://www.eventbrite.com/developer/v3/) to get the ev
 
 Eventbrite is an event management tool, and you can interact with it through an API to pull out the event information you want. In this example, you'll use the Eventbrite API to print a description of an event to your page.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## 1. Get an OAuth token
 
@@ -35,11 +35,11 @@ If you want to sign up for your own token, first [sign in to Eventbrite](https:/
 
 The Eventbrite API documentation is available at [https://www.eventbrite.com/platform/api/](https://www.eventbrite.com/platform/api/). Look through the endpoints available (listed under "Reference" in the sidebar). Which endpoint should we use?
 
-{% include random_ad4.html %}
+{: .note2}
 
 To get event information, we'll use the [event](https://www.eventbrite.com/platform/api#/reference/event) object, which "represents an Eventbrite Event." (The Eventbrite API uses the term "objects" instead of resources.") Specifically, we'll use [Retrieve](https://www.eventbrite.com/platform/api#/reference/event/retrieve-an-event). The only parameter we need to pass is the event ID.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## 3. Construct the request
 
@@ -79,7 +79,7 @@ curl --include \
 
 Open up [Postman](docapis_postman.html). In Postman, go to **File > Import** and then select the **Paste Raw Text** tab. Paste in the cURL code you copied.
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% include course_image.html filename="postmanpasterawtext" ext_print="png" ext_web="png" alt="Pasting curl into Postman" caption="Pasting curl into Postman" %}
 

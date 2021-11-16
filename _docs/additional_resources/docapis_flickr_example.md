@@ -24,7 +24,7 @@ In this Flickr API example, we want to get all the photos from a specific Flickr
 
 To achieve our goal, we'll need to call several endpoints. Hopefully, this activity will demonstrate the shortcomings of just having reference documentation. When one endpoint requires another endpoint response as an input, you might have to communicate these workflows through tutorials.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## 1. Get an API key to make requests
 
@@ -38,7 +38,7 @@ From the list of [Flickr's API methods](https://www.flickr.com/services/api/), t
 
 One of the arguments we need for the `getPhotos` endpoint is the `gallery_id`. Before we can get the `gallery_id`, however, we have to use another endpoint to retrieve it. *Somewhat unintuitively, the `gallery_id` is <em>not</em> the ID that appears in the URL of the gallery.*
 
-{% include random_ad4.html %}
+{: .note2}
 
 Instead, we use the [`flickr.urls.lookupGallery`](https://www.flickr.com/services/api/explore/flickr.urls.lookupGallery) endpoint listed in the URLs resource section to get the `gallery_id` from a gallery URL:
 
@@ -46,7 +46,7 @@ Instead, we use the [`flickr.urls.lookupGallery`](https://www.flickr.com/service
 
 The `gallery_id` for [Color in Nature](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) is `66911286-72157647277042064`. We now have the arguments we need for the [`flickr.galleries.getPhotos`](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## 3. Construct the request
 
@@ -132,7 +132,7 @@ Here's what an item in the JSON response looks like:
 
 You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## 5. Pull out the information you need
 

@@ -23,7 +23,7 @@ This article was written by Casey Armstrong on July 1, 2019, and originally titl
 
 If you are like me, a budding technical writer, and you are just getting started with writing developer documentation, then you might already feel like you have a full plate in terms of learning new technologies. Alas, the evolving world of developer tools and API related technology has shown that it has absolutely no intention of slowing down for us!
 
-{% include random_ad4.html %}
+{: .note2}
 
 However, we need not fear this evolution, because behind every new popular technology, there is a crowd-of-enthusiasts behind it. Furthermore, with that crowd-of-enthusiasts comes a large pile of information, a pile that we, as technical writers, can pick-through, distill, and use to orient ourselves.
 
@@ -35,7 +35,7 @@ GraphQL was released to the public in 2015 as an open-source project by Facebook
 
 Note: The Open API specification is also [hosted by the Linux Foundation](https://www.openapis.org/about).
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Growth
 
@@ -51,7 +51,7 @@ And, take a look at Google Trends:
 
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1845_RC02/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"graphql","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=graphql","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## What is GraphQL?
 
@@ -135,7 +135,7 @@ On the Codeship blog, [Chris writes](https://blog.codeship.com/documenting-graph
 
 So, we see that this is an interesting point. The different perspectives he is talking about is looking at the endpoints with REST vs looking at the data itself with GraphQL (i.e., exactly what is requested).
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Chris then explains what documentation is needed for GraphQL and why it’s needed:
 

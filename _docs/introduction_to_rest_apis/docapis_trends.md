@@ -24,7 +24,7 @@ You can also view a recorded webinar where I talk through the results here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/swktxdNozXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## Article
 
@@ -34,7 +34,7 @@ I wrote an [article for the *Institute of Scientific Technical Communicators* (I
 
 The same content from the PDF is available in HTML below:
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Developer documentation trends: How developer documentation trends differ from general technical communication trends
 
@@ -46,7 +46,7 @@ Reading the results of these surveys, one would assume that most technical write
 
 Scott's survey does include some API-related information. He found that "Fifty-eight percent of technical communication teams surveyed say they currently document APIs; 10 percent plan to in the future." One challenge tech writers face in documenting APIs is "using software tools not optimized for ease-of-use or writing efficiency, and lack of experience." Scott's survey also found that 21% of technical communicators use Markdown to create docs.
 
-{% include random_ad2.html %}
+{: .note2}
 
 These responses about APIs are more relevant to developer docs, but they don't go far enough. More developer-oriented topics are left out, such as how writers integrate with engineering Scrum teams, how writers interact with engineers on documentation, how writers handle the OpenAPI spec and other reference docs, and more.
 
@@ -66,7 +66,7 @@ A total of 405 people completed the entire survey. Completing the survey means t
 
 You can browse the results of the survey directly at [https://idratherbewriting.site/devdoctrendsreport](https://idratherbewriting.site/devdoctrendsreport).
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Survey question categories
 

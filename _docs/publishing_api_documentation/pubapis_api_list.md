@@ -18,7 +18,7 @@ Rather than approach the topic of publishing prescriptively, let's begin with so
 
 {% include image_ad_right.html %} Browse a few of these documentation sites to get a sense of the variety, but also try to identify common patterns. In this list, I include not only impressively designed docs but also docs that look like they were created by a department intern just learning HTML. The variety in the list demonstrates the many options for publishing tools and approaches, as well as terminology. It seems that almost everyone does their API docs their own way, with their own site, branding, organization, and style.
 
-{% include random_ad4.html %}
+{: .note2}
 
 1.  [Shopgate API docs](https://developer.shopgate.com/){: rel="nofollow"}
 2.  [Google Places API docs](https://developers.google.com/maps/documentation/places/web-service/overview){: rel="nofollow"}
@@ -142,14 +142,14 @@ Rather than approach the topic of publishing prescriptively, let's begin with so
 
 For a directory of API documentation sites on the open web, see the [Programmableweb.com docs](http://www.programmableweb.com/apis/directory). You can browse thousands of web API docs in a variety of categories.
 
-{% include random_ad1.html %}
+{: .note}
 
 <a rel="nofollow" href="http://www.programmableweb.com/apis/directory" class="noExtIcon"><img src="{{site.media}}/programmableweb.png" alt="Programmable web directory" /></a>
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Note that Programmableweb lists only open web APIs, meaning APIs that you can access on the web (which also means it's usually a REST API). They don't list the countless internal, firewalled APIs that many companies provide at a cost to paying customers. There are many more thousands of private APIs out there that most of us will never know about.
 
 {% include content/activities/api_doc_patterns.md %}
 
-{% include random_ad2.html %}
+{: .note2}

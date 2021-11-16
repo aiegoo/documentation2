@@ -20,7 +20,7 @@ As you look for ways to provide value as a technical writer in a highly technica
 
 The first question about a focus on publishing API documentation might be, *why?* What makes publishing API documentation so different from publishing other kinds of documentation such that it would merit its own section? How and why does the approach with publishing API docs need to differ from the approach for publishing regular documentation?
 
-{% include random_ad2.html %}
+{: .note2}
 
 With API documentation, you're no longer in the realm of GUI (graphical user interface) documentation, usually intended for mainstream end users. A lot of the content for developers is complex and requires a background not just in programming, but in a specific programming language or framework.
 
@@ -32,7 +32,7 @@ In [How API Documentation Fails](https://ieeexplore.ieee.org/document/7140676/) 
 
 The problem is that the very people who can fix this content are usually fully engaged in development work. Robillard and Uddin write,
 
-> Perhaps unsurprisingly, the biggest problems with API documentation were also the ones requiring the most technical expertise to solve. Completing, clarifying, and correcting documentation require deep, authoritative knowledge of the API’s implementation. This makes accomplishing these tasks difficult for non-developers or recent contributors to a project.  
+> Perhaps unsurprisingly, the biggest problems with API documentation were also the ones requiring the most technical expertise to solve. Completing, clarifying, and correcting documentation require deep, authoritative knowledge of the API’s implementation. This makes accomplishing these tasks difficult for non-developers or recent contributors to a project.
 >
 > So, how can we improve API documentation if the only people who can accomplish this task are too busy to do it or are working on tasks that have been given a higher priority? One potential way forward is to develop recommendation systems that can reduce as much of the administrative overhead of documentation writing as possible, letting experts focus exclusively on the value-producing part of the task. As Barthélemy Dagenais and Martin Robillard discovered, a main challenge for evolving API documentation is identifying where a document needs to be updated.
 
@@ -70,7 +70,7 @@ Additionally, almost no HAT runs on a Mac. Many developers and designers prefer 
 
 Even if you could get developers to use a HAT, you'd likely need to buy a license for each contributing developer. In contrast, docs-as-code tools are often open source and can, therefore, scale across the company without budgetary funding and approval.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ### 2. HATs won't generate docs from source
 
@@ -84,7 +84,7 @@ Engineers often want to push the reference documentation for APIs into well-defi
 
 If you have a lot of endpoints, you need a system for pushing the content into standard templates. Ideally, you should separate the various sections (description, parameters, responses, etc.) and then compile the information through your template when you build your site. Or you can use a specification such as [OpenAPI](pubapis_openapi_intro.html) to populate the information into a template. You can also incorporate custom scripts. However, you don't often have these options in HATs, since you're mostly limited to what workflows and templates are supported out of the box.
 
-{% include random_ad1.html %}
+{: .note}
 
 ### 4. Many APIs have interactive API consoles, allowing you to try out the calls
 
@@ -96,7 +96,7 @@ Most outputs from HATs look dated and old. They look like a relic of the pre-200
 
 With API documentation, often the documentation *is* the product's interface &mdash; there isn't a separate product GUI (graphical user interface) that clients interact with. Because the product's GUI is the documentation, it has to be sexy and attractive.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Most tripane help doesn't make that cut. If the help looks old and frame-based, it doesn't instill much confidence with developers evaluating it.
 

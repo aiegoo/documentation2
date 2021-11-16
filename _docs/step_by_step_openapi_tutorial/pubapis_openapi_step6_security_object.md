@@ -35,7 +35,7 @@ REST APIs can use different security approaches to authorize requests. I explore
 
 In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme information](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## API key authorization
 
@@ -93,7 +93,7 @@ Properties you can use for each item in the `securitySchemes` object include the
 * [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oauthFlowsObject) (object): Used with `oauth2` type authorization.
 * `openIdConnectUrl`: Used with `openIdConnect` type authorization.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> View the Appearance in Swagger UI
 
@@ -137,7 +137,7 @@ After users enter an API key and click **Authorize**, the authorization method i
 
 Now that we've added authorization, let's try making an actual API request. In the Swagger Editor (the right pane), click the **Authorize** button, paste the sample API key shown in the description into the **Value** field (or use your own [OpenWeatherMap API key](docapis_get_auth_keys.html#openweathermap_apikey)), and click **Authorize**. Then click **Close** to close the authorization modal.
 
-{% include random_ad4.html %}
+{: .note2}
 
 In the Current Weather Data section, expand the **GET weather** endpoint and click **Try it out**. In the **zip** field, enter your zip code and country abbreviation (such as `95050,us`), and then click **Execute**.
 
@@ -211,4 +211,4 @@ The server response also appears directly in the Swagger UI display, with a link
 
 Note that when you implement Swagger UI, if you find that the curl request works but the response doesn't appear in Swagger UI, there might be a CORS issue with your API blocking requests from web applications like Swagger. See [Troubleshooting issues with Swagger UI](pubapis_swagger.html#troubleshooting_swagger) for details.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}

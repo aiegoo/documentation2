@@ -11,7 +11,7 @@ last-modified: 2019-03-30
 
 Javadoc is the standard output for Java APIs, and it's somewhat effortless to build a Javadoc. The Javadoc is generated through something called a "doclet." Different doclets can parse the Java annotations in different ways and produce different outputs. But by and large, almost every Java documentation uses the standard doclet. The Javadoc output will be familiar and welcome to Java developers.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Javadoc is supported by Oracle. Developers can integrate the Javadoc output directly into their IDE, which makes the documentation convenient and easily accessible. In fact, Javadoc is often delivered this way rather than deployed and uploaded to a server. Javadoc contains reference documentation only. You can't add any conceptual help files into the output, nor change the layout.
 
@@ -65,7 +65,7 @@ In this activity, you'll generate a Javadoc from the [sample java project](nativ
     {: .tip}
     If you had trouble building your Javadoc, you could [view the output here](https://idratherbewriting.com/learnapidoc/assets/files/javadoc/index.html).
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Javadoc and error checking
 
@@ -73,7 +73,7 @@ Javadoc also checks your tags against the actual code. If you have parameters, e
 
 {% include course_image.html size="medium"  filename="javadocerrorchecking" ext_print="png" ext_web="png" alt="Javadoc error checking" caption="Javadoc error checking" %}
 
-{% include random_ad1.html %}
+{: .note}
 
 ## <i class="fa fa-user-circle"></i> Play with Javadoc parameters
 
@@ -85,4 +85,4 @@ Try removing a parameter from a method and generate the Javadoc again. Make sure
 
 In most development shops, you'll never manually create a Javadoc file as I've explained here. Javadoc allows you to build it from the command line by feeding it a configuration file. Most developers have a build management tool where they can configure outputs from their code, including Javadoc. If developers ask you to build the Javadoc, chances are their build management system might be somewhat primitive. However, it can be helpful to build the Javadoc output yourself (as I've explained here) to test and review the output before generating it through the build management tool.
 
-{% include random_ad4.html %}
+{: .note2}

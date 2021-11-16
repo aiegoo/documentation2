@@ -42,11 +42,11 @@ Of the various GUI clients available, Postman is probably the best option, since
 {: .note}
 A lot of times, abstract concepts don't make sense until you can contextualize them with an action. In this course, I'm following more of an "experience-first" methodology. After you do an activity, we'll explore the concepts in more depth. So if it seems like I'm glossing over concepts now, such as what a GET method is or an endpoint, hang in there. When we deep dive into these points in [Documenting API endpoints](docendpoints.html), these concepts will be a lot clearer.
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% include content/activities/postman_request.md %}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Same request but in Paw instead of Postman
 
@@ -60,7 +60,7 @@ Like Postman, Paw also allows you to easily see the request headers, response he
 
 Now let's switch APIs a bit and see some weather information from the [Aeris Weather API](https://www.aerisweather.com/), which you explored a bit in [Scenarios for using a weather API](docapis_scenario_for_using_weather_api.html#aeris). Constructing the endpoints for the Aeris Weather API is a bit more complicated since there are many different queries, filters, and other parameters you can use to configure the endpoint.
 
-{% include random_ad1.html %}
+{: .note}
 
 Here are a few pre-configured requests to configure for Aeris. You can paste the requests directly into the URL request box in Postman (after customizing the `CLIENTID` AND `CLIENTSECRET` values), and the parameters will auto-populate in the parameter fields.
 
@@ -146,7 +146,7 @@ If this button doesn't work for you, copy this [import link](https://www.getpost
 
 {% endif %}
 
-{% include random_ad4.html %}
+{: .note2}
 
 Clicking the Run in Postman buttons should automatically prompt you to import the collections into Postman. If it doesn't work, copy the import link address and, in Postman, click **Import** in the upper-left corner. Then click the **Import From Link** tab, paste in the address and click **Import**.
 

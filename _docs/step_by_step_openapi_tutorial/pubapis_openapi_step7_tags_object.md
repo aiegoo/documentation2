@@ -59,7 +59,7 @@ paths:
 
 This tag is defined at the global level, so the `/weather` path will be grouped here.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## <i class="fa fa-user-circle"></i> View the Appearance in Swagger UI
 
@@ -79,12 +79,12 @@ All paths that have the same tag are grouped together in the display. For exampl
 
 <a href="https://idratherbewriting.com/learnapidoc/assets/files/swagger/index.html" class="noExtIcon"><img src="{{site.media}}/openapitutorial_tags.png" class="medium" /></a>
 
-{% include random_ad4.html %}
+{: .note2}
 
 The order of the tags in the `tags` object at the root level determines their order in Swagger UI. Additionally, the `descriptions` appear to the right of the tag name.
 
-{% include random_ad2.html %}
+{: .note2}
 
 In our sample OpenAPI spec, tags don't seem all that necessary since we're just documenting one path/endpoint. (Additionally, I configured the [Swagger UI demo](pubapis_swagger_demo.html) to expand the section by default.) But imagine if you had a robust API with 30+ paths to describe. You would certainly want to organize the paths into logical groups for users to navigate.
 
-{% include random_ad1.html %}
+{: .note}

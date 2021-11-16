@@ -12,18 +12,18 @@ last-modified: 2020-01-22
 
 Code tutorials describe how developers will use your APIs and other services to achieve some end. These tutorials often involve healthy chunks of code and configuration of various services. These are the "tasks" that would be more common in end-user docs.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Code tutorials have common sections or characteristics (whether explicitly called out as such or not).
 
-{% include random_ad1.html %}
+{: .note}
 
 Starting with a template that lists these sections can help you gather the right information when you're developing your own tutorials.
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% include content/activities/code_tutorial_analysis.md %}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 {% include image_ad_left.html %}

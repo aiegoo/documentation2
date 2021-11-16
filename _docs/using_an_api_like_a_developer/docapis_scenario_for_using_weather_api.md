@@ -47,7 +47,7 @@ The concept and general techniques are more or less the same. Behind the scenes,
 
 Although there are [many good weather API options for developers](https://superdevresources.com/weather-forecast-api-for-developing-apps/), I decided to use the [OpenWeatherMap API](https://openweathermap.org) in this course because the service is easy to use, free, and stable.
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% include content/activities/explore_openweathermap_api.md %}
 
@@ -56,7 +56,7 @@ Although there are [many good weather API options for developers](https://superd
 Before diving too far down in the OpenWeatherMap API, let's look at another weather API for contrast. In contrast to the OpenWeatherMap API, the [Aeris Weather API](http://www.aerisweather.com/) is a bit more robust and extensive. Explore the Aeris Weather API by doing the following:
 
 1. Go to [www.aerisweather.com](http://www.aerisweather.com).
-2. Click **Documentation** on the top navigation bar.  
+2. Click **Documentation** on the top navigation bar.
 3. In the **Weather API** section, click **Endpoints**. (Or go [here](https://www.aerisweather.com/support/docs/api/reference/endpoints/) directly.)
 
 	<a class="noCrossRef" href="http://www.aerisweather.com/support/docs/api/reference/endpoints/" class="noExtIcon"><img class="medium" src="{{site.media}}/aerisendpoints.png" alt="Aeris Endpoints" /></a>
@@ -82,11 +82,11 @@ APIs differ considerably in their design, presentation, responses, and other det
 
 Each weather API has an entirely different approach to documentation. As you'll see going through this course, the variety and uniqueness of each API doc site (even when approaching the same topic &mdash; a weather forecast) presents a lot of challenges to tech writing teams. Not only do website styles vary but also API terminology and other vocabulary to describe similar concepts.
 
-{% include random_ad4.html %}
+{: .note2}
 
 As I mentioned earlier, REST APIs are an architectural style that follows common characteristics and principles; they don't all follow the same standard or specification. Users have to read the documentation to understand how to use the API. (See ["REST is a style, not a standard."](docapis_what_is_a_rest_api.html#rest-is-a-style-not-a-standard))
 
-{% include random_ad1.html %}
+{: .note}
 
 Spend a little time exploring the features and information that these weather APIs provide. Try to answer these basic questions:
 
@@ -99,4 +99,4 @@ Spend a little time exploring the features and information that these weather AP
 {: .tip}
 Sometimes people use the term \"API\" to refer to a whole collection of endpoints, functions, or classes. Other times they use API to refer to a single endpoint. For example, a developer might say, \"We need you to document a new API.\" They mean they added a new endpoint or class to the API, not that they launched an entirely new API service.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}

@@ -11,7 +11,7 @@ last-modified: 2020-11-02
 
 One of the main advantages of a version-control-based system, especially using open-source technologies, is the promise of collaboration. Not just collaboration with your immediate team, but scaling beyond your team to also include other contributors within your organization and even contributors from the community. The idea of crowdsourcing documentation like this, removing the burden from a small number of gate-keeping writers, has been appealing since the emergence of wikis and continues as a driving force behind docs-as-code implementations.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Many people embrace docs as code with the hope and expectation that many engineers will contribute to the docs. This is, after all, why so many embrace an engineer's tools and workflow in the first place. In this section, I cover processes to consider when external contributors (external to your team, not necessarily external to the company) write content.
 
@@ -22,7 +22,7 @@ Many people embrace docs as code with the hope and expectation that many enginee
 
 When I started at Amazon and we were discussing authoring and publishing tools, we adopted a docs-as-code approach using Jekyll and Markdown for several reasons. Not only was this tooling free  and fit seamlessly within the engineering build systems, in adopting Markdown and a static site generator, we rationalized that we could scale the solution to allow other teams to author and publish content without having to go through us. We envisioned lots of small, autonomous engineering/product teams writing and publishing content within the doc system, without necessarily involving us. We would set up the system, and they would use it.
 
-{% include random_ad2.html %}
+{: .note2}
 
 For the first couple of years, when a team approached us and we lacked bandwidth to write their docs, or when the team fell outside our department's stewardship, we gave them permissions in our doc repo, set them up with some basic training, and invited them to own their own authoring and publishing tasks. We gave them full permissions to merge in content, build the project, and push out the updates to the live site.
 
@@ -44,7 +44,7 @@ With pull requests, the contributor clones the repository, makes a change, and t
 
 This pull request model is the standard contribution model for most groups (especially on GitHub). With this model, contributors don't need to understand the details of your Git workflow (beyond the pull request workflow) or other specifics about your environment's branches (except which branch to start from). They just need to interact with the code review tool to submit their pull requests. This is the model I recommend implementing.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Community contributors
 
@@ -64,7 +64,7 @@ If you do allow contributions from external contributors or community members, b
 
 One pitfall to watch out for with external contributors is the content abandonment problem. It's common for external contributors to get involved in adding documentation in a time of need, and then abandon the content when their product fizzles or when they switch teams. Then you're stuck with content that you don't know much about, with no clear owner, reviewer, or maintainer. Essentially, these scenarios are like adopting an orphan child that you now you have to watch and care for. This is often how teams end up with a lot of legacy content.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 To avoid this content abandonment scenario, make sure you have a clear policy around the review and ownership of the content from contributors. Track who owns the content, the contact points for questions related to the content, and expectations for regular review of the content. It takes a lot of proactivity to track and enforce this, though, because again, no one will be knocking on your door to regularly review and look over existing content. As I wrote in [Processes for maintaining existing documentation](docapis_doc_maintenance_processes.html), tech writers are mostly focused on new content, not maintaining old content. Almost every tech writer I know has more work than they can currently handle, and reviewing old docs that no one is complaining about or requesting rarely climbs up the priority list.
 

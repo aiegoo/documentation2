@@ -18,7 +18,7 @@ In most of this course, we focused on [REST APIs](docapis_what_is_a_rest_api.htm
 
 ## Characteristics of native library APIs
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Native library APIs (also called class-based APIs or just APIs) are notably different in the following ways:
 
@@ -31,7 +31,7 @@ Native library APIs (also called class-based APIs or just APIs) are notably diff
 
 We will focus this section on Java APIs because they're probably one of the most common. However, many of the concepts and code conventions mentioned here will apply to the other languages, with minor differences.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Do you have to be a programmer to document native library APIs?
 
@@ -39,7 +39,7 @@ Because native library APIs are so dependent on a specific programming language,
 
 Even so, you don't need to be a programmer. You just need a minimal understanding of the language. Technical writers can contribute a lot here concerning style, consistency, clarity, tagging, and overall professionalism.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## My approach to teaching native library API doc
 
@@ -68,7 +68,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 If it's not installed, you can [download the JDK here](http://www.oracle.com/technetwork/java/javase/downloads/index.html). Click the Java button and then select the appropriate download for your machine.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ### Eclipse IDE for Java Developers {#eclipse}
 

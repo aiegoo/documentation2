@@ -47,7 +47,7 @@ Despite the advantages of integrating with engineering scrums, there are a few d
 
 ## Adapting scrum for documentation projects
 
-{% include random_ad4.html %}
+{: .note2}
 
 If it doesn't make sense to join an engineering scrum, you can create your own scrum process. My adapted process for managing docs following an Scrum methodology involves the following steps:
 
@@ -89,17 +89,17 @@ If it doesn't make sense to join an engineering scrum, you can create your own s
 
    6.  *Collect feedback post-release*. After you publish the documentation, embed a Feedback button directly in your docs to collect additional feedback from customers in an ongoing way. This incoming feedback trickles in and might not contain significant or actionable information, but customers should have some way of relaying their feedback. As a tech writer, I want to know if there is some major issue with docs so that I can fix them.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Conclusion
 
 Without a process for managing tech docs, projects might arrive from seemingly anywhere at random times, assigned to the doc team, with little info or scope or resource allocation. As a result, tech writers can end up in crisis mode, or product owners might have unrealistic expectations about deliverables, etc. Tech writers might get exhausted or feel like they don't have the time or resources to produce the needed quality with docs.
 
-{% include random_ad2.html %}
+{: .note2}
 
 By implementing a more formal process and methodology for managing tech doc projects (specifically, an adaptation of Scrum), you can avoid this scenario. Additionally, managing and tracking projects this way gives each team member greater visibility and accountability towards the work of documentation.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Additional resources
 

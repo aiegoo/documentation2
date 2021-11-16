@@ -18,7 +18,7 @@ Almost every API shows how to interact with the API using curl. So before moving
 
 One of the advantages of REST APIs is that you can use almost any programming language to call the endpoint. The endpoint is simply a resource located on a web server at a specific path.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Each programming language has a different way of making web calls. Rather than exhausting your energies trying to show how to make web calls in Java, Python, C++, JavaScript, Ruby, and so on, you can just show the call using curl.
 
@@ -165,7 +165,7 @@ After the query string, each parameter is separated from other parameters by the
 
 ## Common curl commands related to REST {#common}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 curl has a lot of possible commands, but the following are the most common when working with REST APIs.
 
@@ -245,7 +245,7 @@ Here's an example curl request that combines some of these commands:
 curl -i -H "Accept: application/json" -X POST -d "{status:MIA}" http://personsreport.com/status/person123
 ```
 
-{% include random_ad1.html %}
+{: .note}
 
 The request could also be formatted with line breaks to make it more readable:
 
@@ -273,7 +273,7 @@ Quiz yourself to see how much you remember. What do the following parameters mea
 {: .tip}
 When you use curl, the Terminal and [iTerm](https://www.iterm2.com/) on the Mac provide a much easier experience than using the command prompt in Windows. If you're going to get serious about API documentation, but you're still on a PC, consider switching. There are a lot of utilities that you install through a terminal that *just work* on a Mac. Also, if you're in Silicon Valley, using a PC instead of a Mac might make you look old-fashioned (see [Why do most startups purchase MacBooks for their employees?](https://www.quora.com/Why-do-most-startups-purchase-MacBooks-for-their-employees)). Alternatively, you can run Linux on Windows, and you'll get the same terminal experience (Bash shell). See this example tutorial on how to [install Bash on Windows](https://itsfoss.com/install-bash-on-windows/)."
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% comment %}
 site seems to be down or gone. check later to see if it's back up.

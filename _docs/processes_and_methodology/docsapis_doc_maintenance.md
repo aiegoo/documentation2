@@ -22,7 +22,7 @@ If documentation isn't actively maintained, it rots (becomes Redundant, Outdated
 
 As more time passes, the amount of legacy documentation becomes more and more abundant. The rate of new documentation that tech writers create versus the amount of documentation the tech writers retire tends to be an uneven ratio: you create more than you retire. Most documentation requests that come in from product teams relate to new documentation, as everyone is focused on the shiny and new, the possibilities of a new feature, the excitement of a release, and so forth. Few want to take responsibility for documentation related to products or features that fizzled but are still used.
 
-{% include random_ad1.html %}
+{: .note}
 
 It's easy to get caught up in constantly creating new content. After all, this is what requests to the documentation team usually consist of &mdash; product managers say, *We're releasing a new product/feature, and we need docs!* Product teams rarely reach out to you to review two-year-old docs, or to update docs against support cases to see if better docs could have prevented the support efforts. Once you publish your docs, major content updates or overhauls are rare except with major product updates.
 
@@ -34,7 +34,7 @@ Rather than stay heads down in always creating new content, doc teams should reg
 
 First, identify which docs are a priority. If some products have been sunset or abandoned internally, don't waste too much time improving those docs. Just establishing which docs are a priority can help you with planning. You can identify which docs are a priority by looking at page views in your analytics. Additionally, you should have a sense of your organization's priorities that are independent of site traffic. When you know which docs are a priority, you can weight them higher in the maintenance tasks. Try to identify your top 5 documentation sets. This way, if other efforts have to be triaged, you can at least focus your attention where it matters.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## 2. Identify broken links
 
@@ -50,7 +50,7 @@ As with broken links, identifying broken images is another task that you can tac
 
 How often have you looked at your list of branches in origin and found half a dozen or more old branches or branches you no longer recognize? Long-lived branches outside of your production environment are rarely a good thing, as the branch usually becomes more and more divergent. If you've already merged the branch, get rid of it. If the content is unpublished, consider merging it anyway (assuming it's a new page and doesn't update existing pages), and then use other techniques to enforce access control. You could even set the page as unpublished.
 
-{% include random_ad4.html %}
+{: .note2}
 
 There might be other maintenance tasks to perform on your Git repository as well, such as pruning large files to reduce the repo's size, verifying permissions, or running other maintenance tasks.
 
@@ -64,7 +64,7 @@ You might have some files in your repo that you can just delete. For example, su
 
 Note that I'm not recommending that you delete actively used content. Almost always, when you deprecate documentation, you add a banner announcing the deprecation and include a migration path. I'm instead encouraging you to think about the "deletion" part of the content life cycle. In Kristina Halvorson's definition of content strategy, Halvorson says, "Content strategy guides decisions about content throughout its lifecycle, from discovery to deletion." Think about that last stage in the content life cycle: *deletion*.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Deleting content can be scary &mdash; *what if people complain about broken links? What if it turns out we need that content? Before removing it, shouldn't we get approval from all the product team members (who are no longer there)?*
 

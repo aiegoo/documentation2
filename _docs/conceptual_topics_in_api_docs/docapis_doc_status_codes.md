@@ -44,7 +44,7 @@ Access-Control-Allow-Methods: GET, POST
 
 The first line, `HTTP/1.1 200 OK`, tells us the status of the request (`200`). Most REST APIs follow a standard protocol for response headers. For example, `200` isn't just an arbitrary code decided upon by the OpenWeatherMap API developers. `200` is a universally accepted code for a successful HTTP request. (If you change the method, you'll get back a different status code.)
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 With a GET request, it's pretty easy to tell if the request is successful because you get back the expected response. But suppose you're making a POST, PUT, or DELETE call, where you're changing data contained in the resource. How do you know if the request was successfully processed and received by the API? HTTP response codes in the header of the response will indicate whether the operation was successful. The HTTP status codes are just abbreviations for longer messages.
 
@@ -60,7 +60,7 @@ You can see a list of common [REST API status codes here](http://www.restapituto
 
 Most APIs should have a general page listing response and error codes across the entire API. A standalone page listing the status codes (rather than including these status codes with each endpoint) allows you to expand on each code with more detail without crowding the other documentation. It also reduces redundancy and the sense of information overload.
 
-{% include random_ad4.html %}
+{: .note2}
 
 On the other hand, if some endpoints are prone to triggering certain status and error codes more than others, it makes sense to highlight those status and error codes on same API reference pages. One strategy might be to call attention to any particularly relevant status or error codes for a specific endpoint, and then link to the centralized "Response and Status Codes" page for full information.
 
@@ -70,7 +70,7 @@ Status and error codes may not be readily apparent when you're documenting your 
 
 As a result, you may need to experiment a bit to ferret out all the codes. Specifically, you might need to [try to break the API](testingdocs_test_your_instructions.html) to see all the potential error codes. For example, if you exceed the [rate limit](docapis_rate_limiting_and_thresholds.html) for a specific call, the API might return a special error or status code. You would especially need to document this custom code. A troubleshooting section in your API might make special use of the error codes.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## How to list status codes
 
@@ -137,7 +137,7 @@ The following are some sample status and error code pages in API documentation.
 
 Clearbit not only documents the standard status codes but also describes the unique parameters returned by their API. Most developers will probably be familiar with 200, 400, and 500 codes, so these codes don't need a lot of explanatory detail. But if your API has unique codes, make sure to describe these adequately.
 
-{% include random_ad1.html %}
+{: .note}
 
 ### Twitter
 

@@ -609,7 +609,7 @@ Also, I'm not sure why Washington State, Louisiana, and Delaware are getting so 
 
 At any rate, the top 10 states with the highest percentages (dividing API hits by employment) are Washington State, Louisiana, Delaware, California, New York, Georgia, Illinois, Texas, Colorado, and Arizona.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Should you move to California?
 
@@ -697,11 +697,11 @@ But living here is a tradeoff. In [Tech Comm and The State of Urbanization](http
 
 It's a tradeoff that might not make sense for the lifestyle you want. For me, I moved to California (from Utah) after our tech writing team at a Utah company was laid off. I received a generous severance package and decided to move to Silicon Valley to be in an environment that has an abundance of jobs. I have four daughters and am the primary breadwinner in my family, so it was important to be located in a place where jobs were more abundant, stable, and where salaries were more lucrative. I was willing to trade my spacious Utah house and the green garden (okay, I actually hate gardening) for the chance to work in a thriving tech space.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Having been here for five years, I honestly love it. For starters, there are a plethora of tech writing jobs here if you're qualified. If you have a few years of experience writing developer docs and are familiar with some technical languages or frameworks, many companies will gladly open their doors. Startups offer opportunities to build doc departments and tool workflows from the ground up as well. It might be tough to land your *first* tech writing job here, but once you get some experience, doors open.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Working in large companies like Amazon, Google, Facebook, Linkedin, Microsoft, and more can be invigorating. I love working with mainstream commercial products like Fire TV &mdash; literally, it seems like every day I see an article talking about Amazon products or the company in some way. It's interesting to be working in a space that has influence, which is frequently in the news (for good or bad), and which is at the forefront of technology.
 
@@ -721,7 +721,7 @@ Overall, tech companies will continue to grow and expand outside of Silicon Vall
 
 For ideas on alternative areas, see the "Fastest-Growing States for Technical Writers and Export and GDP Performance in 2017" section of the Salary Database. Michigan had a 28.0% increase in tech writer employment. Georgia had a 19.2% increase. New Mexico had a 23.3% increase.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Without looking at averages over several years, it's hard to know whether these boosts are temporary anomalies or indicative of a continuous upward trajectory. To give better context to any growth percentages, the Salary Database says to look at the state's overall economic growth, not just their tech comm job market. The report notes, "State employment gains are often correlated with the state’s economy. A growing economy will typically prompt new hires in nearly all industries."
 

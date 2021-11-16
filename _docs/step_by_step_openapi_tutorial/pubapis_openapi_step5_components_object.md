@@ -26,7 +26,7 @@ The `components` object is unique from the other objects in the OpenAPI specific
 
 ## Reasons to use the components object {#reused_parameters}
 
-{% include random_ad2.html %}
+{: .note2}
 
 Describing the details of your parameters and describing the schema of complex responses can be the most  challenging aspects of the OpenAPI spec. Although you can define the parameters and responses directly in the `parameters` and `responses` objects, you typically don't list them there for two reasons:
 
@@ -55,7 +55,7 @@ You can store a lot of different re-usable objects in the `components` object. T
 
 The properties for each object inside `components` are the same as they are when used in other parts of the OpenAPI spec. You use a reference pointer (`$ref`) to point to more details in the `components` object. `$ref` stands for [`reference` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#referenceObject) and is part of JSON.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Re-using parameters across multiple paths {#reusing_parameters}
 
@@ -175,7 +175,7 @@ Replace the existing `paths` object in the Swagger Editor with the above code sa
 
 In [Step 4: The paths object](pubapis_openapi_step4_paths_object.html), when we described the [`responses` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#responsesObject) in the `paths` object, even with just a simple placeholder, we used a [`schema`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#schemaObject) object to describe the model for the request or response. The `schema` refers to the data structure (the fields, values, and hierarchy of the various objects and properties of a JSON or YAML object &mdash; see [What is a schema?](https://spacetelescope.github.io/understanding-json-schema/about.html#what-is-a-schema)).
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Let's dive deeply into how to use the schema properties to document the `responses` object. We will also store this content in `components` so that it can be re-used in other parts of the specification document. If you recall in the previous step ([OpenAPI tutorial Step 4: The paths object](pubapis_openapi_step4_paths_object.html)), the `responses` object for the `weather` endpoint looked like this:
 
@@ -554,7 +554,7 @@ For most of the sections in `components`, you follow the same object description
 
 In other words, you aren't merely using terms defined by the OpenAPI spec to describe the models for your JSON. As you describe your JSON models (the data structures for input and output objects), the terminology in the OpenAPI spec feeds into the larger JSON definitions and description language for modeling JSON. The OpenAPI's usage of the JSON Schema is just a subset of the full JSON Schema.
 
-{% include random_ad4.html %}
+{: .note2}
 
 The OpenAPI specification doesn't attempt to document how to model JSON schemas. This would be redundant with what's already documented in the [JSON Schema](http://json-schema.org/) site and outside of the scope of the OpenAPI spec. Therefore you might need to consult [JSON Schema](http://json-schema.org) for more details. (One other helpful tutorial is [Advanced Data](http://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-4-advanced-data-modeling/) from API Handyman.)
 
@@ -597,7 +597,7 @@ These [data types](https://github.com/OAI/OpenAPI-Specification/blob/master/vers
 * `string`
 * `byte`
 * `binary`
-* `boolean`		
+* `boolean`
 * `date`
 * `dateTime`
 * `password`

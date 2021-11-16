@@ -27,7 +27,7 @@ As you gather information, a paradigm shift about the tech writing role would se
 
 These groups will each provide a different input on the feature. Note that groups and titles will vary (especially the term for "partner engineers"), but the four domains represented here are common across companies.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## General tips for interviews {#tips_for_interviews}
 
@@ -43,11 +43,11 @@ With each interview, it's good to give the person a list of questions ahead of t
 
 There's another reason for reaching out to these four distinct groups: any group alone might present a skewed perspective, and without more variety, it's easy to mistake their perspective as the Truth. When you write documentation, you often raise awareness about differing points of view that need to be addressed. You might find disagreements between engineering and product management, or between product management and business development, and so on.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}}
+{% comment %}{: .note2}{% endcomment %}}
 
 For example, in our scenario of creating an API for coffee shops, perhaps the product management group envisions partners being able to add their own coffee shops and supplementary data, including ratings and reviews &mdash; essentially enabling partners to both read and write to the API. In contrast, Engineering might have more conservative views about what's possible with the data and might want to promote a more simplified model of updates only going one way &mdash; read-only. Writing documentation raises awareness of these differences and will force these groups to align as they review the documentation.
 
-When these differences of opinion surface, welcome the controversy. You will occasionally run into a product manager who freaks out about potential content almost going out to partners before it can be edited/tweaked in a certain way, which actually changes the direction provided by some other group. In these scenarios, your role pivots from tech writer to something entirely different: _product aligner_. 
+When these differences of opinion surface, welcome the controversy. You will occasionally run into a product manager who freaks out about potential content almost going out to partners before it can be edited/tweaked in a certain way, which actually changes the direction provided by some other group. In these scenarios, your role pivots from tech writer to something entirely different: _product aligner_.
 
 Rather than inserting yourself into disputes between groups, let PM and Engineering hold their own boxing match and duke it out.
 
@@ -57,7 +57,7 @@ A strategic advantage to the tech writer role is your broad perspective across p
 
 Be aware of your cross-product perspective and recognize that it's a unique advantage you bring to the table. When a PM or engineer is totally unaware of how the API they're building differs from one that a neighboring team built, don't be surprised. These groups are often so specialized, they know only their sliver of the technology. Part of the value you bring to the table is your awareness of other products, so don't be afraid to align various groups to coordinate roadmaps and feature sets.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## 2.1 Interview the engineers {#interview_engineers}
 
@@ -65,7 +65,7 @@ Now let's get into some strategies for interviews, starting with the engineers. 
 
 Set up time with this engineer and prepare a list of questions (the technique I described earlier). Now, this is extremely important: _Record your interview with the engineers. _Even if you're meeting in person, create a conference session in the room on your computer and record the meeting. The engineer is going to dive into gobbledygook and other technical speak, and you'll want to go back and re-listen to this again, even if it's just to get the terminology and phrasing correct. You won't be able to take enough notes in real-time to keep up (unless your part engineer already), and you might be too busy typing to even pay attention to what the engineer is saying.
 
-{% include random_ad1.html %}
+{: .note}
 
 Some questions to ask the engineer might be as follows:
 
@@ -115,7 +115,7 @@ Keep the PM in the loop of the doc review even if they have little input on the 
 
 ## 2.3 Interview the partner engineers {#interview_partner_engineers}
 
-Another key group to interview is the partner engineers. The title might differ by company &mdash; for example, "solutions engineers" or "developer relations." This is the group that interfaces with partners/users to help them implement the company's products. This group is one of the most important to have frequent communication with because they give you the closest feedback from users.  
+Another key group to interview is the partner engineers. The title might differ by company &mdash; for example, "solutions engineers" or "developer relations." This is the group that interfaces with partners/users to help them implement the company's products. This group is one of the most important to have frequent communication with because they give you the closest feedback from users.
 
 Roles and companies vary of course, but in my experience, I rarely have direct interactions with the users. Instead, the partner engineers are the contact points with the users, and most feedback about users comes from these partner engineers. Their familiarity with the user experience, friction points, and user needs gives them their primary value.
 

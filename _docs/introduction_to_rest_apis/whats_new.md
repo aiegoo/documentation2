@@ -60,7 +60,7 @@ The following are the most recent updates to the API documentation course.
 
 ## Auto-generated list of updated pages
 
-{% include random_ad4.html %}
+{: .note2}
 
 This list is auto-generated based on the last-modified timestamp on pages, scoped to the last 60 days. How does the script work? Every page has a "Last updated" line below the title. This script looks for any pages with a timestamp that appears within the last 60 days.
 
@@ -110,7 +110,7 @@ Then click the commit IDs to browse file diffs for the commits that include the 
 
 <img style="max-width: 500px" src="{{site.media}}/github_commit_ids.png" alt="GitHub commit IDs" />
 
-{% include random_ad1.html %}
+{: .note}
 
 You can see the [stream of commits in GitHub here](https://github.com/tomjoht/learnapidoc/commits/main).
 
@@ -118,6 +118,6 @@ You can see the [stream of commits in GitHub here](https://github.com/tomjoht/le
 
 On my blog, I often write announcement-style posts after adding new content on my API course. I tag these with "api-doc" &mdash; you can browse these [API doc site updates here](https://idratherbewriting.com/category-apidoc-site-updates/).
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}

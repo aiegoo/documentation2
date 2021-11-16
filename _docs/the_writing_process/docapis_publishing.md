@@ -30,7 +30,7 @@ If you have a humanities background, you're probably used to reading long, diffi
 
 As you read through the larger context on your developer portal, take note of good places to insert cross-references to the new content. If there are similar topics, consider adding cross-references in places where themes overlap. Many times, users search for information and don't always land on the right topic. They might have landed close to the needed information, based on the keywords they're searching for, but not on the right page. This aligns with the whole [information scent theory](https://www.nngroup.com/articles/information-scent/) that is part of information foraging. Include links to help point them to your new content. Conversely, insert cross-references to other pages in your new content.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Some systems have tags that define how related articles surface. If you have a system of tags (defined through a larger taxonomy), make sure your new content has the right taxonomy tags so that it's visible and discoverable in the larger system.
 
@@ -43,7 +43,7 @@ Most developer portals have two sections new content is publicized:
 
 Make sure you list and describe your new content using whatever patterns make sense for your developer portal.  Many times, program managers literally copy and paste the content from release notes and what's new pages into newsletters that they send out to partners.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Alternatively, you might have a developer relations group or developer marketing that actually has a newsletter. If so, reach out to the group and let them know you have content they could include in their next newsletter.
 
@@ -53,7 +53,7 @@ Another task before publishing your new content is to add some metadata to the p
 
 Understand that right now, at the point of release, everyone is excited about the new content. But it will only be a matter of time before most people forget about this page, before you move on, before the teams that support the content transition to other projects and parts of the org, or before the feature itself is sunset, then deprecated.
 
-{% comment %}{% include random_ad3.html %} {% endcomment %}
+{% comment %}{: .note2} {% endcomment %}
 
 Others who follow you will need to know who wrote the content and when it was last updated. Sometimes this metadata is automatically tracked through version control &mdash; if so, great. But the version control metadata often supplements more explicit metadata tagging within the content itself. There's nothing worse than arriving at a new job and not having any history about the content's accuracy, freshness, or authorship.
 
@@ -61,7 +61,7 @@ Others who follow you will need to know who wrote the content and when it was la
 
 One final consideration is timing. When should you hit that publish button? Usually, you want to coordinate your timing with the release. After your release goes out, then you publish the updates to the release notes and publish your content. Don't push your content out before the release. It sounds like common sense, but this might be harder to coordinate than it seems.
 
-{% include random_ad1.html %}
+{: .note}
 
 When I worked at Amazon, for large releases (such as the launch of a new product), there was an elaborate release schedule and a "war room" set up. The release schedule involved a long series of steps required to release the feature, such as turning on services, dialing up the visibility of new features in the UI, launching a general press release and announcement, and more. These release meetings would often start at about 5 am and continue until 9 am. Somewhere in the list of release events was a line item for publishing the documentation. At that planned time, the release manager would say, "Go ahead and publish the docs now."
 

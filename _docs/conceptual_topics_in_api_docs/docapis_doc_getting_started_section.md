@@ -25,7 +25,7 @@ The Getting Started tutorial is somewhat like the typical Hello World tutorial i
 
 Both hello-world tutorials and getting-started tutorials share the same goal: to show a user how to use a framework, API, or some other system to get the simplest and easiest result, so they get a end-to-end sense of how it works.
 
-{% include random_ad4.html %}
+{: .note2}
 
 As an example, you could take a common, basic use case for your API and show how to construct a request, as well as what response returns. If developers can make that call successfully, they can probably be successful with the other calls too.
 
@@ -62,7 +62,7 @@ When users can experiment with your system and see the result, and learn by doin
 
 The quicker you can get users started, the better. One way to jumpstart the configuration of an API is by using Run in Postman buttons. This can reduce more lengthy and tedious explanations about parameters and other configurations for an API.
 
-Postman is a REST API GUI client that we explored earlier in [Submit requests through Postman](docapis_postman.html). If you have your [API endpoints integrated with Postman](docapis_postman.html), you can either create a workspace that contains your API endpoints, or you can export your Postman collections as a widget to embed in an HTML page. When users click the Run in Postman button, they will fork your collection into their own workspace.  
+Postman is a REST API GUI client that we explored earlier in [Submit requests through Postman](docapis_postman.html). If you have your [API endpoints integrated with Postman](docapis_postman.html), you can either create a workspace that contains your API endpoints, or you can export your Postman collections as a widget to embed in an HTML page. When users click the Run in Postman button, they will fork your collection into their own workspace.
 
 To see how these Run in Postman buttons work, click this button:
 
@@ -96,7 +96,7 @@ For details on how to share your Postman collections like this, see [Creating Ru
 
 What's especially good about Postman is that it allows users to customize the API key and parameters and save those values. You can also safely share an API key. Although Postman doesn't provide same direct, in-documentation experience as [Swagger UI](pubapis_swagger_demo.html), in many ways the Postman client is more useful because it lets users configure and save the calls they make. They can easily save many different variations of the same endpoint, with different configurations. Postman is what internal developers often use to save and store API calls as they test and explore the functionality.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Postman also allows users to easily generate the needed code to make requests in practically any language. In the same Postman workspace, click the **</>** (Code) button on the right side (highlighted in yellow) to expand the Code pane.
 
@@ -152,7 +152,7 @@ The Aeris weather getting started provides information for setting up an applica
 
 The Watson and IBM Cloud getting started tutorial lists three steps. It's not an end-to-end getting started tutorial, though. It just gets the user started in selecting a service for your project. At the end, you start to code using the Watson Dashboard. Ideally, a getting started tutorial should help a user see some tangible output, but whether that's possible or not depends on your API.
 
-{% include random_ad1.html %}
+{: .note}
 
 ### Other getting started tutorials
 
@@ -193,7 +193,7 @@ With the [open-source project you identified](docapis_find_open_source_project.h
 4. How long does the getting started tutorial take to complete?
 5. In an attempt to simplify the instruction and keep it brief, does the documentation make assumptions about your technical level and familiarity with the domain?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Reasons why getting started tutorials fail or don't exist {#reasons_for_failure}
 

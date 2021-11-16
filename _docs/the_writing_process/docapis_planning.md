@@ -28,7 +28,7 @@ Create a [documentation plan](/learnapidoc/docapis_managing_doc_projects.html#cr
 
 There are a host of other details you could gather, but these are the basics. All writing moves into action when you establish a deadline, so this date should set your wheels into motion.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## 1.2 Establish who's going to write the docs {#who_will_write}
 
@@ -36,7 +36,7 @@ The next step to ask is who will do the writing. Although you might think that b
 
 You will find that with extremely technical topics, you might not be able to write about them very easily. Technology can be a tough nut to crack, and if you think you can pull your writing prowess out of your pocket and just hack it out, let me warn you, get ready for engineers to pick the heck out of each phrase and term used in your content as they explain that what you've written is wrong. Engineers aren't shy at all about telling tech writers each nitty-gritty detail of incorrectness.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Depending on your workload and expectations, think about starting with this approach: give the engineers a template with a lot of fill-in-the-blank type sections. See if they can write an initial draft. Or just ask them to write out a brain dump for you (maybe it already exists on an internal wiki somewhere).
 
@@ -46,7 +46,7 @@ If you do get engineers to write, you might find that they write crap (like a on
 
 At any rate, just because engineers have "written" content, it doesn't mean you somehow escaped having to put in a lot of work &mdash; it just gives you a different starting point. Rewriting content can take just as long as writing from scratch. So maybe you won't want to go the path of having engineers write anyway. Either way, whether you have the first "draft" to begin with or need to author it yourself, you still have a lot of work to do.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 I'm going to assume that, in this scenario, engineers aren't inclined to write the docs. They do, however, have a lot of source material they've been holding out on.
 
@@ -60,7 +60,7 @@ Or there could be a pitch slide deck used to persuade an executive to fund the p
 
 Once a product gets green-lit, the feature gets planned for a specific timeframe (for example, 2021 Quarter 4), and the team who will develop the feature gets identified. The product team then sizes up the feature and writes a **product design document** that acts as the blueprint for the API design. The engineers will debate the proposed design long before any actual code development begins.
 
-{% include random_ad1.html %}
+{: .note}
 
 During the code development phase, some names used in the design document will probably change, and some other details as well. The first release is usually a "minimum viable product," or MVP, so it will lack some features described in the product design document.
 
@@ -70,7 +70,7 @@ The engineers usually populate the **reference documentation** themselves, build
 
 At any rate, the Javadoc output will give you a good sense of what classes and methods are available in the API. It will communicate the scope and the possible use cases. Ask the engineers to generate a Javadoc output for you to review. (Later, when you want to make comments on the Javadoc, you'll need to make them at the source rather than the output.)
 
-{% include random_ad4.html %}
+{: .note2}
 
 Besides the pitch materials, product design, and Javadoc, there might be other documents as well to gather. Each company tends to call its documents by unique names. Understand what the key documents are for projects in your company, and this will usually unlock people finding and giving them to you. Gather up as many documents as you can find, list them in your doc plan, and then browse through them to (a) learn about the product, and (b) see what material you can use either directly or indirectly in your docs or to inform topics that should be in your docs.
 

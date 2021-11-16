@@ -21,7 +21,7 @@ Whether a sample app is relevant and available depends on the nature of the prod
 
 Let me start the discussion by sharing an experience related to sample apps. At one company, I was working on documentation for a project called [Video Skills for Fire TV Apps](https://developer.amazon.com/docs/video-skills-fire-tv-apps/introduction.html). This product involves implementing Alexa video skills into Fire TV apps so that customers can say phrases like "Play Bosch" and the app will automatically play the content, without the need to use a remote control.
 
-{% include random_ad1.html %}
+{: .note}
 
 The implementation process was pretty involved and required a [series of steps listed here](https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html). I inherited an initial set of docs (written by a PM + engineers) and sample app. I spent a month just getting the steps to work with the sample app. Then I spent another month fixing and updating the documentation. Using a sample app was critical for determining which steps in the initial docs were missing or incomplete. After I was confident that the steps worked well (because by following said steps, the sample app actually worked), I published the [sample app as a companion to the docs](https://developer.amazon.com/docs/video-skills-fire-tv-apps/set-up-sample-app.html).
 
@@ -29,7 +29,7 @@ Without testing the docs through this sample app, I wouldn't have had any idea i
 
 Having little disconnected pieces of code that aren't associated within a sample app often isn't a testable scenario. And if you have a bunch of code that you can't easily test, how do you even know that it works? If you don't know whether the code you're documenting works, how can you feel good about the technical documentation you're writing? This is why sample apps are critical &mdash; they let you know that your instructions probably work.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Getting approval to publish sample apps
 
@@ -41,13 +41,13 @@ Unfortunately, publishing a sample app alongside the docs is not an easy task. M
 
 Another hurdle in releasing a sample app is code quality. Assuming you get approval to put the sample app in a GitHub repo, is the code even worth making available to engineers? Will the code provide a *clarifying* example of how to implement a technique in an app, or will the code just muddle the waters even more?
 
-{% include random_ad4.html %}
+{: .note2}
 
 Ideally, you want to make the sample app as simple as possible, elucidating the technique you are trying to demonstrate in the docs and nothing more. But isolating the code at that level of simplicity is tough because most apps usually require some other code to load and run.
 
 With one project I worked on, developers didn't want to provide a sample app because they felt that any app that implemented Technique A but not Techniques B, C, D, E, and F would mislead developers. Developers implementing the feature might use the sample app as a starting point (copying the code wholesale, or using the sample app as a starting point for their app) and not realize that Techniques B, C, D, E, and F were also required.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 But coding Techniques B, C, D, and E were beyond the scope of this sample app and accompanying documentation, and they made everything much more complex. Was it better to not provide any sample app at all rather than provide one that was either overly complex or which was rudimentary/incomplete?
 

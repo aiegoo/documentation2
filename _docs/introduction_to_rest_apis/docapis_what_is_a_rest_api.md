@@ -27,13 +27,13 @@ In general, an API (or Application Programming Interface) provides an interface 
 
 APIs are often pulling and pushing data underneath user interfaces. Consider the example of a flight booking site like [kayak.com](https://kayak.com) or [orbitz.com](https://orbitz.com). When you search for flights, the site reaches out to many other airline services to retrieve information about flights matching your query. kayak.com itself doesn't have all of this information. Instead, it gathers this data through APIs.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Or consider other similar services. When you see a YouTube video embedded on a site, the site itself doesn't host the video. Instead, the embed code contains API requests that get the video from YouTube's hosting centers. When you embed a Twitter widget on your site, the widget's APIs pull in tweets from a Twitter server onto your site.
 
 Consider another example from Fire TV. Suppose you want to view a pay-per-view event that requires payment. A pop-up dialog might appear letting you enter your credit card details. Your payment gets processed and you receive confirmation about the purchase's success. This payment processing doesn't occur within the app. Instead, the app makes API calls out to payment servers with the needed information, and all that payment processing happens in the cloud. When the processing finishes, the API returns a confirmation response.
 
-{% include random_ad4.html %}
+{: .note2}
 
 The next time you push a button in some interface, think about what's going on underneath. Most likely, the button is internally wired to make calls to an external service for the information needed. That call is made through an API that performs a request and receives a response.
 
@@ -61,7 +61,7 @@ Each programming language that makes the request will have a different way of su
 
 Before REST became the most popular web service, SOAP (Simple Object Access Protocol) was much more common. To understand REST a little better, it helps to have some context with SOAP. This way you can see what makes REST different.
 
-{% include random_ad2.html %}
+{: .note2}
 
 SOAP is a standardized protocol that requires XML as the message format for requests and responses. As a standardized protocol, the message format is usually defined through something called a WSDL (Web Services Description Language) file.
 
@@ -81,7 +81,7 @@ Like SOAP, REST (Representational State Transfer) uses HTTP as the transport pro
 
 A RESTful API might not follow all of the official characteristics of REST as outlined by [Dr. Roy Fielding](https://en.wikipedia.org/wiki/Roy_Fielding), who first described the model. Hence these APIs are "RESTful" or "REST-like." (Some developers insist on using the term "RESTful" when the API doesn't fulfill all the characteristics of REST, but most people just refer to them as "REST APIs" regardless.)
 
-{% include random_ad1.html %}
+{: .note}
 
 As an architectural style, you aren't limited to XML as the message format. REST APIs can use any message format the API developers want to use, including XML, JSON, Atom, RSS, CSV, HTML, and more.
 

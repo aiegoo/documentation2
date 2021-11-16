@@ -14,9 +14,9 @@ last-modified: 2021-02-15
 In the previous topic, I described a first-level checklist for API documentation that you can do without more familiarity with the docs. This section describes more characteristics to evaluate that will only be discernible when you have more familiarity with the docs.
 
 * TOC
-{:toc}  
+{:toc}
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Second-level documentation checklist
 
@@ -95,13 +95,13 @@ input[type=checkbox] {
 </ul>
 </div>
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Is this list complete? No
 
 Between the two checklists ([first-level](docapis_metrics_second_level_checklist) and second-level), there are about 75 different characteristics that I've described. Did I miss anything? Sure, you could probably expand this list with 100 more characteristics.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Sometimes it's not clear what needs to be added until you see docs that are missing some key element or which violate some assumed principle. Feel free to let me know (in the comments below) what could/should be added, especially if it's a major omission.
 
@@ -109,6 +109,6 @@ Sometimes it's not clear what needs to be added until you see docs that are miss
 
 However, there's also something to be said for a practical list of key points. The more criteria you add, the more laborious it becomes to evaluate docs. The most popular style guides (e.g., Strunk and White) are those that briefly cover the main points you need rather than providing an exhaustive list, especially if many guidelines are already followed.
 
-{% include random_ad1.html %}
+{: .note}
 
 *Continue on to the next section, [Quantifying your progress](docapis_metrics_quantifying_progress.html).*

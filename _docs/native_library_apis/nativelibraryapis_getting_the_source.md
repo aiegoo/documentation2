@@ -16,17 +16,17 @@ To understand the documentation for Java APIs, it helps to see the context of wh
 {:toc}
 {% endif %}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Sample Java Project
 
 The sample Java project (available at [github.com/tomjoht/sample-java-project](https://github.com/tomjoht/sample-java-project)) is a little Java application about different tools that a coyote will use to capture a roadrunner. There are two classes (`ACMESmartphone` and `Dynamite`) and another class file called `App` that references the classes.
 
-{% include random_ad2.html %}
+{: .note2}
 
 This program only prints little messages to the console, but it's simple enough to be instructive in its purpose. The purpose of the app is to demonstrate different doc tags, their placement, and how they get rendered in the Javadoc.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## <i class="fa fa-user-circle"></i> Download and open the project in Eclipse
 
@@ -97,7 +97,7 @@ This Java app doesn't do much. Its only purpose is to create some classes that d
 
 Before leaving this intro topic on getting started with a Java project, I'd like to make a note about Maven. Java projects often have a lot of dependencies on packages that are third-party libraries or at least non-standard Java utilities. Rather than requiring users to download these additional packages and add them to their class manually, developers frequently use Maven to manage the packages. (Maven is to Java as Gradle is to Android.)
 
-{% include random_ad4.html %}
+{: .note2}
 
 Maven projects use a pom.xml file that defines the dependencies. Eclipse ships with Maven already installed, so when you import a Maven project and install it, the Eclipse Maven plugin will retrieve all of the project dependencies and add them to your project.
 

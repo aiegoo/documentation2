@@ -36,7 +36,7 @@ The researchers used tracking tools to identify when developers would switch fro
 
 Even if you don't document C++, this study is helpful because it raises this central question: should you put the bulk of your documentation in formal descriptions about the code, or should the bulk of your documentation appear within the context of the code, peppered in as inline comments.
 
-{% include random_ad4.html %}
+{: .note2}
 
 After gathering information from more than 600 participants in their study, the researchers found that not all code is equal. Complex code needs more formal documentation, but simple code might not need documentation at all.
 
@@ -174,7 +174,7 @@ Instead of "opportunistic" (which has a somewhat negative connotation), others h
 
 ### Where users spend the most time
 
-{% include random_ad2.html %}
+{: .note2}
 
 If developers jump around from code to concepts and other places, where are they spending most of their time in the docs? If we can measure the time in one type of documentation more than another, we can give more attention to that kind of documentation. The authors measured the time users spent in various parts of the documentation as follows:
 
@@ -200,7 +200,7 @@ While the learning styles discussed in this article might seem more applicable t
 
 More than any other type of API documentation, when you document code you find yourself with a direct opportunity to target the opportunistic learning style with experiment-and-try opportunities.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Takeaways from the Research
 
@@ -216,7 +216,7 @@ To summarize the takeaways from the research presented here, here are some key p
 
 These strategies provide a foundation for best practices that we will explore in more detail with more concrete, tangible techniques in the sections that follows.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 {% comment %}
 more resources

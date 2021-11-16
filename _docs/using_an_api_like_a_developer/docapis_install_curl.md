@@ -29,7 +29,7 @@ Sometimes curl is written as cURL. It stands for Client URL. "curl" is the more 
 
 curl is usually available by default on Macs but requires some installation on Windows. Follow these instructions for installing curl:
 
-{% include random_ad4.html %}
+{: .note2}
 
 ### Install curl on Mac
 
@@ -78,12 +78,12 @@ You should get minified JSON response back like this:
 {"coord":{"lon":-121.96,"lat":37.35},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":66.92,"pressure":1017,"humidity":50,"temp_min":53.6,"temp_max":75.2},"visibility":16093,"wind":{"speed":10.29,"deg":300},"clouds":{"all":75},"dt":1522526400,"sys":{"type":1,"id":479,"message":0.0051,"country":"US","sunrise":1522504404,"sunset":1522549829},"id":420006397,"name":"Santa Clara","cod":200}
 ```
 
-{% include random_ad1.html %}
+{: .note}
 
 {: .note}
 In Windows, Ctrl+ V doesn't work; instead, you right-click and then select **Paste**.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ### Notes about using curl with Windows
 
@@ -93,4 +93,4 @@ If you're using Windows, note the following formatting requirements when using c
 * Don't use backslashes (`\`) to separate lines. (This is for readability only and doesn't affect the call on Macs.)
 * By adding `-k` in the curl command, you can bypass curl's security certificate, which may or may not be necessary.
 
-{% include random_ad2.html %}
+{: .note2}

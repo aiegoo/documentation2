@@ -46,11 +46,11 @@ To access glove, you would use `data.items[2]`.
 {: .note}
 With most programming languages, you usually start counting at `0`, not `1`.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## <i class="fa fa-user-circle"></i> Exercise with dot notation {#exercise_dot_notation}
 
-{% include random_ad4.html %}
+{: .note2}
 
 In this activity, you'll practice accessing different values through dot notation.
 
@@ -131,7 +131,7 @@ You can view the correct page here: [https://idratherbewriting.com/learnapidoc/a
 
 ## Showing wind conditions on the page
 
-{% include random_ad2.html %}
+{: .note2}
 
 At the beginning of the section on [Using an API like a developer](docapis_scenario_for_using_weather_api.html#endgoal), I showed an example of [embedding the wind speed](docapis_scenario_for_using_weather_api.html#endgoal) and other details on a website. Now let's revisit this code example and see how it's put together.
 
@@ -207,4 +207,4 @@ As you've progressed through the exercises for using an API like a developer, yo
 
 With this background, it's time to switch gears and put on your technical writing hat. In the next section, [Documenting endpoints](docendpoints.html), you'll assume the task of [documenting a new endpoint](docapis_new_endpoint_to_doc.html) that was added to a weather API. You'll learn the essential sections in endpoint reference documentation, the terminology to use, and formatting conventions for API reference information.
 
-{% include random_ad1.html %}
+{: .note}

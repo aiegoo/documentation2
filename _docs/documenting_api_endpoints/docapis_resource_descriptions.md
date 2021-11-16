@@ -25,7 +25,7 @@ Here's an example of a resource description from the Mailchimp API's [Campaigns 
 
 <a class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/"><img src="{{site.media}}/mailchimpcampaigns.png"/></a>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Typically, an API will have a number of endpoints grouped under the same resource. In this case, you describe both the general resource and the individual endpoints. For example, the Campaigns resource has various endpoints that are also described:
 
@@ -76,7 +76,7 @@ And so on.
 {: .tip}
 When developers create APIs, they have a design question to consider: Use many variants of endpoints (as with Eventbrite's API), or provide lots of parameters to configure the same endpoint. Often there's a balance between the two. The trend seems to be toward providing separate endpoints rather than supplying a host of potentially confusing parameters within the same endpoint. On the other hand, GraphQL APIs (which I don't cover in this course) provide one endpoint with different ways to query the information the endpoint contains. See [GraphQL And REST Differences Explained With Burgers](http://apievangelist.com/2018/06/29/graphql-and-rest-differences-explained-with-burgers/) for a good explanation about GraphQL versus REST.
 
-{% include random_ad4.html %}
+{: .note2}
 
 As another example, the previous version of the Instagram API depicted a Relationships resource as follows:
 
@@ -92,7 +92,7 @@ The Relationships resource isn't described but rather acts as a container for re
 
 (Instagram has since shifted to a [Graph API](https://developers.facebook.com/docs/instagram-api/).)
 
-{% include random_ad1.html %}
+{: .note}
 
 For another example of an API with resources and endpoints, check out the [Trello API](https://developers.trello.com/v1.0/reference#introduction).
 
@@ -118,7 +118,7 @@ Resource descriptions (as well as endpoint descriptions) are typically short, us
 
 Although the description in an API reference topic provides a 1-3 sentence summary of the information that the resource contains, you might expand on this with much greater detail in the user guide. (You could link the reference description to the places in the guide where you provide more detail.)
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## <i class="fa fa-user-circle"></i> Resource description for the surfreport endpoint
 

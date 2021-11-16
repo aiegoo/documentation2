@@ -42,7 +42,7 @@ In this course, after you practice [using an API like a developer](likeadevelope
 
 Exploring each of these sections will give you a solid understanding of how to document REST APIs. You'll also learn how to document the [conceptual sections for an API](docconceptual.html), such as the [getting started tutorial](docapis_doc_getting_started_section.html), [product overview](docapis_doc_overview.html), [status and error codes](docapis_doc_status_codes.html), [request authorization](docapis_more_about_authorization.html), and more.
 
-{% include random_ad2.html %}
+{: .note2}
 
 You'll also dive into different ways to [publish REST API documentation](publishingapis.html), exploring tools and specifications such as [GitHub](pubapis_github_wikis.html), static site generators like [Jekyll](pubapis_jekyll.html), and other [docs-as-code approaches](pubapis_docs_as_code.html). You'll learn how to leverage templates, build interactive API consoles so users can try out requests and see responses, and learn how to manage your content through [version control](pubapis_version_control.html).
 
@@ -54,7 +54,7 @@ I've also included a section on [metrics and measurement](docapis_measuring_impa
 
 Throughout this course, I put these concepts in real, applicable contexts with hands-on activities and demos.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Who the course is for
 
@@ -69,7 +69,7 @@ The course primarily serves the following audiences:
 
 The course consists of the following sections:
 
-{% include random_ad1.html %}
+{: .note}
 
 {% assign sidebar = site.data.docapis %}
 {% for folder in sidebar.folders %}
@@ -102,7 +102,7 @@ Some of the code samples in this course use JavaScript. JavaScript may or may no
 
 JavaScript is one of the most useful and easy languages to become familiar with, so it works well in code samples for this introduction to REST API documentation. JavaScript allows you to test code by merely opening it in your browser (rather than compiling it in an IDE). (I have a [quick crash-course in JavaScript here](https://idratherbewriting.com/javascript/) if you need it.)
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## What you'll need {#what_you_need}
 

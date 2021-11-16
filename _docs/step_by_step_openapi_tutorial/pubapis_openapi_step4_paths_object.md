@@ -32,7 +32,7 @@ We've been moving along at about 5 mph in the previous steps but are going to sp
 {: .note}
 My preferred term is "endpoint" rather than "path," but to be consistent with the terminology of the OpenAPI spec, I use the term "paths" here.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Each item in the `path` object contains an [operation object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#operation-object). (Operations are the GET, POST, PUT, and DELETE methods we explored in the [Endpoints section](docapis_resource_endpoints.html) of the API reference tutorial.)
 
@@ -89,7 +89,7 @@ paths:
 {: .note}
 At this point, if you paste this content into the Swagger Editor, you will get errors until some additional properties are added.
 
-{% include random_ad1.html %}
+{: .note}
 
 Now we can remove a few unnecessary fields that we don't need for our OpenWeatherMap API documentation:
 
@@ -236,7 +236,7 @@ responses:
 
 See [Describing Parameters](https://swagger.io/docs/specification/describing-parameters/) in Swagger's OpenAPI documentation for more details.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Paths object code
 
@@ -351,4 +351,4 @@ What you can do is document the restrictions in the parameter description and de
 
 In the case of the weather endpoint with the OpenWeatherMap, most of the parameters are mutually exclusive. You can't search by City ID *and* zip code simultaneously. Although the parameters are optional, you must use at least one parameter. Also, if you use the `lat` parameter, you must also use the `lon` parameter because they're a pair. The OpenAPI spec can't programmatically reflect that structured logic, so you have to explain it in the `description` property or in other more conceptual documentation.
 
-{% include random_ad4.html %}
+{: .note2}

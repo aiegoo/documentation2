@@ -44,7 +44,7 @@ Through this distillation, quick reference guides provide a unique advantage for
 {: .tip}
 For a deep dive into the importance of distilling information for users, see [Reduction, layering, and distillation as a strategy for simplicity](https://idratherbewriting.com/simplifying-complexity/reduction-layering-distillation.html) in my series on Simplifying Complexity. Reading overviews, summaries, and other high-level information to see the whole at a glance can help users understand a complex system in significant ways. Too often, users get thrown into the technical details without more grounding and orientation about the whole.
 
-{% include random_ad1.html %}
+{: .note}
 
 Distilling large amounts of information into concisely worded titles, summaries, headings, mini-TOCs, and topic sentences can facilitate information consumption and comprehension. Quick reference guides take the principle of distillation to another level by compressing the whole system into a bite-sized information deliverable.
 
@@ -52,7 +52,7 @@ Quick reference guides are like the [poetry of technical writing](https://idrath
 
 I'll grant that the task is probably impossible for technical material. Still, the attempt is worthwhile and the philosophy remains the same. Quick reference guides teach each us how to use the system in 5 minutes rather than 5 hours. It's a philosophy of simplification and linguistic efficiency.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Don't be deceived by the brevity and scope of the quick reference guide. In wrangling with layout, scope, and concision to create this guide, you might spend several days writing just one page. But when you're done, you can practically frame the result.
 
@@ -84,7 +84,7 @@ If you use the [OpenAPI reference docs on GitHub](https://github.com/OAI/OpenAPI
 
 The Shopify quick reference guide isn't for an API, but it does show the filters, variables, and other functions available in Liquid, which is a scripting language for developers. Here Shopify takes advantage of collapse-and-expand functionality to compress the information.
 
-{% include random_ad4.html %}
+{: .note2}
 
 This quick reference guide is handy because it lets you browse all the available functionality in Liquid at once, so you can know what to dive into for more information. It's like a map of the Liquid terrain. The map lets you know all the functions that exist.
 
@@ -100,4 +100,4 @@ With the [open-source project you identified](docapis_find_open_source_project.h
 4. Besides listing abbreviated descriptions of the endpoints, what else would you put in the API's quick reference guide? Common tasks?
 5. Are there several essential tasks users need to perform with the API? Are these core tasks also communicated in the getting started tutorial?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}

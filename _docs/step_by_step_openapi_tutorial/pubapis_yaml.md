@@ -29,7 +29,7 @@ YAML is an attempt to create a more human-readable data exchange format. It's si
 
 Many computers ingest data in a YAML or JSON format. It's a syntax commonly used in configuration files and an increasing number of platforms (like Jekyll), so it's a good idea to become familiar with it.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## YAML is a superset of JSON
 
@@ -64,7 +64,7 @@ level3:
 
 The values for each key can optionally be enclosed in quotation marks. If your value has a colon or quotation mark in it, enclose it in quotation marks.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Comparing JSON to YAML
 
@@ -127,17 +127,17 @@ hobbies:
   - horseplaying
 ```
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Here's an array containing objects in JSON:
 
 ```json
-[  
-   {  
+[
+   {
       "name":"Tom",
       "age":43
    },
-   {  
+   {
       "name":"Shannon",
       "age":41
    }
@@ -157,7 +157,7 @@ Here's the same array containing objects converted to YAML:
 
 Hopefully, by seeing the syntax side by side, it will begin to make more sense. Is the YAML syntax more readable? It might be difficult to see in these simple examples, but generally it is.
 
-{% include random_ad4.html %}
+{: .note2}
 
 JavaScript uses the same dot notation techniques to access the values in YAML as it does in JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON.
 

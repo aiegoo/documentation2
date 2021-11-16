@@ -28,7 +28,7 @@ Bob says, "If your API is hard to document, it could be a sign of more fundament
 
 Since technical writers are uniquely suited to provide feedback on usability, especially as we step through the user tasks in detail, it makes sense to expand here on what usability means, how to evaluate the usability of an API, and other details to look for. In presenting this information, I'll rely extensively on Arnaud Lauret's [*The Design of Web APIs*](https://www.amazon.com/Design-Web-APIs-Arnaud-Lauret/dp/1617295108) since it provides an in-depth treatment of APIs and design/usability.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## What is usability
 
@@ -40,7 +40,7 @@ To evaluate usability, you must first understand what tasks users want to perfor
 
 Despite the seemingly perfect fit between tech comm and usability, it's a lot more challenging than it might seem for tech writers to provide usability feedback.
 
-{% include random_ad1.html %}
+{: .note}
 
 The first issue is that tech writers are often too far downstream to have any actionable feedback on the design, so the motivation to influence design might not be strong. Questions about the API's design have likely been decided on long before the documentation task usually arrives in the tech writer's inbox. Unless you're extremely proactive in identifying APIs at their inception point, you probably don't even hear about the API until it's been approved by leadership and half-way coded. At this point, if you raise your hand and say, this endpoint doesn't make any sense to me, the feedback is too radical. Developers aren't going to drop everything and go back to the drawing board.
 
@@ -48,7 +48,7 @@ But supposing that the developers are listening intently for your feedback &mdas
 
 Much of developer docs have the same knowledge weight. As technical writers, we are often straining to keep our heads above water, learning as we go. We aren't often in a position to critique an approach taken. And even when we create an end-to-end tutorial for using the API toward some business goal, it might be hard to decide whether the workflow is easy or hard for a developer to implement &mdash; this is where lack of an engineering background can be challenging. Much of the code might seem difficult to implement. And assessing whether it's the norm for the space is hard to determine without working with other APIs across the industry.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Despite these challenges, with a little understanding of what to look for, you can learn how to critique an API's usability just as with any other tool. All you need is to understand what to look for. So let's jump into Arnaud's book for a more focused discussion of these points.
 
@@ -56,7 +56,7 @@ Despite these challenges, with a little understanding of what to look for, you c
 
 Arnaud says that "an inconsistent design introduces variations or contradictions that make an interface harder to understand and use." In other words, an API should be consistent in ways that developers can predict without always consulting the documentation. The following sections cover a few questions to ask related to consistency.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### Straightforward endpoints
 

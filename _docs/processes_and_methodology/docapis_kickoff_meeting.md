@@ -20,7 +20,7 @@ The general purpose of this documentation kickoff meeting is to review the intak
 
 After reviewing the ticket, you want to go over the product or features that you'll be documenting. If this is a large project, you might have a separate meeting for the product demo. If it's smaller, you can combine them. Obviously, adjust the advice here for the nature of the product, product teams, and company. During the demo, consider the following questions as a way to gather more information about the product or feature.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Project overview
 
@@ -51,7 +51,7 @@ After gathering some high-level project details, dive into more detail about the
 *   What's the user's technical level?
 *   Are users familiar with certain programming languages or systems?
 
-{% include random_ad1.html %}
+{: .note}
 
 **Technical prerequisites**
 
@@ -78,7 +78,7 @@ After gathering some high-level project details, dive into more detail about the
 *   What are the relationships between each of the components?
 *   How do each of the components influence each other? What actions exist between the components?
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## Tasks Overview
 
@@ -142,7 +142,7 @@ The essence of an API is inputs and outputs. Something goes in, and something co
 *   How frequently can you call the API? Are there access limits?
 *   What gotchas or quirks should developers be aware of?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Error messages and handling
 

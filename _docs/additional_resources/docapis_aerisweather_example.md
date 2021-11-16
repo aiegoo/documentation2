@@ -20,7 +20,7 @@ In this activity, you'll use the Aeris Weather API to get the wind speed for a s
 
 In earlier tutorials, you integrated information from the [OpenWeatherMap API](https://openweathermap.org/api). It's probably a good idea to compare this OpenWeatherMap API with another weather API. The [Aeris Weather API](http://www.aerisweather.com/support/docs/api/) is one of the most interesting, well-documented and powerful weather APIs I've encountered.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## 1. Get the API keys
 
@@ -32,7 +32,7 @@ Browse through the [available endpoints](http://www.aerisweather.com/support/doc
 
 <a href="http://www.aerisweather.com/support/docs/api/reference/endpoints/observations/" class="noExtIcon"><img src="{{site.media}}/aerisobservations.png" alt="Aeris Weather observations resource" /></a>
 
-{% include random_ad2.html %}
+{: .note2}
 
 To get the forecast details for Santa Clara, California, add `santa%20clara,ca` after `/observations`, like this:
 
@@ -147,13 +147,13 @@ Here's the response from [the request](http://api.aerisapi.com/observations/sant
 
 `windSpeedMPH` is the value we want.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## 4. Pull out the values from the response
 
 To get the `windSpeedMPH`, you would access it through dot notation like this: `data.response.ob.windSpeedMPH`.
 
-{% include random_ad4.html %}
+{: .note2}
 
 To add a little variety to the code samples, let's add some conditional logic in the display. The following code checks to see if `data.response.ob.windSpeedMPH` is greater than `15`. If so, it prints `Yes, it's too windy.` If not, it prints, `No, it's not that windy.`
 

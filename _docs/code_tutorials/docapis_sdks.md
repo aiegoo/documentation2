@@ -20,11 +20,11 @@ SDKs (software development kits) and sample apps are similar to [code samples an
 
 The terms API and SDK are often used together, but they aren't synonyms. SDKs implement the language-agnostic REST API in a specific language, such as Java or C++. REST APIs by themselves aren't tied to any particular language; usually, you demonstrate the APIs by [making calls using cURL](docapis_make_curl_call.html), a command-line tool for submitting web requests and getting responses. But developers won't use cURL requests when they implement your API. Instead, they will implement the API requests using the language their application is coded in.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 For example, Python, C++, or Node applications make API requests in different ways. Each language has its own way of constructing requests to a web API. You can use Postman or Paw to auto-generate a simple request in a specific language (see [Auto-generating code samples](docapis_doc_sample_requests.html#auto-generating-code-samples)). However, the SDK takes the implementation to another level. SDKs might involve many more files or libraries as part of the implementation.
 
-{% include random_ad1.html %}
+{: .note}
 
 In [What is the Difference Between an API and an SDK?](https://nordicapis.com/what-is-the-difference-between-an-api-and-an-sdk/), Kristopher Sandoval explains an SDK as follows:
 
@@ -46,7 +46,7 @@ As an API technical writer, documenting SDKs and sample apps presents a tough ch
 
 If you're unfamiliar with the language, you can just take what engineers write, clean it up a bit, try to walk through the steps to get any sample apps working and see what feedback you get from users. Usually, if you can get a sample app installed and working, and make sure that the basic documentation for running the app works, as well as what the app does, that might be sufficient. But of course, making any significant contributions to SDK documentation will require you to be familiar with that programming language.
 
-{% include random_ad2.html %}
+{: .note2}
 
 As I mentioned in the [Code samples and tutorials](docapis_codesamples_bestpractices.html), you don't need to document how a particular language works, just how your own company's SDK works. Presumably, if an engineer downloads the Java SDK for an API, it's because the engineer is already familiar with Java. However, if your API was implemented in a particular way in Java, you should explain *why* that approach was taken. (Granted, understanding the difference between documenting Java and documenting a particular approach in the Java implementation also requires you to [understand Java](nativelibraryapis_java_crash_course.html).)
 
@@ -58,7 +58,7 @@ When you release the SDK, although engineers might handle the release, they will
 
 The following examples show documentation for some sample SDKs and sample apps.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ### OpenWeatherMap API
 

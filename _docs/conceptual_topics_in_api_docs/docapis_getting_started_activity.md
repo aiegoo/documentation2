@@ -11,12 +11,12 @@ last-modified: 2020-01-21
 
 {% include content/activities/getting_started_tutorial.md %}
 
-{% include random_ad1.html %}
+{: .note}
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
-{% include random_ad4.html %}
+{: .note2}
 
 {% include image_ad_left.html %}

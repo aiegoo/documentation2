@@ -34,7 +34,7 @@ This is why checking over your own instructions by walking through the steps you
 
 With developer documentation, usually the audience's skill level is beyond my own, so adding little notes that clarify obvious instruction (such as saying that the `$` in code samples signals a command prompt and shouldn't be typed in the actual command, or that ellipses `...` in code blocks indicates truncated code and shouldn't be copied and pasted) isn't essential. But adding these notes can't hurt, especially when some users of the documentation are product marketers rather than developers.
 
-{% include random_ad4.html %}
+{: .note2}
 
 We must also remember that users may have deep knowledge in another technical area outside of the domain we're writing in. For example, the user may be a Java expert but a novice when it comes to JavaScript, and vice versa.
 
@@ -56,7 +56,7 @@ In general, QA people don't test whether a user would understand the instruction
 
 Before publishing, it's ideal to submit your documentation through a testing process of some kind, that is, a "quality assurance" process. Companies wouldn't dream of setting up an IT shop without a quality assurance group for developers &mdash; why should docs be any different?
 
-{% include random_ad2.html %}
+{: .note2}
 
 When there are editors for a team, the editors usually play a style-only role, checking to make sure the content conforms to a consistent voice, grammar, and diction in line with the company's official style guide.
 
@@ -78,7 +78,7 @@ Other technical writers are usually both curious and helpful when you ask them t
 
 Although other technical writers don't always have time to go through your instructions, and they usually share your same level of technical expertise, having *someone* test your instructions is better than no one.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Tech writers are good testing candidates precisely because they are writers instead of developers. As writers, they usually lack the technical assumptions that a lot of developers have (assumptions that can cripple documentation). Also, developers may feel embarrassed if they don't already understand a concept or process referenced in the docs.
 
@@ -88,7 +88,7 @@ In general, it's always good to have a non-expert test something rather than an 
 
 Also, when you have other technical writers test your docs, the activity fosters good team building and knowledge sharing. At a previous job, I worked in a large department that had, at one time, about 30 UX engineers. The UX team held periodic meetings during which they submitted a design for general feedback and discussion. The camaraderie and team-building during the design reviews was immediately apparent to me, and I wished we had something similar with our tech pubs team.
 
-{% include random_ad1.html %}
+{: .note}
 
 By giving other technical writers the opportunity to test your documentation, you create the same kind of sharing and review of content. You build a community rather than having each technical writer always work on independent projects.
 

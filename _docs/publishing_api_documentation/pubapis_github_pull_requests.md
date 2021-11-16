@@ -43,7 +43,7 @@ To make edits in a separate branch on GitHub:
 
 Now let's suppose that the review process is complete, and it's time to merge the branch into the master. You merge the branch into the master through a pull request. Any "collaborator" on the team with write access can initiate and complete the pull request (you can add collaborators through Settings > Collaborators).
 
-{% include random_ad4.html %}
+{: .note2}
 
 To create a pull request:
 
@@ -63,7 +63,7 @@ To create a pull request:
 
    The maintainers will then see the Pull Request and can take action to merge it.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Process the pull request
 
@@ -90,7 +90,7 @@ Now pretend you are the project owner, and you see that you received a new pull 
 
 	 If you look at your list of branches, you'll see that the deleted branch no longer appears.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Add collaborators to your project
 
@@ -107,4 +107,4 @@ To add collaborators to your Github project:
 3. Type the Github usernames of those you want to have access in the Collaborator area.
 4. Click **Add collaborator**.
 
-{% include random_ad2.html %}
+{: .note2}

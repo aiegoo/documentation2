@@ -12,7 +12,7 @@ last-modified: 2021-02-15
 You can use two templates for the metrics described in this [Metrics and measurement section](docapis_metrics_and_measurement.html). These templates were designed to work with Google Docs / Microsoft Word and Google Sheets / Microsoft Excel. The purpose of the coc template is for narrative/qualitative assessments, while the spreadsheet template is to more easily calculate the scores.
 
 * TOC
-{:toc}  
+{:toc}
 
 ## Using the doc templates for narrative assessments
 
@@ -23,13 +23,13 @@ The purpose is the doc templates is make it easier to do narrative assessments o
 
 The templates strip away most formatting and just list the various criteria in a basic HTML file. Copy and paste the content into Google Docs or Microsoft Word. Then as you go through the content, make your notes in the "Assessment" area. Also choose a score of 0 to 5. (Weighting for each criteria is done in the spreadsheet, not in the doc template.)
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Using the spreadsheets for scoring
 
 The spreadsheets are meant to facilitate scoring. It's not possible to do a lot of calculations in a Google Docs or Microsoft Word, so you'll need to copy over each score from the doc template into the right cells into a spreadsheet. The CSV file imports equally into Google Sheets or Microsoft Excel, but the steps are a bit different.
 
-{% include random_ad4.html %}
+{: .note2}
 
 To use the spreadsheet to calculate a score:
 
@@ -80,7 +80,7 @@ To use the spreadsheet to calculate a score:
 
     {: .note} If any criteria isn't applicable from the list, put the weight as 0. This will make the Total WS Possible as 0 as well. For example, maybe "Findable in search" isn't applicable if your content isn't indexed in Google. For this line, change Weight (column B) to 0. You can also change the font for the row to light gray to indicate that it's inactive. However, don't delete the row.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Behind the scenes
 
@@ -88,7 +88,7 @@ If you're curious how to single source content stored in YAML into the checklist
 
 The YAML source is stored in the _data folder in this file: [_data/first_level_checklist](https://github.com/tomjoht/learnapidoc/blob/main/_data/first_level_checklist.yml).
 
-{% include random_ad1.html %}
+{: .note}
 
 The checklist page retrieves this information using a [Liquid for loop](https://shopify.github.io/liquid/tags/iteration/). See the raw source here: [docapis_metrics_first_level_checklist.md](https://raw.githubusercontent.com/tomjoht/learnapidoc/main/_docs/metrics_and_measurement/docapis_metrics_first_level_checklist.md). (For some reason, you need to view the "raw" GitHub file to see the  liquid tags here.)
 

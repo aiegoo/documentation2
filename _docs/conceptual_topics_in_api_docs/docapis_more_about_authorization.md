@@ -28,13 +28,13 @@ An API might authenticate you but not authorize you to make a certain request.
 
 ## Consequences if an API lacks security
 
-{% include random_ad2.html %}
+{: .note2}
 
 Why do APIs even need authentication? For read-only APIs, sometimes users don't need keys. But most commercial APIs do require authorization in the form of API keys or other methods. If you *didn't* have any security with your API, users could make unlimited amounts of API calls without any kind of registration. Allowing unrestricted requests would make a revenue model for your API difficult.
 
 Additionally, without authentication, there wouldn't be an easy way to associate requests with specific user data. And there wouldn't be a way to protect against requests from malicious users that might delete another user's data (such as by making DELETE requests on another's account).
 
-{% include random_ad4.html %}
+{: .note2}
 
 Finally, you couldn't track who is using your API, or what endpoints are most used. Clearly, API developers must think about ways to authenticate and authorize requests made to their API.
 
@@ -73,7 +73,7 @@ Authorization: Basic bG9sOnNlY3VyZQ==
 
 APIs that use Basic Auth will also use HTTPS, which means the message content will be encrypted within the HTTP transport protocol. (Without HTTPS, it would be easy for people to decode the username and password.)
 
-{% include random_ad1.html %}
+{: .note}
 
 When the API server receives the message, it decrypts the message and examines the header. After decoding the string and analyzing the username and password, it then decides whether to accept or reject the request.
 
@@ -95,7 +95,7 @@ The message is then encoded by the secret key and passed through a secure hashin
 
 When the receiver (the API server) receives the request, it takes the same system properties (the request timestamp plus account ID) and uses the secret key (which only the requester and API server know) and SHA to generate the same string. If the string matches the signature in the request header, it accepts the request. If the strings don't match, then the request is rejected.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Here's a diagram depicting this workflow:
 

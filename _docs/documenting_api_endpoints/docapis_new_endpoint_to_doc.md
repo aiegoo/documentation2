@@ -25,7 +25,7 @@ Now let's shift perspectives. Now suppose you're a technical writer working with
 
 The project manager calls you over and says the team has a new endpoint for you to document for the next release. (Sometimes teams will also refer to each endpoint as an "API" as well.)
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 {% include image_ad_right.html %}
 
@@ -35,13 +35,13 @@ Most technical writers don't start from scratch with documentation projects. Eng
 
 Ultimately, the information will be oriented towards other engineers on the same knowledge level as the team's engineers. Your job as a technical writer will be to take this information and turn it into complete, accurate, usable information that communicates with your audience.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Wiki page with information about the new endpoint
 
 It's now your task to sort through the information on this mock wiki page and create documentation from it. You can read through the mock wiki page below to get a sense of the information. In the upcoming topics, we will proceed section by section through an API reference topic.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Here's the mock internal wiki page:
 
@@ -130,7 +130,7 @@ https://api.openweathermap.org/com/surfreport/123?&days=2&units=metrics&hour=140
 
 You can see that the information here is unstructured and hard to scan. By structuring the API reference information into five standard sections, the information will take more shape and be more readable.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Next steps
 

@@ -13,7 +13,7 @@ last-modified: 2020-06-27
 
 Theoretically, you could publish a static website on any web server (e.g., AWS S3, Bluehost, and more). But continuous delivery hosting platforms do something more: They automatically build your output when you commit a change to a repo. The whole build process takes place entirely on the server.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Hosting and deployment platforms usually offer a number of additional features beyond simple web hosting, such as SSL, CDNs, minification, authentication, backup/redundancy, and more. These platforms often integrate with specific static site generators as well (which is one reason I limited my earlier discussions to Jekyll, Hugo, and Sphinx).
 
@@ -24,7 +24,7 @@ Hosting and deployment platforms usually offer a number of additional features b
 
 [GitHub Pages](https://pages.github.com/) provides a free hosting and deployment option for Jekyll projects. If you upload a Jekyll project to a GitHub repository, you can indicate that it's a Jekyll project in your GitHub repo's Settings, and GitHub will automatically build it when you commit to your repo. This feature &mdash; building Jekyll projects directly from your GitHub repo &mdash; is referred to as GitHub Pages.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 In your GitHub repo, click **Settings** and scroll down to **GitHub Pages**. This section is where you activate GitHub Pages for your project.
 
@@ -44,7 +44,7 @@ Unlike with other hosting and deployment platforms, GitHub Pages doesn't offer a
 {: .note}
 I build this site and [my blog](https://idratherbewriting.com) using Jekyll and GitHub Pages. They are actually separate Jekyll projects and repos. My blog is in a GitHub repo called [`tomjoht.github.io`](https://github.com/tomjoht/tomjoht.github.io), named after my GitHub username but published using a custom domain `idratherbewriting.com`. (Without the custom domain, it would be available at `http://tomjoht.github.com`.) The API doc site is in a repo called [learnapidoc](https://github.com/tomjoht/learnapidoc). It's available by default at `https://idratherbewriting.com/learnapidoc`. They seem like the same site, but they are really separate projects in separate repos. The fact that each repo in addition to the primary repository (`tomjoht.github.io`) appears as a subdirectory to the primary domain (`idratherbewriting.com`) is pretty cool.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## CloudCannon {#cloudcannon}
 
@@ -66,7 +66,7 @@ For a tutorial on setting up Jekyll on CloudCannon, see [Jekyll and CloudCannon 
 
 Read the Docs is an online hosting and deployment platform that can read Sphinx projects (from a public repository such as GitHub or Bitbucket) and automatically build the web output. In other words, it is a "continuous documentation platform for Sphinx" (see [An introduction to Sphinx and Read the Docs for Technical Writers](http://ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/)).
 
-{% include random_ad1.html %}
+{: .note}
 
 The introduction on the [Read the Docs homepage](https://readthedocs.org/) describes the platform as follows:
 

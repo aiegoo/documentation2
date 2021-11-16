@@ -28,7 +28,7 @@ Redocly developed command-line tools to split the OpenAPI definition into smalle
 
 The CLI tools also let you check your OpenAPI definition against a ruleset to ensure you're following best practices. You can configure the ruleset with different levels of strictness, either including or ignoring optional best practices in the OpenAPI specification. This linting lets you identify issues in your OpenAPI definition that might not technically be errors, but would better if included.
 
-{% include random_ad4.html %}
+{: .note2}
 
 When you're ready to publish your OpenAPI definition, you can also use a command line tool to bundle the small files up into a single file again. You can then feed your OpenAPI definition file into any OpenAPI documentation tool, including Redoc's documentation output: [Redocly API Reference](https://redoc.ly/reference-docs) (premium version), or the community edition of [Redoc](https://redoc.ly/redoc) (free version). There's also a [Developer Portal](https://redoc.ly/developer-portal) option, or a more cloud-based [Workflows integration](https://redoc.ly/workflows). Some of these tools (especially the command-line tools) will come into focus through the tutorial below.
 
@@ -244,7 +244,7 @@ In this step, you'll break up an existing OpenAPI file into smaller files. We'll
 
     See the `README.md` in the `openapi` folder for more details on these conventions. These conventions are recommendations only. You can decide how you reference the paths from `openapi.yaml`.
 
-{% include random_ad1.html %}
+{: .note}
 
 ### 3. Check your OpenAPI definition against rules {#check_rules}
 
@@ -495,7 +495,7 @@ Redocly has some unique offerings when it comes to organizing and working with c
 
 If integrating your conceptual content like this doesn't work for your doc needs, Redocly offers a more robust option: [Redocly Developer Portals](https://redoc.ly/developer-portal/). The Redocly Developer Portals use Gatsby as a static site generator to give you more complete control and customization for non-reference content. Gatsby also provides many pre-built React components, which makes building out other features of a developer portal, such as marketing landing pages and other UI elements in a console, much easier.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### 7. Explore the premium version: Redocly API Reference {#explore_premium}
 
@@ -672,7 +672,7 @@ Redoc provides a lot of options to configure the output. Options to configure th
 
 For sample API reference docs built with Redoc, see [Some Real-life usages](https://github.com/Redocly/redoc#some-real-life-usages) on the Redoc GitHub page.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Conclusion
 

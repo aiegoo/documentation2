@@ -19,7 +19,7 @@ Seeing the response from curl or Postman is cool, but how do you make use of the
 
 {% include content/activities/ajax_api_request.md %}
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## The AJAX method from jQuery
 
@@ -63,7 +63,7 @@ Some important values are the `url`, which is the URI or endpoint you are submit
 
 Look at the code sample you created. The `settings` variable is passed in as the argument to the `ajax` method. jQuery makes the request to the HTTP URL asynchronously, which means it won't hang up your computer while you wait for the response. You can continue using your application while the request executes.
 
-{% include random_ad2.html %}
+{: .note2}
 
 You get the response by calling the method `done`.
 
@@ -74,7 +74,7 @@ $.ajax(settings).done(function (response) {
 
 In the earlier code sample, `done` contains an anonymous function (a function without a name) that executes when `done` is called. The response object from the `ajax` call is assigned to the `done` method's argument, which in this case is `response`. (You can name the argument whatever you want.)
 
-{% include random_ad4.html %}
+{: .note2}
 
 You can then access the values from the response object using object notation. In this example, the response is just logged to the console.
 
@@ -93,7 +93,7 @@ console.log(response);
 
 Logging responses to the console can be a useful way to test whether an API response is working (it's also helpful for debugging or troubleshooting your code). The console collapses each object inside an expandable section. You can inspect the payload in the console to see if contains the values you expect (without printing values to the page).
 
-{% include random_ad1.html %}
+{: .note}
 
 {% comment %}
 You can add other information to the console log message. To preface the log message with a string, add something like this:

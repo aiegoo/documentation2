@@ -29,13 +29,13 @@ The kind of test environment you set up depends on your product and company. In 
 
 The easiest way to test an API is by making requests to a test server where the API service is configured. QA can usually help you with access to the test server. With the test server, you'll need to get the appropriate URLs, login IDs, roles, etc. Ask QA if there's anything you shouldn't alter or delete because sometimes the same testing environment is shared among groups.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Additionally, make sure your logins correspond with the permissions users will have. If you have an admin login, you might not experience the same responses as a regular user.
 
 You may also need to construct certain files necessary to configure a server with the settings you want to test. Understanding exactly how to create the files, the directories to upload them to, the services to stop and restart, and so on, can require a lot of initial investigation.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Exactly what you have to do depends on your product, the environment, the company, and security restrictions, etc. No two companies are alike. Sometimes it's a pain to set up your test system, and other times it's a breeze.
 
@@ -53,7 +53,7 @@ If you can get the local builds running on your own machine, it's usually worthw
 
 If it's too complicated to set up a local environment, you can ask an engineer to install the local system on your machine. Sometimes developers like to just sit down at your computer and take over the task of installing and setting up a system. They can work quickly on the command terminal and troubleshoot systems or quickly proceed through installation commands that would otherwise be tedious to walk you through.
 
-{% include random_ad1.html %}
+{: .note}
 
 Many times, developers aren't too motivated to set up your system, so they may give you a quick explanation about installing this and that tool. But never let a developer say "Oh, you just do a, b, and c." Then you go back to your desk and nothing works, or it's much more complicated than he or she said it would be. It can take persistence to get everything set up and working the first time.
 
@@ -75,7 +75,7 @@ The sample app is among the most helpful pieces of documentation. As you set up 
 
 If you're documenting a hardware product, you'll want to secure a device that has the right build installed on it. Big companies often have prototype devices available. At some companies, there may be kiosks where you can "flash" (quickly install) a specific build number on the device. Or you may send your device's serial number to someone who manages a pool of devices that receive beta-version updates from the cloud.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 With some hardware products, it may be difficult to get a test instance of the product to play with. I once worked at a government facility documenting a million-dollar storage array. The only time I was allowed to see the storage array was by signing into a special data server room environment, accompanied by an engineer, who wouldn't dream of letting me actually touch the array, much less swap out a storage disk, run commands in the terminal, replace a RAID, or do some other task (for which I was writing instructions).
 
@@ -83,7 +83,7 @@ I learned early on to steer my career towards jobs where I could actually get my
 
 If you're documenting hardware, you need access to the hardware to provide reliable documentation on how to use it. You'll need to understand how to run apps on the device and how to interface with it. Hopefully, the product is one that you can access to play around with in a direct, hands-on way.
 
-Working at Google, the product I was documenting included Google services, such as Google Maps, Play Store, and Assistant, embedded directly in the car's infotainment system. These services are built on the Android operating system. The group I was in maintained a fleet of vehicles, mostly Volvo Polestars and XC-90s, with test installs of Android and these Google services. One day I decided to check a fleet car out and drove it around for a couple of weeks. The experience gave me a much better understanding of the product, one that I didn't entirely possess before when I was just writing about the features. I could experience first-hand in many real situations what the user experience was with the product, and while in some cases I was underwhelmed, in others I was kind of like, wow, this is cool. I logged about 25 bugs while I had the car during this time. 
+Working at Google, the product I was documenting included Google services, such as Google Maps, Play Store, and Assistant, embedded directly in the car's infotainment system. These services are built on the Android operating system. The group I was in maintained a fleet of vehicles, mostly Volvo Polestars and XC-90s, with test installs of Android and these Google services. One day I decided to check a fleet car out and drove it around for a couple of weeks. The experience gave me a much better understanding of the product, one that I didn't entirely possess before when I was just writing about the features. I could experience first-hand in many real situations what the user experience was with the product, and while in some cases I was underwhelmed, in others I was kind of like, wow, this is cool. I logged about 25 bugs while I had the car during this time.
 
 ## If you encounter developer resistance ...
 

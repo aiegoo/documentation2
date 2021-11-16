@@ -12,7 +12,7 @@ last-modified: 2021-02-15
 *This section continues from the previous page, [Second-level checklist for API documentation](docapis_metrics_second_level_checklist.html).*
 
 * TOC
-{:toc}  
+{:toc}
 
 ## Analysis and quantitative metrics
 
@@ -20,7 +20,7 @@ It's hard to imagine that documentation that checks all of the boxes in the [fir
 
 And yet, to achieve the level of information quality, we didn't have to rely on constant user surveys to gather feedback. By identifying best practices for content design (specifically for API/developer documentation), we're able to increase the documentation quality in more self-sufficient, self-directed ways.
 
-{% include random_ad1.html %}
+{: .note}
 
 {: .note}
 Sometimes poor API design will make even good docs problematic. If the API has inconsistent naming, incomplete parameters, doesn't map to user journeys, and is cumbersome to use, then documentation also becomes more cumbersome to follow and implement. Good docs can't fix bad API design, though docs can try to salvage the user experience. If you have to explain the equivalent of String Theory and Lagrange Multipliers in your docs, give yourself extra points even if clarity is still debatable.
@@ -35,7 +35,7 @@ Based on how many criteria you have and how you decide to score things, you'll h
 
 You can also provide two scores: a score on the first-level checklist, and another score on the second-level checklist. As I described earlier, some characteristics can only be assessed when you're much more familiar with the documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Taking the metrics one step further, you could give your documentation a grade point average by calculating the average of all the individual grades. For example, suppose you have 10 sets of documentation for 10 different products. The cumulative score would simply be the average. This could give you your documentation GPA. Quantitative metrics can be more fun to measure. One key point here is that we've moved from qualitative to quantitative measurements using a set of consistent criteria for evaluation. You could chart and graph your progress now.
 
@@ -47,7 +47,7 @@ In the [spreadsheet template for scoring criteria](docapis_metrics_templates.htm
 
 As you work on improving documentation, you could quantitatively say that you improved the documentation from a score of 75% to 90%, or something similar. For this quantitative progress to make sense, you need to use a consistent set of criteria applied in a similar way across docs.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Also, keep in mind that adding user satisfaction surveys to corroborate the improvements would be a good idea. But even without the corroboration, at least this rubric provides a more action-oriented way of addressing more fuzzy issues that users might report in a survey (e.g., docs are incomplete, confusing), and it provides a quantitative metric for measurement. If you're a team editor, this checklist lets you audit your documentation to assess quality.
 
@@ -63,7 +63,7 @@ If this is the feeling regarding reported metrics, remember that user surveys sh
 
 Overall, I am confident that few would object to most of the criteria here. Most of the rubric's criteria would be agreed upon by both readers and writers with enough common ground as to be a practical guide for improving documentation quality. Also, the criteria should be seen as a first draft, a starting point that can be refined and improved, checked against industry standards, confirmed against docs that are loved by users, refined through constant feedback, and more.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Survey {#survey}
 

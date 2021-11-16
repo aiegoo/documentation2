@@ -30,7 +30,7 @@ When I started, I championed using Jekyll to generate and manage the HTML, and I
 
 Despite this innovation, our publishing process still involved pasting the generated HTML (after building Jekyll) page by page into the CMS. Thus, we were only partially using docs-as-code and still had a long way to go. One of the tenets of docs-as-code is to build your output directly from the server (called "continuous deployment"). In other words, you incorporate the publishing logic on the server rather than running the publishing process from your local computer.
 
-{% include random_ad2.html %}
+{: .note2}
 
 This last step, publishing directly from the server, was difficult because another engineering group was responsible for the website and server, and we couldn't just rip Hippo out and start uploading the Jekyll-generated files onto a web server ourselves. It would take another year or more before the engineering team had the bandwidth for the project. Once it started, the project was a wild ride of mismatched expectations and assumptions. But in the end, we succeeded.
 
@@ -40,7 +40,7 @@ Most of the lessons learned here are about this process, specifically how we tra
 
 Why did we want to move to docs as code in the first place? At most large companies, there are plenty of robust, internally developed tools that tech writers can take advantage of. The docs-as-code approach would allow us to integrate into this robust enterprise infrastructure that developers had already created.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Documentation tools are often independent, standalone tools that offer complete functionality (such as version control, search, and deployment) within their own system. But these systems are often a black box, meaning, you can't really open them up and integrate them into another process or system. With the docs-as-code approach, we had the flexibility to adapt our process to fully integrate within the company's infrastructure and website deployment process. Some of this infrastructure we wanted to hook into included the following:
 
@@ -68,7 +68,7 @@ The first day in launching our new system, a team had to publish 40 new pages of
 
 Instead, with the new process, the writer just merged her `development` branch into the `production` branch and pushed the update to the repo. Ten minutes later, all 40 pages were live on the site. She was floored! We knew this was the beginning of a new chapter in the team's processes. We all felt like a considerable publishing burden had been lifted off our shoulders.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Challenges we faced
 
@@ -112,7 +112,7 @@ The long build times were so annoying, we decided to switch back to individual r
 
 I came up with several creative ways to push the theme files out to multiple small repos in a semi-automated way. My first solution was to distribute the theme through [RubyGems](https://rubygems.org/), which is Jekyll's official [solution for theming](https://jekyllrb.com/docs/themes/). I created a theme gem, open-sourced it and the theme (see [Jekyll Doc Project](https://github.com/amzn/jekyll-doc-project)), and practiced the workflow to push out updates to the theme gem and pull them into each repo.
 
-{% include random_ad1.html %}
+{: .note}
 
 It worked well (just as designed). However, it turns out our build management system (an engineering system used to build outputs or other artifacts from code repositories) couldn't build Jekyll from the server using [Bundler](http://bundler.io/), which is what RubyGems required. (Bundler is a tool that automatically gets the right gems for your Jekyll project based on the Jekyll version you are using. Without Bundler, each writer installs the [jekyll gem](https://rubygems.org/gems/jekyll/versions/3.3.1) locally and builds the Jekyll project based on that gem version.)
 

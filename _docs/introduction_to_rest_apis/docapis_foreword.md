@@ -17,11 +17,11 @@ These workshops were fast-paced and introduced the writers to a host of new tool
 
 After the workshops, I put the material on my site, idratherbewriting.com, and opened it up to the broader world of technical writers. I did this for several reasons. First, I felt the information would be useful to the tech writing community. There are very few books or courses that dive into API documentation strategies for technical writers.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Second, I knew that through feedback, I could refine the information and make it better. Almost no content hits the mark on its first release. Instead, content needs to iterate a while through user testing and feedback. Just as this iterative review helps refine user documentation, the same principle applies to course material as well. I've given dozens of presentations and workshops on API documentation for several years now, and each time I've used the feedback to improve this content.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Finally, the content would help drive traffic to my site. In fact, visits to the API documentation course pages outperform visits to my blog. I reflected on this traffic source in a blog post &mdash; see [If writing is no longer a marketable skill, what is?](https://idratherbewriting.com/2018/08/09/writing-no-longer-a-skill/) How would people discover the material if they couldn't find it online? If the material were only trapped in a print book or behind a firewall, it would be difficult to discover. Content is a rich information asset that draws traffic to any site. It's what people primarily search for online.
 
@@ -51,11 +51,11 @@ Of course, not all comments or emails are praiseworthy. Some people note problem
 
 One question I faced in preparing the content is whether I should stick with text, or combine the text with video. While video can be helpful at times, it's too cumbersome to update. Given the fast-paced, rapidly evolving nature of the technical content, videos get out of date quickly.
 
-{% include random_ad1.html %}
+{: .note}
 
 Additionally, videos force the user to go at the pace of the narrator. If your skill level matches the narrator, that's great. But in my experience, videos often go too slow or too fast. In contrast, text lets you more easily skip ahead when you already know the material, or slow down when you need more time to absorb concepts.
 
 Despite the constant changes in the technology landscape, I want to keep this course current and up to date. As such, I'll continue to add and edit and refine it as needed. I want this content to become a vital learning resource for all technical writers, both now and in the years to come as technologies evolve.
 If you have general feedback about this course, feel free to [drop me a line](https://idratherbewriting.com/learnapidoc/contact.html).
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}

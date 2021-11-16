@@ -26,7 +26,7 @@ To integrate into your release process, try to get a better understanding of the
 
 When you see the release items surface on the horizon, look through each item included in the release and assess whether you have doc coverage. If you have a goal for 100% doc coverage for each release, you could score the doc coverage against all items in the release. For example, suppose you have six new features being released in the next version. Can you indicate a changelist or other commit that covers each of the features being released? When you start tracking doc coverage meticulously like this, it forces you to account for each necessary update.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## What needs docs?
 
@@ -42,7 +42,7 @@ But by and large, most items in the release should point to some page in the doc
 
 As you ensure doc coverage with each release, you'll be reaching out to product teams and others to ask questions about docs. Each time you reach out, you reinforce the need for docs, teaching others about how the doc process works. This helps product teams understand your role and anticipate the need for docs in the future in advance.
 
-{% include random_ad2.html %}
+{: .note2}
 
 In short, you build visibility, rapport, and awareness of your role (almost like marketing for your group). This is partly why inserting yourself in the release process as a checkpoint, even if informally, helps your tech comm group become more integrated with product teams.
 
@@ -52,7 +52,7 @@ When analyzing whether you have adequate docs for the release, another question 
 
 Here's where you have some options for a doc coverage goal. You could expand the doc coverage with an additional category of doc quality. For each feature covered by docs, you could score the documentation with a quality rating. As a tech writer, you typically know when docs are good or not. For example, did you personally test the docs, or just copy and paste content an engineer gave you? Does the documentation describe the request and response in a complete way? Are the step-by-step tasks described with enough detail for users to make their way through the docs?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 I know that the features I personally test usually end up with much better documentation. While it might seem like a given that tech writers [test all the features they document](testingdocs.html), that's hardly the case. The setup and execution of the features often requires extensive engineering knowledge and expertise. If you're working in dev docs, testing each feature is a feat unto itself.
 
@@ -60,4 +60,4 @@ I know that the features I personally test usually end up with much better docum
 
 Integrating into the release process helps build the foundation for a healthy, aware documentation group that is plugged into product team releases and roadmaps. It helps you avoid documentation debt as well as stay looped in early for larger features requiring more advanced planning. The more you ensure doc coverage for each release, the more others become aware of your role with documentation and the need for docs in the future.
 
-{% include random_ad4.html %}
+{: .note2}

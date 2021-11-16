@@ -20,7 +20,7 @@ The glossary defines all the terms that might be helpful for users to know &mdas
 
 Unlike most other professional writing disciplines, tech docs are notorious for the number of specialized terms in their content. We have unique terms specific to our company as well as industry and business domain jargon.
 
-{% include random_ad1.html %}
+{: .note}
 
 API evangelist Kin Lane noted his frustration with an API's language when he encountered an undefined acronym in some API docs he was browsing. Lane explains,
 
@@ -28,7 +28,7 @@ API evangelist Kin Lane noted his frustration with an API's language when he enc
 
 In this case, DEG must have been an acronym specific to the developer's API. In these cases, there's no excuse for not defining your own pet acronyms and unique vocabulary.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 But many times, acronyms and unfamiliar terms are an unavoidable part of a specialized domain. As a technical writer, using the correct terms for your knowledge domain and your product is necessary, and those terms are often appropriate for that particular knowledge domain.
 
@@ -43,7 +43,7 @@ I provide an [API glossary here](api-glossary.html) that defines many terms rela
 
 Usually, providing a glossary in your documentation seems like going above and beyond the call of duty. However, defining these terms has tremendous benefit for the writer too, not just for the users.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Defining terms helps you recognize the specialized terminology that might be used with your API &mdash; terms that you may have become immune to by hearing them so frequently in project meetings. By defining the terms, you ensure that you're using these terms more precisely and accurately (rather than switching around with synonyms for variety).
 
@@ -116,7 +116,7 @@ Tooltips appear when you mouse over a link and disappear when you move your mous
 ```js
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
+    $('[data-toggle="popover"]').popover();
 });
 </script>
 ```
@@ -177,7 +177,7 @@ The following are sample glossary pages in various APIs.
 
 Lyft's glossary doesn't have a ton of terms (there are about 10), but they're specific to the Lyft API world. You see terms such as "Lyft Line," "Lyft Lux," "Lyft Plus," and so on. I like that the developer documentation takes pains to define terms that might frequently be used on Marketing and Sales spaces. Whenever a company includes a glossary, it demonstrates a sensitivity the company has toward users. The company doesn't assume that their users understand all the company's specialized terms and vocabulary.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### Yext
 

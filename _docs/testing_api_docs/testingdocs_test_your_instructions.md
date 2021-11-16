@@ -22,7 +22,7 @@ One benefit of testing your instructions is that you can start to answer your ow
 
 A lot of times, when you discover a discrepancy in what's supposed to happen, you can confront an engineer and tell him or her that something isn't working correctly. Or you can make suggestions for improving workflows, terms, responses, error messages, etc. You can't do this if you're just taking notes about what engineers say, or if you're just copying information from wiki specs or engineer-written pages.
 
-{% include random_ad4.html %}
+{: .note2}
 
 When things don't work, you can identify and log bugs in issue tracking systems such as JIRA. Logging bugs is helpful to the team overall and increases your credibility with the engineers. It's also immensely fun to log a bug against an engineer's code because it shows that you've discovered flaws and errors in what the "gods of code" have created.
 
@@ -72,7 +72,7 @@ This in-app-purchasing tag surprised the dev team, and it would have caused a lo
 
 The developers said users could simply deregister the component from the app. So I modified the doc to indicate this. Then I tried deregistering the component from the app and submitted a new version, but the in-app-purchases tag issue persisted.
 
-{% include random_ad1.html %}
+{: .note}
 
 This experience reinforced to me how vital it is to get your hands on the code you're documenting and run it through as real of a situation as you can. It blew my mind that the engineering team did not actually have an app in the Appstore that they published with this template. I was the only one.
 
@@ -96,7 +96,7 @@ Putting together an app from scratch that leverages all the recommendation API c
 
 Overall, make sure to test the code you're documenting in as real of a situation as you can. You'll be surprised what you discover. Reporting back the issues to your team will make your product stronger and increase your value to the team.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## The pleasures of testing
 
@@ -112,7 +112,7 @@ In contrast, if you just stick to technical editing, formatting, publishing, and
 
 Note that it takes time to try out the instructions yourself and with users. It probably doubles or triples the documentation time. Writing thorough, accurate instructions that address users with different setups, computers, and goals is tedious. You don't always have this time before release.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 But don't assume that once your product is released, all documentation is done. You can always go back over your existing, already-published documentation and improve it. Consider the first release a kind of "Day 1" for your documentation. It's the first iteration. Your documentation will get better with each iteration. If you couldn't get your test system up and running before the first release, that's okay. Build the test system for the upcoming release.
 

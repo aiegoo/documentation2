@@ -34,7 +34,7 @@ The design of this API doc site arranges the sample requests and responses in th
 curl -u "username:password" -H "Content-Type:application/json" -X GET "https://api.callfire.com/v2/texts?limit=50&offset=200"
 ```
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 curl is a common format to show requests for several reasons:
 
@@ -48,7 +48,7 @@ In general, use curl to show your sample request. Here's another example of a cu
 
 You can add backslashes in curl to separate each parameter onto its own line (though, as I pointed out in the [curl tutorial](docapis_make_curl_call.html#windows_notes), Windows has trouble with backslashes).
 
-{% include random_ad4.html %}
+{: .note2}
 
 Other API doc sites might use the full resource URL, such as this plain example from Twitter:
 
@@ -58,7 +58,7 @@ The resource URL includes both the base path and the endpoint. One problem with 
 
 ## Multiple request examples
 
-{% include random_ad2.html %}
+{: .note2}
 
 If you have a lot of parameters, consider including several request examples. In the CityGrid Places API, the [`where` endpoint](http://docs.citygridmedia.com/display/citygridv2/Places+API#PlacesAPI-WhereSearchHTTPSEndpoint) is as follows:
 
@@ -82,7 +82,7 @@ If you [click the link](https://api.citygridmedia.com/content/places/v2/search/w
 
 How many different requests and responses should you show? There's probably no easy answer, but probably no more than a few. You decide what makes sense for your API. Users will usually understand the pattern after a few examples.
 
-{% include random_ad1.html %}
+{: .note}
 
 {% include image_ad_right.html %}
 

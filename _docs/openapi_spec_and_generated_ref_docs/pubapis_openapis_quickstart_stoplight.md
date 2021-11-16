@@ -56,7 +56,7 @@ The tutorial has the following steps:
 *  [Step 5: Enter the responses and response schema information](#responses)
 *  [Step 6: Preview, test, and publish the output](#preview)
 
-{% include random_ad4.html %}
+{: .note2}
 
 Stoplight provides a variety of options for working with projects &mdash; desktop editor versus web editor, and syncing from GitHub or saving directly to a Stoplight workspace. In this tutorial, I take the simplest path: using the web editor and saving to the Stoplight workspace. But recognize that you have more options for how you approach projects. See [Working with Projects](https://meta.stoplight.io/docs/studio/docs/Basics/01-working-with-projects.md) for more details.
 
@@ -272,7 +272,7 @@ Now enter the path and parameter information:
 
 You don't need to add security for this endpoint because you already configured global security in the previous section. However, if this endpoint had unique security method, you could override the global security here by clicking the + Security button.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Step 4: Learn how to re-use parameters {#reuse}
 
@@ -284,7 +284,7 @@ To re-use a parameter:
 
 1.  Right-click **Parameters** in the lower-left corner of the sidebar and select **New Query Parameter**.
 
-    A parameter section similar to the query parameter sections you just populated appears.  
+    A parameter section similar to the query parameter sections you just populated appears.
 
 2.  Populate the `lon` parameter here using the same information as before.
 3.  Return to the previous query parameters section where you entered the `lon` parameter, and click the Reference button <img src="{{site.media}}/stoplight_link_button.png" alt="Reference button" /> for this parameter.
@@ -512,7 +512,7 @@ To enter the response information in Stoplight Studio:
 
     Note that the examples are somewhat hidden in the Preview. If you move your mouse over the "Required" property, the example appears as a tooltip.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Step 6: Preview, test, and publish the output {#preview}
 
@@ -555,7 +555,7 @@ You've finished creating your OpenAPI spec, so let's preview, test, and publish 
 
     For publishing options outside of Stoplight, you can use your OpenAPI definition with [Redoc](https://github.com/Redocly/redoc), [Swagger UI](pubapis_swagger.html), [Spectacle](https://github.com/sourcey/spectacle), [Docsy](https://github.com/google/docsy), and other tools. See [Openapi.tools](https://openapi.tools/#documentation) for a list of possibilities. You can find a [Redoc tutorial in this course here](pubapis_redocly.html).
 
-{% include random_ad1.html %}
+{: .note}
 
 Here are some sample API documentation sites built with Stoplight to explore:
 

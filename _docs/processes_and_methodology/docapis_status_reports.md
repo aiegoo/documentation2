@@ -15,7 +15,7 @@ Sending documentation status reports can help foster trust and awareness with yo
 In my post [Some good decisions and minor mistakes](/blog/good-decisions-and-mistakes/), I said one of my good decisions at Amazon was sending regular doc reports to our business leadership. Here's a passage from the post: "Broadcasting all the recent doc updates made during the past month or so did an amazing job at increasing the visibility of our team. This had more impact than any doc-related metrics." In the post's comments, a lot of people asked me to expand on this point with more details. This article provides a follow-up about that point.
 
 * TOC
-{:toc}  
+{:toc}
 
 ## Sample status report
 
@@ -47,7 +47,7 @@ Although these details might seem obvious to you, in any large organization, the
 
 List out what your team has recently published. Ideally, you should be able to copy and paste this content from your release notes. In the list of published docs, include the article titles, short descriptions, and when they were published. The docs should link to the actual content so that people can read more.
 
-{% include random_ad4.html %}
+{: .note2}
 
 If you don't have many recently published docs, you could link to some drafts in progress. However, I find that this section helps keep me accountable. I know that if it comes time to write this report and our team didn't publish anything for the month, it's going to look bad. I want to have a handful of articles to show each month. It makes me feel like I'm earning my keep.
 
@@ -61,13 +61,13 @@ Through an analysis of ticket logs, explain how documentation is reducing the dr
 
 This activity forces you to regularly review the ticket log and see what frictions the users/partners/developers are having. For example, you might have an issue tracking system with hundreds of bugs logged each month. Look through the bugs and pick out bugs that could potentially have been averted had the information been available in the documentation.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 For example, suppose a partner says they are confused about some data element and its availability within an API. That ticket should likely never have been filed; the partner should have been able to find the information within the documentation directly.
 
 In my experience, support groups and product teams are blind at identifying tickets that are preventable through better documentation. Extrapolating potential doc work from the ticket log (as tedious as it may be) is something tech writers excel at. Others are typically blind about how a ticket might relate to documentation additions.
 
-{% include random_ad2.html %}
+{: .note2}
 
 In this section of the report, comment on trends you see for the tickets filed. Create doc tickets related to the bug tickets. Then you can report on your progress against those tickets. This activity &mdash; looking through bugs at a monthly cadence &mdash; is one of the best ways to stay connected to user pain points and frictions. This section also presents an implicit argument about the value of tech comm &mdash; reducing the workload of engineers and support groups.
 
@@ -89,7 +89,7 @@ The biggest action item to come from these blog analytics assessments has been t
 
 Discuss a few points of your doc strategy at a high level. Remember, many people might not realize that technical writers even have a strategy or what it could possibly be for docs. You can comment on a few high-level goals, such as making sure each product has a well-developed overview and getting started tutorial. Or your strategy might be to allow for more hands-on testing of content by technical writers in an effort to improve documentation quality. Or your strategy might be to fill in some content gaps according to your critical user journeys. Or maybe you're trying to align better across product areas with other teams with more consistent structure and naming. Whatever your strategic goals, comment briefly on your progress against them. This reinforces the idea that tech writers are strategic thinkers, not just content creators.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Other sections you could include
 

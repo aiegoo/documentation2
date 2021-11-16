@@ -40,7 +40,7 @@ This is a numbered list:
 
 Markdown is meant to be kept simple, so there isn't a comprehensive Markdown tag for each HTML tag. For example, if you need `figure` elements and `figcaption` elements, you'll need to use HTML. What's nice about Markdown is that if the Markdown syntax doesn't provide the tag you need, you can just use HTML.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## Development by popular demand versus by committee
 
@@ -50,7 +50,7 @@ John Gruber, a blogger, created Markdown as a way to simplify HTML (see his [Mar
 
 In contrast, DITA is a committee-based XML architecture derived from a committee. There aren't lots of different flavors and spinoffs of DITA based on how people customized the tags. There's an official DITA spec that is agreed upon by the DITA OASIS committee. Markdown doesn't have that kind of committee, so it evolves on its own as people choose to implement it.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## Why developers love Markdown
 
@@ -98,7 +98,7 @@ I wrote about this difference in [Why developers will never adopt DITA](https://
 
 Although you can read the XML and get used to it, most people who write in XML use specialized XML editors (like OxygenXML) that make the raw text more readable. Simply by working in XML all day, you get used to working with all the tags.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 But if you send a developer an XML file, they probably won't be familiar with all the tags, nor the nesting schema of the tags. Developers tend to be allergic to XML for at least these reasons:
 
@@ -126,7 +126,7 @@ Markdown does have a few drawbacks:
 
 If you need more complexity than what Markdown or HTML offers, a lot of tools will leverage other templating languages, such as [Liquid](https://docs.shopify.com/themes/liquid-documentation/basics) or [CoffeeScript](http://coffeescript.org/). Many times these other processing languages (often like a lightweight JavaScript) will fill in the gaps for Markdown and provide you with the ability to create includes, conditional attributes, conditional text, and more.
 
-{% include random_ad2.html %}
+{: .note2}
 
 For example, if you're using Jekyll, you have access to a lot of advanced scripting functionality. You can use variables, for loops, sorting, and a host of other functionality. For a detailed comparison of how to achieve the same DITA functionality within Jekyll, see my series [Jekyll versus DITA](https://idratherbewriting.com/2015/03/23/new-series-jekyll-versus-dita/). In this series, I cover the following:
 

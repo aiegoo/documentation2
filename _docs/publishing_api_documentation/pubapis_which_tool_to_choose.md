@@ -55,7 +55,7 @@ Granted, this power and control will require a more complex platform and learnin
 
 If you don't have web development skills and don't want to tinker with the theme or other code development, choose a solution such as [Readme.com](pubapis_hybrid_systems.html#readmeio) or [Netlify CMS](pubapis_hybrid_systems.html#netlifycms) (though, with Netlify CMS, you'd still have to select a theme). Readme provides a ready-made design for your API doc site, removing the need for both designing a theme and figuring out hosting/deployment. That can save you a lot of time and effort.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Realize that when implementing a solution, you might spend a quarter of your time (over a period of months between time on projects) customizing your theme and working on doc tooling. If you don't want to devote that much time to your tooling, Readme is a good option. However, I personally want more control and flexibility over the information design and theme. I like to experiment, and I want the power to code whatever feature I want, such as an [embedded navigation map](https://idratherbewriting.com/simplifying-complexity/macro-micro.html), [JS features to collapse/expand elements](https://idratherbewriting.com/simplifying-complexity/hiding-complexity.html), [custom metadata](https://idratherbewriting.com/simplifying-complexity/discoverability-through-metadata.html), or whatever. I think many tech writers and developers want similar flexibility and control. What is important to you? Are flexibility and control so crucial that you're willing to sink weeks/months of time into the solution?
 
@@ -85,7 +85,7 @@ If you don't have the budget for a third-party host and deployment option, nor d
 
 Also, note that even if you're not using Jekyll, you can use [GitHub Pages](https://pages.github.com/) as a free publishing host for any static site generator output. You simply build your files locally and then push your built files into the GitHub-Pages-enabled repository. With this approach, you wouldn't have the server perform the build process, but you can still handle the process through the command line. Free hosting for your docs on GitHub, regardless of the tool, can be especially convenient.
 
-{% include random_ad1.html %}
+{: .note}
 
 ## 3. Decide how you'll parse the OpenAPI specification
 
@@ -102,11 +102,11 @@ For a great article on the importance of content over tools, see [Good API Docum
 
 In some ways, tools are the basketball player's shoes. They matter, for sure. But Michael Jordan wasn't a great basketball player because he wore Nikes, nor was Kobe Bryant great due to his Adidas. You can probably write incredible documentation despite your tooling and platform. Don't let tooling derail your focus on what really matters in your role: the content.
 
-{% include random_ad2.html %}
+{: .note2}
 
 I've changed my doc platforms numerous times, and rarely does anyone seem to care or notice. As long as it looks decent, most project managers and users will focus on the content much more than the design or platform. In some ways, the design should be invisible and unobtrusive, not foregrounding the focus on the content. The user shouldn't be distracted by the tooling.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 Also, users and reviewers won't notice (or appreciate) all the effort behind the tools. Even when you've managed to single source content, loop through a custom collection to generate out a special display, incorporate language switchers to jump from platform to platform, etc., the feedback you'll get is "There's a typo here." Or "What's the data type for this parameter?"
 

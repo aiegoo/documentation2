@@ -32,7 +32,7 @@ I've tried different processes for reviewing content, and while I'm wary of maki
 
 The process I'll suggest here works, based on years of experience. This would not be how you'd expect to review a sample chapter or essay in a creative writing workshop. In a creative writing workshop, usually you send out about 10-20 pages of material a week ahead of time to the group. They read it during the week, prepare comments, and then share their comments in a round-robin format during the workshop. When I was getting my MFA in literary nonfiction, this was the pattern for how you reviewed content.
 
-{% include random_ad4.html %}
+{: .note2}
 
 So when I began my career as a technical writer, I more or less expected the same workflow. It took years of disappointment and frustration with the review process to realize that this isn't how the corporate world works, and it's not how documentation reviews work.
 
@@ -42,7 +42,7 @@ In some ways, you don't even need to have much technical depth or familiarity wi
 
 What works best is to carve out time during the actual meeting for reviewers to read the content. If you have a 45-minute meeting, allow reviewers to either spend the first 20 minutes reading the content before launching into a discussion, or allow them to give feedback in real-time while they're reading. This is the basic _modus operandi_ of meetings at Amazon, and it works great elsewhere too. It's a little odd to have this quiet time during the meeting, but it's also somewhat reassuring for the reviewers to know that you've given them the necessary time to read the docs during the meeting.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 You might think, oh, we'll just ask everyone to read the doc beforehand and come to the meeting prepared with comments. When you do this, usually one person has read the content and others haven't. This frustrates the person who did read (he or she now just has to sit there waiting for others), and it makes others feel irresponsible for not having done the preparation. The others end up skimming the content quickly so they can get started with the review. Then when they share their feedback, they make suggestions about adding content that's already there.
 
@@ -54,7 +54,7 @@ A second technique is to keep the review session somewhat short and painless. Re
 
 People don't have time to review more than this, and you'll observe that after about a half-hour, their attention span wanes. It's at this point that the reviewers try to steer the discussion into easier waters, talking about the feature roadmap or current bugs rather than the documentation. To ensure you stay on track, keep the meeting short and focused.
 
-{% include random_ad1.html %}
+{: .note}
 
 This means you might need to set up multiple doc review sessions if you have a lot of content to review. That's all right. You could set up several 30-minute review sessions with people, if that's what it takes. It's also a lot easier to book 30 minutes on someone's calendar rather than a full hour, especially if you're including multiple reviewers.
 

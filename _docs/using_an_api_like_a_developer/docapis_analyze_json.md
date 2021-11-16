@@ -70,7 +70,7 @@ The unminified response from the OpenWeatherMap weather endpoint looks like this
 
 We'll analyze the information structures within JSON responses in the following sections.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## JSON objects are key-value pairs
 
@@ -89,7 +89,7 @@ The key-value pairs are each put into double quotation marks when both are strin
 
 ## JSON arrays are lists of items
 
-{% include random_ad4.html %}
+{: .note2}
 
 An array is a list of items, surrounded by brackets:
 
@@ -126,12 +126,12 @@ JSON can mix up objects and arrays inside each other. You can have an array of o
 Here's an example with values:
 
 ```json
-[  
-   {  
+[
+   {
       "name":"Tom",
       "age":39
    },
-   {  
+   {
       "name":"Shannon",
       "age":37
    }
@@ -147,7 +147,7 @@ And objects can contain arrays in the value part of the key-value pair:
 }
 ```
 
-{% include random_ad1.html %}
+{: .note}
 
 Just remember, objects are enclosed by curly braces `{ }` and contain key-value pairs. Sometimes those values are arrays. Arrays are lists and are enclosed by square brackets `[ ]`. It's common for arrays to contain lists of objects, and for objects to contain arrays.
 
@@ -158,7 +158,7 @@ It's important to understand the difference between objects and arrays because i
 
 Look at the response from the `weather` endpoint of the OpenWeatherMap weather API. Where are the objects? Where are the arrays? Which objects are nested? Which values are booleans versus strings?
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## More information
 

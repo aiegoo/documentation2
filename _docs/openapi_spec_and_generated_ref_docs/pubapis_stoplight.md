@@ -11,7 +11,7 @@ last-modified: 2020-06-27
 
 Before jumping into the [tutorial for creating an OpenAPI spec using Stoplight](pubapis_openapis_quickstart_stoplight.html), let me introduce Stoplight a bit more conceptually. As a GUI editor for creating an OpenAPI, Stoplight Studio simplifies the authoring of a highly technical syntax that is often challenging to make valid.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Among other services, Stoplight provides visual modeling tools to create an OpenAPI document for your API &mdash; without requiring you to know the OpenAPI spec details or code the spec line by line. This API specification document can act as a single source of truth that empowers the whole API lifecycle, from UX prototyping to testing, development, documentation, sales, and more.
 
@@ -24,7 +24,7 @@ Among other services, Stoplight provides visual modeling tools to create an Open
 
 Before jumping into details, let me provide some background about why I think Stoplight is a valuable tool, and why I've both listed it in this course and created an [activity for using Stoplight](pubapis_openapis_quickstart_stoplight.html). At the [2018 TC Camp conference](http://www.tccamp.org/) in Santa Clara, the camp organizers put on a full-day API workshop focused on OpenAPI and Swagger. I was excited to see this topic addressed in a workshop because I think coding the spec is both the most complicated and most important part of API documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 I didn't attend the workshop myself, but I was chatting with a few who did. One attendee was a little frustrated that they spent *so much time in [YAML](pubapis_yaml.html)* working on different parts of the [OpenAPI spec definition](pubapis_openapi_tutorial_overview.html). He said they spent most of the day in YAML, and it was frustrating, tedious, and boring. For this participant, this isn't what he imagined when he signed up to learn how to create interactive API docs.
 
@@ -97,7 +97,7 @@ To counter poor practices with *spec-last* development, Lane says more and more 
 
 In a design-first model, technical writers can also insert themselves early in on the API design process, providing input about the shape and model of the API at a time when their input might get traction. Once the API gets coded by developers, it's hard enough to change a parameter name, much less the parameter itself.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Documentation hosting features on Stoplight
 
@@ -107,7 +107,7 @@ In addition to putting the OpenAPI specification at the center of the API lifecy
 
 Note that you can integrate your [reference documentation](docendpoints.html) and [conceptual documentation](docconceptual.html) in Stoplight's hosted doc solution. Integrating these two content types has been a longtime challenge for tech writers in the API doc space. (For more on integration challenges with API documentation, see [Integrating Swagger UI with the rest of your docs](pubapis_combine_swagger_and_guide.html).)
 
-{% include random_ad1.html %}
+{: .note}
 
 Although I generally like working directly in the code, I've found that Stoplight lets me focus more on the content and less on the details of the spec's format. Ideally, you can probably get developers and other project team members to populate reference content in Stoplight themselves since this is an activity that needs to happen much earlier in the API design process anyway.
 

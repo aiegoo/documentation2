@@ -44,7 +44,7 @@ To include content in Javadoc, you add *two* asterisks at the start, before the 
 
 (In Eclipse, if you type `/**` and hit return, it autofills the rest of the syntax automatically.)
 
-{% include random_ad2.html %}
+{: .note2}
 
 The format for adding the various elements is like this:
 
@@ -89,7 +89,7 @@ You put the Javadoc description and tags _before_ the class or method (no need f
 
 The following are the most common tags used in Javadoc. Each tag has a word that follows it. For example, `@param latitude` means the parameter is "latitude."
 
-{% include random_ad1.html %}
+{: .note}
 
 {: .tip}
 To view a lengthy example of Javadoc tags, see this <a href="http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html#examples">example from Oracle</a>.</div>
@@ -106,7 +106,7 @@ The following are some common Javadoc tags:
 * **`@throws`** The kind of exception the method throws. Note that your code must indicate an exception thrown in order for this tag to validate. Otherwise, Javadoc will produce an error. `@exception` is an alternative tag.
 * **`@Override`** Used with interfaces and abstract classes. Performs a check to see if the method is an override.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## What elements you add Javadoc tags to
 
@@ -153,7 +153,7 @@ After the descriptions, enter a blank line (for readability) and then start the 
 
 Note that the first sentence is much like the `shortdesc` element in DITA. This first sentence is supposed to be a summary of the entire class or method. If one of your words has a period in it (like `Dr. Jones`), then you must remove the space following the period by adding `Dr.&nbsp;Jones` to connect it.
 
-{% include random_ad4.html %}
+{: .note2}
 
 Avoid using links in the first sentence. After the period, the next sentence shifts to the long paragraph, so you have to load up that first sentence to be descriptive. The verb tense should be present tense, such as _gets, puts, displays, calculates..._
 

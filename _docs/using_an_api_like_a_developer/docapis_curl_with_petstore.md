@@ -77,7 +77,7 @@ A lot of APIs require you to post requests containing JSON messages in the body.
 
     In the response, check to see that your pet's name was returned.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Update your pet
 
@@ -156,7 +156,7 @@ This example allowed you to see how you can work with curl to create, read, upda
 
 Although Postman is probably easier to use, curl lends itself to power-level usage. Quality assurance teams often construct advanced test scenarios that iterate through a lot of curl requests.
 
-{% comment %}{% include random_ad3.html %}{% endcomment %}
+{% comment %}{: .note2}{% endcomment %}
 
 ## Understanding idempotent methods
 
@@ -170,7 +170,7 @@ In other words, with idempotent methods, you can run them multiple times without
 
 Todd Fredrich explains idempotency by [comparing it to a pregnant cow](http://www.restapitutorial.com/lessons/idempotency.html). Let's say you bring over a bull to get a cow pregnant. Even if the bull and cow mate multiple times, the result will be just one pregnancy, not a pregnancy for each mating session.
 
-{% include random_ad4.html %}
+{: .note2}
 
 ## Import curl into Postman
 
@@ -220,4 +220,4 @@ You can also export Postman to curl by doing the following:
 
     Through Postman's Import and Code functionality, you can easily switch between Postman and curl.
 
-{% include random_ad1.html %}
+{: .note}
