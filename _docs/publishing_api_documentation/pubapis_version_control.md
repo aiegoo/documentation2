@@ -48,7 +48,7 @@ When you add files to Git and commit them, Git takes a snapshot of the committed
 
 There are many excellent tutorials on version control on the web, so I'll defer to those tutorials for more details (for example, see Peter Gruenbaum's [Git and GitHub for Writers](https://www.udemy.com/git-and-github-for-writers/?couponCode=IDRATHER) course on Udemy, with coupon code `IDRATHER` for a discount). In short, Git provides several stages for your files.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Here's the general workflow:
 

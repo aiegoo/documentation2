@@ -26,7 +26,7 @@ The project manager calls you over and says the team has a new endpoint for you 
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 "Here's the wiki page that contains info about the new API," the manager says. The information is scattered and random on the wiki page.
 

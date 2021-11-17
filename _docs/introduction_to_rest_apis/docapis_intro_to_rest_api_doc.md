@@ -23,7 +23,7 @@ The API landscape is diverse, with many different types of APIs. Although this c
 
 One way to sort the different types of APIs is to categorize them into two general buckets: web service APIs versus native library APIs. Web service APIs send and receive messages across the web using HTTP to transport the request and response; web service APIs are language agnostic. Native library APIs, on the other hand, involve incorporating code directly into your project for the desired functionality; native library APIs are language-specific.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 The following list describes the most common types of APIs you will encounter:
 

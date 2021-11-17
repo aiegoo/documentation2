@@ -71,7 +71,7 @@ This specialization not only lets tech writers become SMEs in these areas of the
 
 To enforce these efforts on a regular basis, doc teams should gather bi-weekly for a "Documentation Planning" meeting where they specifically review the various roadmaps of the teams they support. If multiple people are invited to the meeting, you're more likely to keep it going. During the project planning, list out projects onto a documentation planning spreadsheet.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 If you're not part of a doc team but are fully embedded with a product team as a solo writer, you can still perform the same function but might need to drive the whole process yourself. Solo writers often support many different disconnected teams within an organization as well.
 

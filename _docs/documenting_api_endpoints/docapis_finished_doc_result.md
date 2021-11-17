@@ -24,7 +24,7 @@ And that's it. If you have a lot of endpoints to document, you'll probably want 
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Next steps
 

@@ -68,7 +68,7 @@ Descriptions of each section in this course are provided below:
 * **[{{folder.title}}]({{folder.jurl | remove_first: "/" }})**: {{folder.description}}
 {% endfor %}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Sequence and activities
 

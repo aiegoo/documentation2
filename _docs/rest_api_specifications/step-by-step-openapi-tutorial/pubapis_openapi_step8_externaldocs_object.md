@@ -68,4 +68,4 @@ You can insert any valid path to an OpenAPI specification document in the "Explo
 
 {: .note2}
 
-{% include image_ad_left.html %}
+{: .note3}

@@ -81,7 +81,7 @@ How many different requests and responses should you show? There's probably no e
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Requests in various languages
 

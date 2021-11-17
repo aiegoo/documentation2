@@ -129,7 +129,7 @@ When you click Authorize, the `description` and other security details appear:
 
 After users enter an API key and click **Authorize**, the authorization method is set for as many requests as they want to make. The authorization session expires only when users refresh the page.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## <i class="fa fa-user-circle"></i> Test out how authorization works
 

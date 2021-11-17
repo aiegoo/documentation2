@@ -22,7 +22,7 @@ curl is a command-line utility that lets you execute HTTP requests with differen
 {: .note}
 Sometimes curl is written as cURL. It stands for Client URL. "curl" is the more common convention for its spelling, but both refer to the same thing.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Installing curl
 

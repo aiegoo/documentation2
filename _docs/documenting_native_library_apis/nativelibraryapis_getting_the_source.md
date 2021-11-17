@@ -98,7 +98,7 @@ Before leaving this intro topic on getting started with a Java project, I'd like
 
 Maven projects use a pom.xml file that defines the dependencies. Eclipse ships with Maven already installed, so when you import a Maven project and install it, the Eclipse Maven plugin will retrieve all of the project dependencies and add them to your project.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 The sample project doesn't use Maven, but chances are if you're getting a Java project from developers, you won't import it in the way I previously described. Instead, you'll import it as an existing Maven project.
 

@@ -85,7 +85,7 @@ The Shopify quick reference guide isn't for an API, but it does show the filters
 
 This quick reference guide is handy because it lets you browse all the available functionality in Liquid at once, so you can know what to dive into for more information. It's like a map of the Liquid terrain. The map lets you know all the functions that exist.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## <i class="fa fa-user-circle"></i> Activity with quick reference guides
 

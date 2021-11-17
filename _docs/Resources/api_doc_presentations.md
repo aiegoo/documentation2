@@ -61,4 +61,4 @@ For a longer (and older) video, here's a recording from a 4-hour workshop I gave
 
 {% endif %}
 
-{% include image_ad_left.html %}
+{: .note3}

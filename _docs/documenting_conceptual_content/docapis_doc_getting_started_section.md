@@ -37,7 +37,7 @@ The Getting Started tutorial might involve the following:
 
 Put a link to your Getting Started tutorial on your documentation homepage. Make it as easy as possible for developers to use the API to get some result. If this means using pre-provisioned accounts or setup configurations, consider doing so.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Run in Postman button {#runinpostmanbutton}
 

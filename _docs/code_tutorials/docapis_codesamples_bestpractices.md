@@ -63,7 +63,7 @@ Developers unfamiliar with common code not related to your company (for example,
 
 Your documentation regarding the code should mix code comments with some explanation either before or after the code sample. Different languages have different conventions for comments, but generally brief code comments are set off with forward slashes `//` in the code; longer comments are set off between slashes and asterisks, like this: `/* .... */`.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Comments within the code are usually short one-line notes that appear after every 5-10 lines of code. You can follow up this code with more robust explanations in your documentation, but it's ideal to pepper code samples with comments because it puts the explanation next to the code doing the action. This approach of adding brief comments within the code, followed by more robust explanations after the code, aligns with principles of [progressive information disclosure](https://idratherbewriting.com/2012/08/09/applying-progressive-information-disclosure-to-online-help-navigation/) that help align with both advanced and novice user types. In this case, progressive information disclosure means you provide some detail in the context of an activity, and then add links or references for more information if the user needs it.
 

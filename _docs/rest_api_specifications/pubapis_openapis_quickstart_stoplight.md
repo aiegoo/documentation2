@@ -290,7 +290,7 @@ After you commit the changes, you can preview the OpenAPI documentation by click
 
 {% include course_image.html size="large" border="true" filename="parameters_published" ext_print="png" ext_web="png" alt="Parameters display in Stoplight" caption="Parameters display in Stoplight" %}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Enter the responses and response schema
 

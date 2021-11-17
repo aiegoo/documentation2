@@ -135,7 +135,7 @@ app.get('/users', (req, res) => {
 
 You can see that the annotations differ by language, mostly following the allowed annotations and traditional syntax for that language. So if you want to go this route, first find out what Swagger Codegen libraries are available for that language. For more information on Codegen, see [Comparison of Automatic API Code Generation Tools For Swagger](https://apievangelist.com/2015/06/06/comparison-of-automatic-api-code-generation-tools-for-swagger/) by Kin Lane, aka the API Evangelist. For additional tools and libraries, see [Swagger services and tools](http://swagger.io/open-source-integrations/) and [Open Source Integrations](https://swagger.io/open-source-integrations/). Note that currently, most of the Codegen libraries only work with version 2.0 of the OpenAPI. Codegen tool have been slow to transition to version 3.0.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Although this code-generation approach "automates" the spec's generation, someone still has to know what annotations to add and how to add them (the process isn't too unlike Javadoc's comments and annotations). Then someone has to write content for each of the annotation's values (describing the endpoint, the parameters, and so on).
 

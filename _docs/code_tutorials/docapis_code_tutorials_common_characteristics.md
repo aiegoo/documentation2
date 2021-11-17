@@ -15,4 +15,4 @@ Code tutorials have common sections or characteristics (whether explicitly calle
 
 {% include content/activities/code_tutorial_analysis.md %}
 
-{% include image_ad_left.html %}
+{: .note3}

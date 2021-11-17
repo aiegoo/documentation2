@@ -47,7 +47,7 @@ Don't get me wrong. I highly value these general surveys and the information the
 
 Reading these surveys made me wonder &mdash; is it really the case that so many tech writers are still using FrameMaker and Word? That didn't match what I was seeing around me in Silicon Valley. But was I living in a bubble, an anomaly to the rest of the tech comm world? Were trends toward docs-as-code tools much more widespread and common in developer docs? The general tech comm surveys left me with more questions than answers.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ### A survey focusing on developer docs
 

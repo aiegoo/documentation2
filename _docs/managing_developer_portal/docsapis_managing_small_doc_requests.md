@@ -40,7 +40,7 @@ If there are a lot of small tickets that each takes 10 minutes, and you can't lo
 
 It depends on the purpose of the weighting. If the purpose of weighting is to evaluate the team's productivity, recognize that there can be a danger in using these rough point estimates to assess the amount of work completed. The way you chunk up tasks and weight them can easily be distorted. For example, suppose a writer breaks down tasks for a project in an extremely granular way, and then weights each task as 1 point. The writer might appear to be finishing a ton of work when in reality the writer just manipulated the tracking system to appear to be doing more work than was actually done. If your velocity and weighting can so easily be distorted, it might not mean a whole lot to others.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 At the same time, best practices for chunking work and providing time estimates usually don't recommend such granular, hourly chunks of time. Perhaps one solution might be to attach a code review to every ticket so that others can see exactly how much text was changed. However, this could also short-sell the work. Suppose the edit required tracking down a SME who had more knowledge about a particular value or setting that needed clarification. Maybe the file diff is minimal but the effort to get the information was large. Conversely, suppose a writer receives a large chunk of code or other content from an engineer that is production-ready, and all the writer needs to do is paste it into an existing page.
 

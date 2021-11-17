@@ -58,6 +58,6 @@ Part III:
 
 {: .note2}
 
-{% include image_ad_left.html %}
+{: .note3}
 
 {% endif %}

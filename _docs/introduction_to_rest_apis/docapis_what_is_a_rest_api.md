@@ -67,7 +67,7 @@ The WSDL file defines the allowed elements and attributes in the message exchang
 
 SOAP messages are enclosed in an "envelope" that includes a header and body, using a specific XML schema and namespace. For an example of a SOAP request and response format, see [SOAP vs REST 101: Understand The Differences](http://www.soapui.org/testing-dojo/world-of-api-testing/soap-vs--rest-challenges.html).
 
-{% include image_ad_right.html %}
+{: .note3}
 
 The main problem with SOAP is that the XML message format is too verbose and heavy. It is particularly problematic with mobile scenarios where file size and bandwidth are critical. The verbose message format slows processing times, which makes SOAP interactions lethargic.
 

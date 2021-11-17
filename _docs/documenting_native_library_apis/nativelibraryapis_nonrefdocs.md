@@ -27,7 +27,7 @@ Engineers will throw a quick description of a class in a file and generate a [Ja
 
 Other people seem to have similar opinions. In general, document generators don't tell you a whole lot more than you would discover by browsing the source code itself. Some people even refer to auto-generated docs as a glorified source-code browser.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Reference docs are feature-based, not task-based
 

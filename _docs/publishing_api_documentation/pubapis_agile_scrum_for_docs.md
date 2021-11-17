@@ -34,7 +34,7 @@ There are several advantages of joining an engineering scrum:
 * You'll be in touch with the needs and priorities of the project. There won't be a huge gulf between you and the engineering team where you'll wonder what they're doing and vice versa.
 * You'll be much more accountable to keep on track as you report into a daily scrum to let others know what you accomplished the day before and what you're working on today. More than anything else, this helps you stay committed to the project.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Despite the advantages of integrating with engineering scrums, there are a few disadvantages as well:
 

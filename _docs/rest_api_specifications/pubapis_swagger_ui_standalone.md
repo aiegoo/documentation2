@@ -16,4 +16,4 @@ progress: false
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}

@@ -99,7 +99,7 @@ Read the Docs has an impressive number of users. The platform has thousands of p
 
 Netlify offers continuous delivery for your project. You can store your content on GitHub, GitLab, or Bitbucket, then link it to Netlify, and Netlify will build whenever you push changes.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Netlify not only offers a free plan with features similar to GitHub Pages but also lets you scale up to Pro, Business, or Enterprise plans for more robust needs. With Netlify, you can get deploy previews, rollbacks, form handling, distributed content delivery network (CDN), infinite scalability, SSL, a programmable API, CLI, and more.
 

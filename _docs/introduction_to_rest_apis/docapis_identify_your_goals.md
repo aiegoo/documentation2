@@ -16,6 +16,6 @@ Ramping up on API documentation, developing a portfolio of API documentation wri
 
 {: .note2}
 
-{% include image_ad_left.html %}
+{: .note3}
 
 {: .note2}

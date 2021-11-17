@@ -142,7 +142,7 @@ Here's the response from [the request](http://api.aerisapi.com/observations/sant
   }
 }
 ```
-{% include image_ad_right.html %}
+{: .note3}
 
 `windSpeedMPH` is the value we want.
 

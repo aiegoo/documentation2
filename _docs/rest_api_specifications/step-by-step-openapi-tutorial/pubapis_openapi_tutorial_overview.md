@@ -33,7 +33,7 @@ While you're coding in the Swagger Editor, if you make an error, you can quickly
 
 For your specification document's format, you have the choice of working in either JSON or YAML. The code sample is in the previous screenshot shows [YAML](http://yaml.org/). YAML refers to "YAML Ain't Markup Language," meaning YAML doesn't have any markup tags (`< >`), as would be common with other markup languages such as XML.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 YAML depends on spacing and colons to establish the object syntax. This space-sensitive formatting makes the code more human-readable, but it's also sometimes trickier to get the spacing right.
 

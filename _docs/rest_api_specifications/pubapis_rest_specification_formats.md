@@ -19,7 +19,7 @@ In the early years of specifications, there was healthy competition between the 
 
 Overall, specifications for REST APIs lead to better reference documentation for your API. Keep in mind that these REST API specifications mostly describe the [*reference endpoints*](docendpoints.html) in an API. While the reference topics are important, you will likely have a lot more documentation to write. (This is why I created an entire section of [conceptual topics](docconceptual.html).)
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Nevertheless, the reference documentation that the specification covers often constitutes the core value of your API, since it addresses the endpoints and what they return.
 

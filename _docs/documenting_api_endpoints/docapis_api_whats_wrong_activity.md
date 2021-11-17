@@ -14,7 +14,7 @@ In this activity, you'll critique an existing API reference topic to identify wh
 * TOC
 {:toc}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 {% include content/activities/whats_wrong_with_surfreport.md %}
 

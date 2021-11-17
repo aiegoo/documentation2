@@ -103,7 +103,7 @@ Looking at the examples, you'll notice the documentation is short and sweet in a
 
 {% include content/activities/view_local_openapi_swaggerui.md %}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Configuring Swagger UI parameters
 

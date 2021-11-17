@@ -20,7 +20,7 @@ In this section, you'll use curl to make the same weather API requests you made 
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Note about single and double quotes with Windows curl requests {#windows_notes}
 

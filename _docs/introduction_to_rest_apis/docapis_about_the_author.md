@@ -24,7 +24,7 @@ Like most technical writers, I stumbled into technical writing after working in 
 
 Despite my initial resistance to the idea of technical writing (I thought it would be boring), I found that I actually liked technical writing &mdash; a lot more than copywriting. Technical writing combines my love for writing and my fascination with technology. I get to play with tools and handle all aspects of content production, from design to styles to publishing workflows.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 I worked as a traditional technical writer for some years, mostly documenting applications with user interfaces. One day, my organization decided to lay off the tech writing team. After that, and based on my proclivity for tinkering with tools, I decided to steer my career into a tech writing market that was more in demand: developer documentation, particularly API documentation. I also moved to Silicon Valley to be at the center of tech.
 

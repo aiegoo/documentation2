@@ -42,7 +42,7 @@ I provide an [API glossary here](api-glossary.html) that defines many terms rela
 
 Usually, providing a glossary in your documentation seems like going above and beyond the call of duty. However, defining these terms has tremendous benefit for the writer too, not just for the users. Defining terms helps you recognize the specialized terminology that might be used with your API &mdash; terms that you may have become immune to by hearing them so frequently in project meetings. By defining the terms, you ensure that you're using these terms more precisely and accurately (rather than switching around with synonyms for variety).
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Localization requirements and glossaries
 

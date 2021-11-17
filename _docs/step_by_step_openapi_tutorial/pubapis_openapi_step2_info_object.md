@@ -3,18 +3,21 @@ title: "Step 2: The info object (OpenAPI tutorial)"
 permalink: /pubapis_openapi_step2_info_object.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 4.44
+weight: 5.4
 section: openapitutorial
 path1: /restapispecifications.html
 path2: /openapi_tutorial.html
+map:
+  step: 2
+  definition: content/openapi_tutorial_map.html
+last-modified: 2020-06-25
 ---
 
-{% include workflow_map.html step="2" map="content/openapi_tutorial_map.html"  %}
 {% if site.format == "pdf" or site.format == "kindle" %}
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/openapistep2.png"/>
+<img src="{{site.media}}/openapistep2.png"/>
 {% endif %}
 
-The [info object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#infoObject) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
+The [info object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#infoObject) contains basic information about your API, including the title, a description, version, link to the license, link to the terms of service, and contact information. Many of the properties are optional.
 
 {% if site.format == "web" %}
 * TOC
@@ -52,13 +55,15 @@ Note that in any `description` property, you can use [CommonMark Markdown](http:
 
 For example, CommonMark markdown offers some [backslash escapes](http://spec.commonmark.org/0.27/#backslash-escapes), and it specifies exactly how many spaces you need in lists and other punctuation. You can also break to new lines with `\n` and escape problematic characters like quotation marks or colons with a backslash.
 
-{: .note2}
+{: .note}
 
 As you write content in `description` properties, note that colons are problematic in YAML because they signify new levels. Either enclose the `description` value in quotation marks or escape colons with a backslash. (If you enclose the values in quotation marks, syntax highlighters in text editors can display better color coding between the properties and values.)
 
 {: .note2}
 
 ## Update your file in Swagger Editor
+
+{: .note2}
 
 To update the spec file in Swagger Editor:
 
@@ -72,4 +77,4 @@ To update the spec file in Swagger Editor:
 {: .tip}
 In the `description` property, in addition to describing your overall API, you might want to provide some basic instructions to users on how to use Swagger UI. If there's a test account they should use, you can provide the information they need in this space.
 
-{: .note2}
+{% comment %}{: .note2}{% endcomment %}

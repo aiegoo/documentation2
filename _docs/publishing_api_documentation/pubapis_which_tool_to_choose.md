@@ -48,7 +48,7 @@ For example, maybe it's more important to reduce the time spent with tools than 
 
 If you want power and control to create the complex features you need (maybe you want to build a custom theme or build your doc site with unique branding), then use a static site generator such as [Hugo](pubapis_static_site_generators.html#hugo), [Sphinx](pubapis_static_site_generators.html#sphinx), or [Jekyll](pubapis_static_site_generators.html#jekyll). If you have serious doc needs (maybe you migrated from the world of DITA and are used to more robust tooling), you're going to want a platform that can go as deep as you want to take it. Jekyll, Sphinx, and Hugo offer this depth in the platform.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Granted, this power and control will require a more complex platform and learning curve, but you can start out easy with a ready-made theme and later work your way into custom development as desired.
 

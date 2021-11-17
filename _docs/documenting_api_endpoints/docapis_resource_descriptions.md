@@ -96,7 +96,7 @@ For another example of an API with resources and endpoints, check out the [Trell
 {: .tip}
 The description of the resource is likely something you'll re-use in different places &mdash; product overviews, tutorials, code samples, quick references, etc. As a result, put a lot of effort into crafting it. Consider storing the description in a re-usable snippet in your authoring tool so that you can list it without resorting to copy/paste methods in your [quick start guide](docapis_doc_quick_reference.html).
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Terminology for describing the resource
 

@@ -12,7 +12,7 @@ With each of the conceptual topics in this section, you've been analyzing the to
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Remember that sometimes the best way to learn how to create API documentation is to carefully observe how it's done on sites you admire. Following standard practices in the industry helps you create more predictable, easy-to-follow patterns in your own documentation.
 

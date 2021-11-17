@@ -71,7 +71,7 @@ Instead, with the new process, the writer just merged her `development` branch i
 
 I've summarized the success and overall approach, but there were a lot of questions and hurdles in developing the process. I'll detail these main challenges in the following sections.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ### Inability to do it ourselves
 

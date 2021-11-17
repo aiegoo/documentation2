@@ -27,7 +27,7 @@ Unlike other wikis, the GitHub wiki you create is its own repository that you ca
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 With GitHub, you write wiki pages in Markdown syntax. There's a special flavor of Markdown syntax for GitHub wikis called [Github-flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), or GFM. The GitHub Flavored Markdown allows you to create tables, add classes to code blocks (for proper syntax highlighting), and more.
 

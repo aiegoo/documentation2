@@ -35,4 +35,4 @@ Make some edits to a class and method. Then regenerate the Javadoc and find your
 
 {: .note2}
 
-{% include image_ad_left.html %}
+{: .note3}

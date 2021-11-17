@@ -3,10 +3,11 @@ title: Working in YAML (OpenAPI tutorial)
 permalink: /pubapis_yaml.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 4.42
+weight: 5.2
 section: openapitutorial
 path1: /restapispecifications.html
-path2: /openapi_tutorial.htmlml
+path2: /openapi_tutorial.html
+last-modified: 2020-09-07
 ---
 
 Before we dive into the steps of the [OpenAPI Tutorial](pubapis_openapi_tutorial_overview.html), it will help to have a better grounding in YAML, since this is the most common syntax for the OpenAPI specification document. (You can also use [JSON](docapis_analyze_json.html), but the prevailing trend with the OpenAPI document format is YAML.)
@@ -22,13 +23,13 @@ YAML stands for "YAML Ain't Markup Language." This means that the YAML syntax do
 
 YAML is easier to work with because it removes the brackets, curly braces, and commas that get in the way of reading content.
 
-<figure><a href="http://yaml.org/" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/yamlscreenshot.png" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
+<figure><a href="http://yaml.org/" class="noExtIcon"><img src="{{site.media}}/yamlscreenshot.png" alt="YAML" /></a><figcaption>The YAML site itself is written using YAML, which you can immediately see is not intended for coding web pages.</figcaption></figure>
 
 YAML is an attempt to create a more human-readable data exchange format. It's similar to JSON (which is actually a subset of YAML) but uses spaces, colons, and hyphens to indicate the structure.
 
 Many computers ingest data in a YAML or JSON format. It's a syntax commonly used in configuration files and an increasing number of platforms (like Jekyll), so it's a good idea to become familiar with it.
 
-{: .note2}
+{: .note}
 
 ## YAML is a superset of JSON
 
@@ -126,7 +127,7 @@ hobbies:
   - horseplaying
 ```
 
-{: .note2}
+{% comment %}{: .note2}{% endcomment %}
 
 Here's an array containing objects in JSON:
 
@@ -156,6 +157,8 @@ Here's the same array containing objects converted to YAML:
 
 Hopefully, by seeing the syntax side by side, it will begin to make more sense. Is the YAML syntax more readable? It might be difficult to see in these simple examples, but generally it is.
 
+{: .note2}
+
 JavaScript uses the same dot notation techniques to access the values in YAML as it does in JSON. (They're pretty much interchangeable formats.) The benefit to using YAML, however, is that it's more readable than JSON.
 
 {: .note3}
@@ -181,7 +184,7 @@ YAML is also used with [Jekyll](pubapis_jekyll.html). See my [YAML tutorial in t
 
 Let's clear up some additional descriptors around JSON and YAML as well. The specification document in my OpenAPI tutorial uses YAML (which I introduced briefly [here](pubapis_yaml.html)), but it could also be expressed in JSON. JSON is a subset of YAML, so the two are practically interchangeable formats (for the data structures we're using). Ultimately, though, the OpenAPI spec is a JSON object. The specification notes:
 
->An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#format))
+>An OpenAPI document that conforms to the OpenAPI Specification is itself a JSON object, which may be represented either in JSON or YAML format. (See [Format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#format))
 
 In other words, the OpenAPI document you create is a JSON object, but you have the option of expressing the JSON using either JSON or YAML syntax. YAML is more readable and is a more common format (see API Handyman's take on [JSON vs YAML](https://apihandyman.io/writing-openapi-swagger-specification-tutorial-part-1-introduction/#json-vs-yaml) for more discussion), so I've used YAML exclusively in code samples here. You will see that the OpenAPI specification documentation on GitHub always shows both the JSON and YAML syntax when showing specification formats. (For a more detailed comparison of YAML versus JSON, see "Relation to JSON" in the [YAML spec](http://www.yaml.org/spec/1.2/spec.html).)
 

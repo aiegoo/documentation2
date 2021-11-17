@@ -45,4 +45,4 @@ If you click **Package** at the top, you can also browse the classes by package.
 
 For more information about how the Javadoc is organized, click the **Help** button in the Javadoc top navigation bar.
 
-{% include image_ad_left.html %}
+{: .note3}

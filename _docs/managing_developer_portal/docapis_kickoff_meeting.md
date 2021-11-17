@@ -104,7 +104,7 @@ After gathering some high-level project details, dive into more detail about the
 
 ## Reference docs
 
-{% include image_ad_right.html %}
+{: .note3}
 
 The essence of an API is inputs and outputs. Something goes in, and something comes out. Is this input and output already described in reference documentation? No matter the language, always focus on inputs and outputs to understand an API.
 

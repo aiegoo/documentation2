@@ -208,7 +208,7 @@ $("#windSpeed").append(content);
 
 This code says to find the element with the ID `windSpeed` and add the `content` variable after it.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Get the value from an array
 

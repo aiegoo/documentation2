@@ -39,7 +39,7 @@ In addition to testing individual endpoints and other features, it's also import
 
 While working at one company, it wasn't until I built my own app and submitted it to the Appstore that I discovered some bugs. I was documenting an app template designed for third-party Android developers building streaming media apps for the Amazon Appstore. To get a better understanding of the developer's tasks and process, I needed to be familiar with the steps I was asking developers to do. For me, that meant building an app and submitting my app to the Appstore &mdash; the whole workflow from beginning to end.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 To build my sample app, first I had to figure out how to get content for my app. I decided to take the video recordings of podcasts that we had through the [Write the Docs podcast](http://podcast.writethedocs.org/) and use that media for the app.
 

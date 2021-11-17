@@ -52,7 +52,7 @@ With the video skills project I referenced earlier, the sample app was originall
 
 Overall, figuring out the right balance in a sample app is a tradeoff. A simpler Fire TV app might not even include a landing page or thumbnail view of videos, but it might be more illustrative from a code perspective. Users wouldn't be distracted by all the other code that isn't essential to implement for the feature you're describing.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Functional but poorly written code
 

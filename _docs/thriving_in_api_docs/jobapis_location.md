@@ -598,7 +598,7 @@ If "API" is a more common term for the area, I assume more technical writer jobs
 
 This superficial query doesn't indicate whether there are more tech comm jobs overall for these states. For example, Michigan might have a lot more general tech writing jobs than API doc jobs, even though it ranks far down in the above table.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 To get more granular with details, such as job losses or gains, the hottest MSAs for each state, the best industry sectors, the highest salaries, etc., consult the STC Salary Database and mine the data you want.
 

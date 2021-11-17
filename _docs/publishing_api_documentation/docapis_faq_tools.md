@@ -22,7 +22,7 @@ Q:  We use Madcap Flare but document our APIs in Swagger. We're considering drop
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Q: We're considering using GitHub as our documentation CMS, but we're unsure what it can support. Does it provide a documentation portal? HTML generation? An editor to add/update content? Themes? bi-directional sync with Git? What is the process flow if it allows documentation?
 

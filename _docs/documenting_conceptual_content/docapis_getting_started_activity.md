@@ -16,4 +16,4 @@ path1: /docendpoints.html
 
 {: .note2}
 
-{% include image_ad_left.html %}
+{: .note3}

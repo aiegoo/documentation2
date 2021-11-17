@@ -125,7 +125,7 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 * Define process and standards for developer product naming and branding, and then enforce this against individual teams that might launch new feature names in unapproved ways
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ### Strategic alignment
 

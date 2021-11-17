@@ -3,23 +3,19 @@ title: "Step 1: The openapi object (OpenAPI tutorial)"
 permalink: /pubapis_openapi_step1_openapi_object.html
 course: "Documenting REST APIs"
 sidebar: docapis
-weight: 4.43
+weight: 5.3
 section: openapitutorial
 path1: /restapispecifications.html
 path2: /openapi_tutorial.html
+map:
+  step: 1
+  definition: content/openapi_tutorial_map.html
+last-modified: 2020-09-07
 ---
 
-{% include workflow_map.html step="1" map="content/openapi_tutorial_map.html"  %}
 {% if site.format == "pdf" or site.format == "kindle" %}
-<img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/openapistep1.png"/>
+<img src="{{site.media}}/openapistep1.png"/>
 {% endif %}
-
-{% if site.format == "web" %}
-* TOC
-{:toc}
-{% endif %}
-
-## OpenAPI tutorial overview
 
 Before diving into the first step of the OpenAPI tutorial here, read the [OpenAPI tutorial overview](pubapis_openapi_tutorial_overview.html) (if you haven't already) to get a sense of the scope of this tutorial. In brief, this OpenAPI tutorial is unique in the following ways:
 
@@ -28,30 +24,35 @@ Before diving into the first step of the OpenAPI tutorial here, read the [OpenAP
 * This OpenAPI tutorial is a subset of the information in both the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification) and the [OpenAPI specification commentary](https://swagger.io/docs/specification/about/). In other words, it's not comprehensive of all the possible information in the spec.
 * This OpenAPI tutorial covers the *3.0 version* of the OpenAPI spec, which is the latest version. (Surprisingly, many tools still support only the 2.0 version.)
 
-{: .note2}
+<div></div>
+
+{% if site.format == "web" %}
+* TOC
+{:toc}
+{% endif %}
 
 ## The root-level objects in OpenAPI spec
 
 The OpenAPI 3.0 spec has eight objects at the root level. These eight objects have many nested objects inside them, but at the root level, there are just these parent objects:
 
-* [`openapi`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#oasObject  )
-* [`info`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#infoObject)
-* [`servers`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#serverObject)
-* [`paths`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#pathsObject)
-* [`components`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#componentsObject)
-* [`security`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#securityRequirementObject)
-* [`tags`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#tagObject)
-* [`externalDocs`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#externalDocumentationObject)
+* [`openapi`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oasObject  )
+* [`info`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#infoObject)
+* [`servers`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#serverObject)
+* [`paths`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#pathsObject)
+* [`components`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#componentsObject)
+* [`security`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#securityRequirementObject)
+* [`tags`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#tagObject)
+* [`externalDocs`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#externalDocumentationObject)
 
 {: .note}
 By "root level," I mean the first level in the OpenAPI document. This level is also referred to as the global level because some object properties declared here (namely `servers` and `security`) are applied to each of the operation objects unless overridden at a lower level.
 
-The whole document (the object that contains these eight root-level objects) is called an [OpenAPI document](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#oasDocument). The convention is to name the document **openapi.yml**.
+The whole document (the object that contains these eight root-level objects) is called an [OpenAPI document](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oasDocument). The convention is to name the document **openapi.yml**.
 
 {: .note}
 "OpenAPI" refers to the specification; "Swagger" refers to the tooling (at least from SmartBear) that supports the OpenAPI specification.
 
-{: .note2}
+{: .note}
 
 Although one could approach the assembly of an OpenAPI document in many ways, I've decided to structure each step in this tutorial based on each of these root-level objects. You'll see two approaches: one using Swagger working at a code-level, and another using Stoplight Studio working in a user interface.
 
@@ -79,7 +80,7 @@ For the sake of simplicity, for the Swagger sections in this tutorial, we'll jus
 
 From the [Swagger Editor](https://editor.swagger.io/) and go to **File > Clear editor**. Keep this tab open throughout the OpenAPI tutorial, as you'll be adding to your specification document with each step.
 
-Add the first root-level property for the specification document: `openapi`. In the [openapi](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#oasObject) object, indicate the version of the OpenAPI spec to validate against. The latest version is `3.0.2`.
+Add the first root-level property for the specification document: `openapi`. In the [openapi](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#oasObject) object, indicate the version of the OpenAPI spec to validate against. The latest version is `3.0.2`.
 
 ```yaml
 openapi: "3.0.2"
@@ -105,4 +106,8 @@ The editor renders the display as follows.
 
 On the backend, Swagger UI uses the 3.0.2 version of the spec to validate your content. In the above screenshot, the gray "1.0" version refers to the version of the API here, not the version of the OpenAPI spec.
 
-There's not much to the `openapi` object except to elaborate on the versions. OAS 3.0 was released on 2017-07-26, and OAS 3.0.2 was released on 10-08-2018 (see [Version History](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#appendix-a-revision-history)). Much of the information and examples online, as well as supporting tools, often focus only on 2.0. Even if you're locked into publishing in a 2.0 tool or platform, you can code the spec in 3.0 and then use a tool such as [APIMATIC Transformer](https://apimatic.io/transformer) to convert the 3.0 spec to 2.0. You can also convert a spec from 2.0 to 3.0.
+{: .note2}
+
+There's not much to the `openapi` object except to elaborate on the versions. OAS 3.0 was released on 2017-07-26, and OAS 3.0.2 was released on 10-08-2018 (see [Version History](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.1.0.md#appendix-a-revision-history)). Much of the information and examples online, as well as supporting tools, often focus only on 2.0. Even if you're locked into publishing in a 2.0 tool or platform, you can code the spec in 3.0 and then use a tool such as [APIMATIC Transformer](https://apimatic.io/transformer) to convert the 3.0 spec to 2.0. You can also convert a spec from 2.0 to 3.0.
+
+{% comment %}{: .note2}{% endcomment %}

@@ -24,7 +24,7 @@ The `tags` object allows you to arrange the `paths` (endpoints) into named group
 
 ## Defining tags at the root level
 
-{% include image_ad_right.html %}
+{: .note3}
 
 At the root level, the [`tags` object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#tagObject) lists all the tags that are used in the [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#operationObject) (which appear within the `paths` object, as explained in [Step 4: The paths object](pubapis_openapi_step4_paths_object.html)). Here's an example of the `tags` object for our OpenWeatherMap API:
 

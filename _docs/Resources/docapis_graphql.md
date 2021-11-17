@@ -156,7 +156,7 @@ First, I asked one recruiter who focuses on API writers and programming writers,
 
 Second, I made the rounds with job search websites, only finding a small number of technical writing jobs that specifically referenced GraphQL.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 My guess is that maybe the movement is [driven by developers who decide to use it](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf), and they don’t think to get a tech writer involved? Or, GraphQL APIs are not being implemented enough to be spotted in job ads or by recruiters?
 

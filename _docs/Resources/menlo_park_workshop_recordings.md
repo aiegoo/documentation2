@@ -78,4 +78,4 @@ Video 5 of 5:
 
 {% endif %}
 
-{% include image_ad_left.html %}
+{: .note3}

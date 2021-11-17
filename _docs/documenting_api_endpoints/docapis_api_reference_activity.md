@@ -16,7 +16,7 @@ After completing the [API reference tutorial](docapis_api_reference_tutorial_ove
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Next steps
 

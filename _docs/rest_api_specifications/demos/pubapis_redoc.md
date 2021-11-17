@@ -16,7 +16,7 @@ Redocly offers robust tools for authoring and publishing API docs using the comm
 
 {% include content/activities/create_redoc_display.md %}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 {: .note2}
 

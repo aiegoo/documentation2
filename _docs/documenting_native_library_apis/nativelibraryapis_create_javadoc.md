@@ -78,7 +78,7 @@ Javadoc also checks your tags against the actual code. If you have parameters, e
 
 Try removing a parameter from a method and generate the Javadoc again. Make sure the console window is open so you can see the error warnings.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Auto-building the Javadoc
 

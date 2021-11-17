@@ -37,7 +37,7 @@ I recorded part of a more recent API workshop held in Los Angeles here:
 
 See the [event details](https://idratherbewriting.com/blog/upcoming-webinar-trends-api-docs-differ-from-other-trends/) for more info.
 
-{% include image_ad_left.html %}
+{: .note3}
 
 ## Raleigh workshop recording
 

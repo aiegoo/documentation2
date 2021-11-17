@@ -20,7 +20,7 @@ Here I include a short demo of how Stoplight renders the OpenAPIWeatherMap OpenA
 
 {: .note2}
 
-{% include image_ad_right.html %}
+{: .note3}
 
 This sample API doesn't include many endpoints, so it might be more instructive to see some other samples of Stoplight listed on their [Case Studies page](https://stoplight.io/case-studies/). For more direct links to the documentation mentioned in case studies, explore the following:
 

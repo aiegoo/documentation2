@@ -77,7 +77,7 @@ Admittedly, the Markdown format is easy to use but also susceptible to error, es
 
 You can integrate Jekyll into platforms such as GitHub Pages or CloudCannon to create continuous delivery publishing. Continuous delivery means that when you commit a change to your Git repo, the server automatically rebuilds your Jekyll site.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 [GitHub Pages](pubapis_hosting_and_deployment.html#github_pages) is free and is what I use for my blog and this API docs site. But CloudCannon provides more features that might be needed by the enterprise. So let's follow an example in publishing in [CloudCannon](https://cloudcannon.com/), which describes itself as the "The Cloud CMS for Jekyll."
 

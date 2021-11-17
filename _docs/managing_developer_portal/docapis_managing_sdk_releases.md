@@ -131,7 +131,7 @@ Version numbering should follow a consistent pattern for the organization (or at
 
 The release of any SDK should include release notes indicating what has changed. Release notes can indicate whether the release is backwards compatible or the extent of support/compatibility for intended devices for each version. For example, if the latest version creates breaking changes with previous versions, this needs to be called out in the release notes. If the latest version is compatible with all previous versions (a best practice), you might note this as well.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 What exactly does backwards compatibility mean? Suppose version 2.1 of an SDK has a class called ACME that developers have implemented in their projects. Version 3 presumably wouldn't change ACME in a way that would break the code that developers implemented with version 2.1. If Version 3 does break previous implementations, this is sometimes called a "breaking change." Breaking changes should be called out prominently in release notes. The release notes should indicate how to handle the upgrade (for example, maybe you'll need to flush the cache of existing implementations).
 

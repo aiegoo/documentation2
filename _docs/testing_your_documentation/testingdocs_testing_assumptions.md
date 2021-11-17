@@ -59,7 +59,7 @@ When there are editors for a team, the editors usually play a style-only role, c
 
 While conforming to the same style guide is important, it's not as important as having someone actually test the instructions. Users can overlook poor speech and grammar &mdash; blogs and YouTube are proof of that. But users can't overlook instructions that don't work, that don't accurately describe the real steps and challenges the user faces.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 I haven't had an editor for years. In fact, the only time I've ever had an editor was at my first tech writing job, where we had a dozen writers. The editor focused mostly on style.
 

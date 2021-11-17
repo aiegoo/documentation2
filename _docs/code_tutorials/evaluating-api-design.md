@@ -103,7 +103,7 @@ Enums (a list of allowed values) are often written in full caps (`RESOURCEID`), 
 
 For example, in the [Microsoft API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#710-response-formats), the guide notes that "JSON property names SHOULD be camelCased." Additionally, "Services SHOULD provide JSON as the default encoding."
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Note that it might not always be feasible to implement changes you recommend if your API is already live. If developers push out endpoints with inconsistent parameter names, and developers adopt and implement these APIs, changing the parameter names can cause breaking changes for the implementations.
 

@@ -196,7 +196,7 @@ When you load the page and click the button, the following should appear:
 
 You can view the file <a href="https://idratherbewriting.com/learnapidoc/assets/files/wind-openweathermap.html">idratherbewriting.com/learnapidoc/assets/files/wind-openweathermap.html</a>.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Next section
 

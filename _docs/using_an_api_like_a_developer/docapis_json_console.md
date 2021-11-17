@@ -54,7 +54,7 @@ var settings = {
 }
 ```
 
-{% include image_ad_right.html %}
+{: .note3}
 
 Each of the allowed key-value pairs is defined in [jQuery's ajax documentation](http://api.jquery.com/jquery.ajax/#jQuery-ajax-settings).
 

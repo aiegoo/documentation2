@@ -27,7 +27,7 @@ Why does this hybrid individual not exist? In part, it's because the more a pers
 
 This mental transformation is both good and bad &mdash; good because other engineers in the same computer mindset may better understand you, but bad because anyone who doesn't inhabit that perspective and terminology will already be somewhat lost.
 
-{% include image_ad_right.html %}
+{: .note3}
 
 ## Writers who learned to program
 
