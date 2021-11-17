@@ -4,8 +4,8 @@ language: english
 sidebar: docapis
 
 # Link to home
-url: https://idratherbewriting.com
-baseurl: /learnapidoc
+url: aiegoo.github.io
+baseurl: /documentation2
 
 destination: _site
 port: 4000
@@ -99,20 +99,20 @@ tagline: A guide for technical writers and engineers learning how to document AP
 description: Online course about creating API documentation, mostly focusing on REST APIs but covering strategies for developer documentation in general. Includes sections on what an API is, API reference documentation, OpenAPI specification and Swagger, docs-as-code publishing and workflows, conceptual topics, tutorials, API documentation jobs, and more.
 url: https://idratherbewriting.com
 author:
-  twitter: tomjohnson
+  twitter: tonyleekorea
 twitter:
-  username: tomjohnson
+  username: tonyleekorea
   card: summary
 
 logo: https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/idratherbewriting-site-logo.png
 
 social:
-  name: Tom Johnson
+  name: tonyleekorea
   links:
-    - https://twitter.com/tomjohnson
-    - https://www.facebook.com/tomidbw
-    - https://www.linkedin.com/in/tomjoht/
-    - https://github.com/tomjoht
+    - https://twitter.com/tonyleekorea
+    - https://www.facebook.com/yogaman
+    - https://www.linkedin.com/in/tonyleekorea/
+    - https://github.com/aiegoo
 
 facebook:
   app_id: 247143161970549
