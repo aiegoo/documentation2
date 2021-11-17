@@ -20,7 +20,7 @@ The API overview explains what you can do with the API, including the high-level
 
 Too often with API documentation (perhaps because the content is often written by developers), the documentation gets quickly mired in technical details without ever explaining clearly what the API is used for. Don't lose sight of the overall purpose and business goals of your API by getting lost in the endpoints.
 
-{% include random_ad3.html %}
+{: .note2}
 
 The API overview grounds users with a high-level understanding of the system. This high-level understanding is critical in order to grasp the system as a whole. It allows the details to fit into a broader conceptual framework.
 
@@ -33,7 +33,7 @@ For more details on the importance of high-level overviews, see [Reduction, laye
 
 In the overview, list some common business scenarios in which the API might be useful. These scenarios will give users the context they need to evaluate whether the API is relevant to their needs.
 
-{% include random_ad.html %}
+{: .note2}
 
 Keep in mind that there are thousands of APIs. If people are browsing your API, their first and most pressing question is, what information does it return? Is this information relevant and useful to my needs?
 
@@ -81,4 +81,4 @@ With the [open-source project you identified](docapis_find_open_source_project.h
 4. What questions do you still have about the API after reading the overview?
 5. How does the overview transition into a getting started tutorial or other first steps with the API?
 
-{% include random_ad2.html %}
+{: .note2}

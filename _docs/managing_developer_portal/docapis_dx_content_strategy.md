@@ -21,7 +21,7 @@ If organizations don't have any DX content strategists dedicated to their growin
 
 Finding the right content on an internal wiki is a constant challenge, and there's no consistency from one page to the next. In the wiki model, teams create docs during their times of need and abandon them when their teams or priorities change. The result is a mishmash of fragmented, often unowned content.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Because documentation for external developers is a high priority, it shouldn't befall the same fate as content on internal wikis. In the [State of API 2019 report](https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf), Smartbear found that "accurate and detailed documentation" ranked third in priority (just below "ease of use" and "responsiveness/performance") from 15 ranking factors in an API experience. You can't achieve a high level of content quality without playing a more strategic role with the content and expanding beyond the individual contributor model. Individual contributors are usually focused on docs for a current project only and rarely have bandwidth to expand their concerns at a broader, more encompassing level across the developer portal.
 
@@ -29,7 +29,7 @@ Additionally, the individual contributor model doesn't scale for the typical eng
 
 To elevate contributor contributions to any standard, you have to equip contributors with easy tools, simple markup, fill-in-the-blank templates, clear standards, careful feedback, immediate tools support, and other information and tooling for their effort. You can't do this if you're an individual contributor fully dedicated to three or more full-time projects &mdash; often without enough time to finish, let alone teaching and helping other contributors.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Overall, the DX content strategist provides the mechanism to elevate the content in ways that improve the developer experience on the portal. As a strategist, this elevation of content doesn't come from creating better content yourself but rather from all the meta-activities you do around content development and publishing. At a high level, these meta content-development activities might include the following:
 
@@ -185,7 +185,7 @@ The following sections expand in more specific ways on the roles, tasks, and nee
 
 Reading through these tasks is probably overwhelming, but my purpose is to demonstrate the need for these activities outside of content development. All too often, people assume that technical writers merely "write docs" and don't understand that there's a large body of work involved in managing a developing portal that doesn't include writing content. These tasks try to answer the question, "what else do technical writers do besides write docs?" When you allocate resources for DX content strategists, they can help build a healthy developer portal so that users can easily find and consume accurate, relevant content that addresses their needs.
 
-{% include random_ad.html %}
+{: .note2}
 
 It's not always feasible to have a dedicated person fill the DX content strategist role. Many times different technical writers and managers will play the role in varying degrees. However, it's good to have these tasks be part of an official role rather than an add-on to individual contributor role whose primary job is creating docs. Unless these tasks fall under someone's official title, they are likely to be overlooked. This creates more burden on writers to figure out their own tools, processes, and other details.
 

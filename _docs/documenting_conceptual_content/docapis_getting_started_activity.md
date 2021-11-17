@@ -10,10 +10,10 @@ path1: /docendpoints.html
 
 {% include content/activities/getting_started_tutorial.md %}
 
-{% include random_ad.html %}
+{: .note2}
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% include random_ad3.html %}
+{: .note2}
 
 {% include image_ad_left.html %}

@@ -102,7 +102,7 @@ These data types are the most common with REST APIs:
 {: .note}
 There are more data types in programming, and if you have more specific data types that are important to note, be sure to document them. In Java, for example, it's important to note the data type allowed because Java allocates memory space based on the size of the data. As such, Java gets much more specific about the size of the numbers. You have a byte, short, int, double, long, float, char, boolean, and so on. However, you usually don't have to specify this level of detail with a REST API.
 
-{% include random_ad.html %}
+{: .note2}
 
 ### Max and min values for parameters {#max_min_values}
 
@@ -126,7 +126,7 @@ Header parameters are included in the request header. Usually, the header just i
 
 However, if your endpoint requires unique parameters to be passed in the header, you would document them in the parameters documentation within each endpoint.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Path parameters {#path_parameters}
 
@@ -186,7 +186,7 @@ You could then use the same color for these parameters in later descriptions:
 
 By color coding the parameters, it's easy to see the parameter being defined and how it relates to the endpoint definition.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Query string parameters {#query_string_parameters}
 

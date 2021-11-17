@@ -76,7 +76,7 @@ A lot of APIs require you to post requests containing JSON messages in the body.
 
     In the response, check to see that your pet's name was returned.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Update your pet
 
@@ -155,7 +155,7 @@ This example allowed you to see how you can work with curl to create, read, upda
 
 Although Postman is probably easier to use, curl lends itself to power-level usage. Quality assurance teams often construct advanced test scenarios that iterate through a lot of curl requests.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Understanding idempotent methods
 
@@ -217,4 +217,4 @@ You can also export Postman to curl by doing the following:
 
     Through Postman's Import and Code functionality, you can easily switch between Postman and curl.
 
-{% include random_ad.html %}
+{: .note2}

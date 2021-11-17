@@ -130,7 +130,7 @@ Break. Snacks provided.
 
 {% include workshop_button.html title="Activity 8c: Push local changes to the remote" activity="push_local_to_remote" button_type="warning" %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## 4:00 - 4:30: Participant's challenges surfaced and discussed
 
@@ -144,7 +144,7 @@ During this time, I'd like to have participants surface specific challenges that
 
 {% include workshop_button.html title="Jeopardy: Test your knowledge" activity="jeopardy_questions" button_type="info" %}
 
-{% include random_ad.html %}
+{: .note2}
 
 
 ## 5:00 - 5:30pm: Individual consulting
@@ -157,7 +157,7 @@ The general workshop ends and we transition into any individual consulting as de
 
 At the close of the workshop, please take this [review survey](https://www.questionpro.com/t/AOaGwZgMcu). Thanks.
 
-{% include random_ad2.html %}
+{: .note2}
 
 
 <style>

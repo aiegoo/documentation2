@@ -32,7 +32,7 @@ externalDocs:
   url: https://openweathermap.org/api
 ```
 
-{% include random_ad3.html %}
+{: .note2}
 
 Note that this documentation should relate to the API as a whole. To link a specific parameter to more documentation, you can add an `externalDocs` object to the operation object, as noted in [Operation objects](pubapis_openapi_step4_paths_object.html#operation-objects) section in Step 4: The paths object.
 
@@ -49,7 +49,7 @@ When you do, in the Swagger UI, a link appears after the API description along w
 {: .tip}
 At this point, you can probably anticipate some challenges with integrating Swagger UI with the rest of your documentation. It seems that you will likely have two outputs and a semi-fragmented user experience. The `externalDocs` object at least gives you a predictable place to link back to your other [conceptual topics](docconceptual.html). See [Integrating Swagger UI with the rest of your docs](pubapis_combine_swagger_and_guide.html) for more information on integration strategies.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> Seeing the finished result
 
@@ -66,6 +66,6 @@ Try executing a request in the version above and look at the result. In the resu
 {: .tip}
 You can insert any valid path to an OpenAPI specification document in the "Explore" box in Swagger UI (assuming the version of Swagger UI supports your OpenAPI version), and it will display the API documentation. For example, you could insert `https://petstore.swagger.io/v2/swagger.json` (then click **Explore**) and it would show the Petstore API.
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include image_ad_left.html %}

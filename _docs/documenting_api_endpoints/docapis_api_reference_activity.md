@@ -14,7 +14,7 @@ After completing the [API reference tutorial](docapis_api_reference_tutorial_ove
 
 {% include content/activities/evaluate_elements_api_ref.md %}
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include image_ad_right.html %}
 
@@ -22,8 +22,8 @@ After completing the [API reference tutorial](docapis_api_reference_tutorial_ove
 
 Now that you understand the essential sections to cover in documenting API endpoints, let's look at standardized approaches for describing these sections, primarily with the [Overview of REST API specification formats](pubapis_rest_specification_formats.html).
 
-{% include random_ad2.html %}
+{: .note2}
 
 The OpenAPI standard will help make sure you cover all the necessary details in these sections, and it will present the information to users in a way that users have become accustomed to.
 
-{% include random_ad3.html %}
+{: .note2}

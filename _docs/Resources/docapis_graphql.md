@@ -32,7 +32,7 @@ GraphQL was released to the public in 2015 as an open-source project by Facebook
 
 Note: The Open API specification is also [hosted by the Linux Foundation](https://www.openapis.org/about).
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Growth
 
@@ -48,7 +48,7 @@ And, take a look at Google Trends:
 
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1845_RC02/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"graphql","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=graphql","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## What is GraphQL?
 
@@ -132,7 +132,7 @@ On the Codeship blog, [Chris writes](https://blog.codeship.com/documenting-graph
 
 So, we see that this is an interesting point. The different perspectives he is talking about is looking at the endpoints with REST vs looking at the data itself with GraphQL (i.e., exactly what is requested).
 
-{% include random_ad3.html %}
+{: .note2}
 
 Chris then explains what documentation is needed for GraphQL and why it’s needed:
 

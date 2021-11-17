@@ -42,7 +42,7 @@ In other words, the articles and tutorials complement the reference documentatio
 
 Additionally, even if including code samples, the level of detail and explanation is also somewhat debatable. Many developers assume that the developer audience has a skill set similar to their own, without recognizing different developer specializations. And so they will add a code sample but not give any explanation about it. Internal developers will often say, "If the user doesn't understand this code, he or she shouldn't be using our API."
 
-{% include random_ad3.html %}
+{: .note2}
 
 If you encounter this attitude, remind developers that users often have technical talent in different areas. For example, a user might be an expert in Java but only mildly familiar with JavaScript. Someone who is a database programmer will have a different skill set than someone who is a Python programmer, who will have a different skill set from a front-end web development engineer, and so on. Given these differences and the likely possibility that you will have many novice (or unfamiliar) users, more extensive code tutorials and explanations are warranted.
 
@@ -50,7 +50,7 @@ If you encounter this attitude, remind developers that users often have technica
 
 Once you have code samples in your documentation, the next question is how to document them. User interfaces have clear tasks &mdash; buttons to click, linear workflows, etc. But documenting code can be more of a conundrum. Remember this basic principle: In any code sample, focus your explanation on the *why*, not the *what*. Explain why you're doing what you're doing, not the detailed play-by-play of what's going on, especially when the *what* refers more to standard programming mechanics that aren't unique to your API.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Here's an example of the difference:
 
@@ -78,7 +78,7 @@ For more research on how to document code, see "When Not to Comment: Questions a
 
 Overall, not every programmer reads code the same way. But based on the research, it's a good idea to include comments directly in the code as well as more formal explanations outside the code. If developers give you a chunk of code that has comments peppered throughout, don't assume that the code comments are somehow separate from documentation or outside your stewardship as a technical writer. Think of comments in code as the equivalent of context-sensitive help in a user interface &mdash; in many ways, this might be the most read content of all.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Keep code samples simple
 

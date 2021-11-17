@@ -27,7 +27,7 @@ If you want a condensed version of videos 1-5, see this one-hour version that co
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/5pzhtrrtkXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Most recent video (LA workshop)
 
@@ -49,7 +49,7 @@ See the [event details](https://idratherbewriting.com/blog/upcoming-webinar-tren
 
 <iframe width="640" height="385" src="https://www.youtube.com/embed/L4YFlSB8STI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% include random_ad3.html %}
+{: .note2}
 
 ### Video 3 (Raleigh workshop)
 
@@ -82,7 +82,7 @@ Video 3 of 5:
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/raleighapidoc/apiworkshopvid3.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Video 4 of 5:
 <div class="audioControls">

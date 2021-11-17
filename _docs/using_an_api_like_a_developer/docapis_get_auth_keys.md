@@ -26,7 +26,7 @@ Requiring authorization allows API publishers to do the following:
 
 To run the code samples in this course, you will need to use your own API keys, since these keys are usually treated like passwords and not given out or published openly on a web page.
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include content/activities/get_authorization_keys.md %}
 
@@ -45,14 +45,14 @@ Now for contrast, let's get the keys for the Aeris Weather API. The Aeris Weathe
 6.  In the Add a New Application dialog box, enter the following:
     * **Application Name**: My biking app (or something)
     * **Application Namespace**: localhost
-7.  Click **Save App**.  
+7.  Click **Save App**.
 
 After registering your app, you should see an ID, secret, and namespace for the app. Copy this information into a place you can easily access since you'll need it to make requests.
 
 {: .tip}
 Keep in mind how users authorize calls with an API &mdash; this is something you usually cover in API documentation. Later in the course, we will dive into [authorization methods](docapis_more_about_authorization.html) in more detail.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Make sure you have a text editor
 
@@ -68,4 +68,4 @@ Keep in mind how users authorize calls with an API &mdash; this is something you
 
 These editors provide features that let you better manage the text. Choose the one you want. (My preference is to use Sublime Text when I'm working with independent code samples, and Atom when I'm working with Jekyll projects.) Avoid using TextEdit since it adds some formatting behind the scenes that can corrupt your content.
 
-{% include random_ad3.html %}
+{: .note2}

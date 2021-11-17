@@ -32,7 +32,7 @@ Almost all API reference topics include these five sections:
 [5. Response example and schema](docapis_doc_sample_responses_and_schema.html)
 : {{site.data.glossary.response_example_and_schema.def | split: "." | first | append: "." }}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Tutorial workflow map
 
@@ -47,7 +47,7 @@ The tutorial here includes a workflow map to help guide and orient you each step
 
 ## After the tutorial
 
-{% include random_ad2.html %}
+{: .note2}
 
 When we're finished, the end result will look like a real API help topic (see the finished result in [Putting it all together](docapis_finished_doc_result.html)). In the associated activities, you'll have an opportunity to [edit or create an API reference topic](docapis_api_reference_activity.html) with your own [open-source API project](docapis_find_open_source_project.html).
 
@@ -56,7 +56,7 @@ When we're finished, the end result will look like a real API help topic (see th
 {: .note}
 Although there are automated ways to publish API docs, we're focusing on content rather than tools in this section. In the next section, [OpenAPI spec and generated reference docs](restapispecifications.html), we'll look at how to describe these same reference components using the OpenAPI specification. In the [Publishing your API documentation section](publishingapis.html), we'll look at ways to publish the information.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Next steps
 

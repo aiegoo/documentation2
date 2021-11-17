@@ -23,7 +23,7 @@ Engineers will throw a quick description of a class in a file and generate a [Ja
 
 >… auto-generated documentation is worse than useless: it lets maintainers fool themselves into thinking they have documentation, thus putting off actually writing good reference by hand. If you don't have documentation just admit to it. Maybe a volunteer will offer to write some! But don't lie and give me that auto-documentation crap. – Jacob Kaplan Moss
 
-{% include random_ad.html %}
+{: .note2}
 
 Other people seem to have similar opinions. In general, document generators don't tell you a whole lot more than you would discover by browsing the source code itself. Some people even refer to auto-generated docs as a glorified source-code browser.
 
@@ -33,8 +33,8 @@ Other people seem to have similar opinions. In general, document generators don'
 
 One of the main problems with reference documentation is that it is feature-based rather than task-based. It's the equivalent of going tab-by-tab through an interface and describing what's on each tab, what's in each menu, and so on. We know that's an ineffective way to approach documentation since users often organize their mental model by the tasks they want to perform.
 
-{% include random_ad2.html %}
+{: .note2}
 
 When you write API documentation, consider the tasks that users will want to do, and then organize your information that way. Reference the endpoints as you explain how to accomplish the tasks. Users will refer to the reference docs as they look for the right parameters, data types, and other class details. But the reference docs won't guide them through tasks alone.
 
-{% include random_ad3.html %}
+{: .note2}

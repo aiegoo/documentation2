@@ -21,7 +21,7 @@ Among other services, Stoplight provides visual modeling tools to create an Open
 
 Before jumping into details, let me provide some background about why I think Stoplight is a valuable tool, and why I've both listed it in this course and created an [activity for using Stoplight](pubapis_openapis_quickstart_stoplight.html). At the [2018 TC Camp conference](http://www.tccamp.org/) in Santa Clara, the camp organizers put on a full-day API workshop focused on OpenAPI and Swagger. I was excited to see this topic addressed in a workshop because I think coding the spec is both the most complicated and most important part of API documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 I didn't attend the workshop myself, but I was chatting with a few who did. One attendee was a little frustrated that they spent *so much time in [YAML](pubapis_yaml.html)* working on different parts of the [OpenAPI spec definition](pubapis_openapi_tutorial_overview.html). He said they spent most of the day in YAML, and it was frustrating, tedious, and boring. For this participant, this isn't what he imagined when he signed up to learn how to create interactive API docs.
 
@@ -101,7 +101,7 @@ In a design-first model, technical writers can also insert themselves early in o
 
 In addition to putting the OpenAPI specification at the center of the API lifecycle process, Stoplight has some other features of particular interest to technical writers. Stoplight offers a hosted docs solution, where you can integrate your conceptual content (the tutorials, guides, and other how-to's) with the reference API docs. Here's a sample page from Stoplight for a product called [Shopgate](https://developer.shopgate.com/).
 
-{% include random_ad3.html %}
+{: .note2}
 
 {% include course_image.html url="https://developer.shopgate.com/references/cart-integration/merchant-api/order/get-orders"   filename="shopgate" ext_print="png" ext_web="png" alt="Sample page from the Shopgate Developer Center, which uses Stoplight to generate their API documentation" caption="Sample page from the Shopgate Developer Center, which uses Stoplight to generate their API documentation" %}
 
@@ -109,7 +109,7 @@ Note that you can integrate your reference and conceptual documentation in Stopl
 
 Stoplight also allows you to create variables to use in *both* your specification and your how-to docs. Stoplight plans to take re-use one step further by allowing re-use of your [spec's component definitions](pubapis_openapi_step5_components_object.html) in your [conceptual documentation](docconceptual.html) as well. (But this feature is still forthcoming.)
 
-{% include random_ad.html %}
+{: .note2}
 
 Although I generally like working directly in the code, I've found that Stoplight lets me focus more on the content and less on the details of the spec's format. Ideally, you can probably get developers and other project team members to populate reference content in Stoplight themselves since this is an activity that needs to happen much earlier in the API design process anyway.
 

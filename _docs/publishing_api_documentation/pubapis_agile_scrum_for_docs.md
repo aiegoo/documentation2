@@ -85,7 +85,7 @@ If it doesn't make sense to join an engineering scrum, you can create your own s
 
    6.  *Collect feedback post-release*. After you publish the documentation, embed a Feedback button directly in your docs to collect additional feedback from customers in an ongoing way. This incoming feedback trickles in and might not contain significant or actionable information, but customers should have some way of relaying their feedback. As a tech writer, I want to know if there is some major issue with docs so that I can fix them.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Conclusion
 
@@ -93,7 +93,7 @@ Without a process for managing tech docs, projects might arrive from seemingly a
 
 By implementing a more formal process and methodology for managing tech doc projects (specifically, an adaptation of Scrum), you can avoid this scenario. Additionally, managing and tracking projects this way gives each team member greater visibility and accountability towards the work of documentation.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Additional resources
 

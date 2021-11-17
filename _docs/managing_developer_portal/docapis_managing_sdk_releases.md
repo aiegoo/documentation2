@@ -119,7 +119,7 @@ Most developers expect the Readme to have detailed information, and it might mak
 
 But to avoid duplicating information in multiple places online (between the Readme and your main documentation), as long as you provide summaries plus links of the expected information, this should satisfy developer needs. Keeping the bulk of your information in your main documentation (rather than duplicating it in the Readme) also makes it easier to update your docs (since presumably you can update your documentation pages dynamically but might require engineering involvement to update the Readme).
 
-{% include random_ad.html %}
+{: .note2}
 
 ### Version Information
 
@@ -149,7 +149,7 @@ Now that we've covered requirements about the SDK content itself, the next quest
 
 Your organization might already have a file storage and distribution in place (such as storing the files on S3 or some other web server). However, SDKs tend to have some common distribution sites that you should be aware of.
 
-{% include random_ad2.html %}
+{: .note2}
 
 For Java, the SDK will usually include a JAR file; for Android, the SDK often includes an AAR file. C++ might include a DLL. These are binaries that developers will download and incorporate into their projects. Rather than manually downloading the files, developers can automatically pull from online repositories to dynamically include the files when they build their projects.
 
@@ -167,7 +167,7 @@ Many SDKs have a [sample app](docapis_sample_apps.html) that demonstrates integr
 
 Releasing your project on GitHub doesn't require the code to be open source, but the project source must be viewable. (You can't just upload a compiled binary onto GitHub.) You probably can't freely create a new GitHub repo on your own in your organization, but you can instruct engineering teams to do so following any outlined corporate processes. Many times engineering groups have organizations and teams already set up in GitHub and standard processes for pushing out code.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Keep in mind that distributing code on GitHub entails some support for the code. For example, if users log issues about bugs, who will respond? Will it be important to track the number of stars and follows for the repo? Who will be the one who actually pushes the code into the repo? You want engineering teams to own this process not because it's technically difficult to push code to GitHub, but because you want them to feel a sense of ownership and commitment for the code there. If the tech writers handle all aspects of the GitHub repo, tech writers end up playing support roles in responding to issues and handling other administrative details. The flip side of managing the GitHub repo, though, is that engineering teams are less likely to push out changes without going through you.
 

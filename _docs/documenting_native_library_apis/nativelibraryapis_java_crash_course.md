@@ -27,7 +27,7 @@ Classes are templates or blueprints that drive pretty much everything in Java. I
 
 In Java, you start by defining classes. Each class is its own file and begins with a capital letter. The file name matches the class name, which means you have just one class per file.
 
-{% include random_ad.html %}
+{: .note2}
 
 Each class can contain some fields (variables for the class) and methods (subroutines the class can do).
 
@@ -87,7 +87,7 @@ class Bicycle {
 
 See how the `brake` method accepts two arguments &mdash; `force` and `weight`. These arguments are integers, so Java expects whole numbers here. (You must specify the data type before the parameters in the method.) The arguments passed into this method are used to calculate the `torque`. The `torque` is then returned to the caller.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Java has different types of methods. *Instance* methods can only be used from objects instantiated from the class. *Static* methods can be used directly from the class without instantiating an object first. *Abstract* methods can only be used through subclasses.
 
@@ -213,7 +213,7 @@ Maven handles package management for Java projects. Maven will automatically go 
 
 To avoid broken code, developers anticipate potential problems through exception handling. Exceptions say, if there's an issue here, flag the error with this exception and then continue through the code.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Different types of errors throw different exceptions. By identifying the type of exception thrown, you can more easily troubleshoot problems when code breaks because you know the specific error that's happening.
 

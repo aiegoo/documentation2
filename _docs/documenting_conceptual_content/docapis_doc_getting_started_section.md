@@ -41,7 +41,7 @@ Put a link to your Getting Started tutorial on your documentation homepage. Make
 
 ## Run in Postman button {#runinpostmanbutton}
 
-In your Getting Started tutorial, consider including a Run in Postman button. (Postman is a REST API GUI client that we explored earlier in [Submit requests through Postman](docapis_postman.html).) If you have your [API endpoints integrated with Postman](docapis_postman.html), you can export your Postman collections as a widget to embed in an HTML page.  
+In your Getting Started tutorial, consider including a Run in Postman button. (Postman is a REST API GUI client that we explored earlier in [Submit requests through Postman](docapis_postman.html).) If you have your [API endpoints integrated with Postman](docapis_postman.html), you can export your Postman collections as a widget to embed in an HTML page.
 
 The [Run in Postman button](https://www.getpostman.com/integrations/run-button) provides a button that, when clicked, imports your API info into Postman so users can run calls using the Postman client. As such, the Run in Postman button provides a way to import the interactive, try-it-out API explorer for your endpoints into a web page.
 
@@ -79,7 +79,7 @@ When you click the button, you should be prompted to open the collection in a Po
 
 [Postman](docapis_postman.html) provides a powerful REST API client that many developers are familiar with. It allows users to customize the API key and parameters and save those values. Although Postman doesn't provide the in-browser experience to try out calls as with [Swagger UI](pubapis_swagger_demo.html), in many ways the Postman client is more useful because it lets users configure and save the calls they make. Postman is what internal developers often use to save and store API calls as they test and explore the functionality.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Especially if your users are already familiar with Postman, Run in Postman is a good option to provide (especially as one option of many for users to try out your API) because it allows users to easily generate the needed code to make requests in practically any language. It gives users a jumping off point where they can build on your information to create more detailed and customized calls.
 
@@ -127,7 +127,7 @@ The Aeris weather getting started provides information for setting up an applica
 
 The Watson and IBM Cloud getting started tutorial lists three steps. It's not an end-to-end getting started tutorial, though. It just gets the user started in selecting a service for your project. At the end, you start to code using the Watson Dashboard. Ideally, a getting started tutorial should help a user see some tangible output, but whether that's possible or not depends on your API.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> Activity with getting started tutorials
 
@@ -139,4 +139,4 @@ With the [open-source project you identified](docapis_find_open_source_project.h
 4. How long does the getting started tutorial take to complete?
 5. In an attempt to simplify the instruction and keep it brief, does the documentation make assumptions about your technical level and familiarity with the domain?
 
-{% include random_ad3.html %}
+{: .note2}

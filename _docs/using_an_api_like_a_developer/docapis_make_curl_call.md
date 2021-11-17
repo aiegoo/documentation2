@@ -18,7 +18,7 @@ In this section, you'll use curl to make the same weather API requests you made 
 
 {% include content/activities/make_curl_request.md %}
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include image_ad_right.html %}
 
@@ -26,7 +26,7 @@ In this section, you'll use curl to make the same weather API requests you made 
 
 If you're using Windows to submit a lot of curl requests, and the curl requests require you to submit JSON in the [request body](docapis_doc_parameters.html#request_body), you might run into issues with single versus double quotes. The problem is that request body content is often formatted in JSON, which requires double quotes. Since you can't use double quotes inside of other double quotes, you'll run into issues in submitting curl requests in these scenarios.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Here's the workaround. If you have to submit body content in JSON, you can store the content in a JSON file. Then you reference the file with an `@` symbol, like this:
 
@@ -36,4 +36,4 @@ curl -H "Content-Type: application/json" -H "Authorization: 123" -X POST -d @myp
 
 Here curl will look in the existing directory for the `mypostbody.json` file. (You can also reference the complete path to the JSON file on your machine.)
 
-{% include random_ad3.html %}
+{: .note2}

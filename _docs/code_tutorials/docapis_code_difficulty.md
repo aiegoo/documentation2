@@ -59,7 +59,7 @@ Additionally, we're not documenting basics &mdash; we're documenting how to impl
 
 Another challenge is making sure the code samples work from release to release. I pasted in the full Lambda code to provide context, but within a couple of weeks, I tweaked the code sample a bit. I then had to update the Lambda code as well as my section-by-section explanations. If you have dozens of code samples spread throughout your docs, maintaining this code from release to release will be arduous. How do you ensure it works? Do you separate the code from narrative context so that it can be more regularly tested?
 
-{% include random_ad3.html %}
+{: .note2}
 
 Separating the code to enable testing sounds like a good idea, but as soon as you separate code from the conceptual explanation, you risk the possibility that someone will update the code in such a way that it no longer matches the explanation.
 
@@ -69,7 +69,7 @@ Finally, I should note that when I document code, I feel a bit like an outsider 
 
 An efficient technique in code (e.g., recursive loops that expand resources as needed) can be beautiful, evoking an aesthetic in the engineer's mind. In my perspective as a technical writer, it's unlikely that I'll approach code with the same reverence and awe. My more mundane approach to code might make it difficult to resonate with developer users.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## The importance of code documentation
 
@@ -87,7 +87,7 @@ Why do engineers so frequently say they want code? Code examples show how to imp
 
 Despite the importance of code samples, they're often neglected or missing from API docs. After all, it's much easier to just cover reference material and let developers figure out how to actually use it constructively. In this section of my API course, I'll provide concrete strategies for successfully incorporating code samples into your documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Next topic
 

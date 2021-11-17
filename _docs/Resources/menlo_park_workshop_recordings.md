@@ -21,7 +21,7 @@ This content doesn't embed well in print, as it contains YouTube videos. Please 
 
 {% include note.html content="For the most recent workshop recording, see the [Video recordings of API doc workshops](docapis_workshop_videos.html)." %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ### Video 1
 
@@ -31,7 +31,7 @@ This content doesn't embed well in print, as it contains YouTube videos. Please 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/FuZfob2eVb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% include random_ad.html %}
+{: .note2}
 
 ### Video 3
 
@@ -64,7 +64,7 @@ Video 3 of 5:
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/menloapidoc/apidocvideo3.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Video 4 of 5:
 <div class="audioControls">

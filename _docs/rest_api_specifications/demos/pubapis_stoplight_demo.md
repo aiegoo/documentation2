@@ -18,7 +18,7 @@ Here I include a short demo of how Stoplight renders the OpenAPIWeatherMap OpenA
 
 {% include course_image.html url="https://stoplight.io/p/docs/gh/tomjoht/stoplight_studio_weathermap/reference/openweathermap.v1.yaml/paths/~1weather/get?srn=gh/tomjoht/stoplight_studio_weathermap/reference/openweathermap.v1.yaml/paths/~1weather/get" size="large" border="true" filename="stoplight_output_full_display" ext_print="png" ext_web="png" alt="Full display of Stoplight output" caption="Full display of Stoplight output" %}
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include image_ad_right.html %}
 
@@ -31,8 +31,8 @@ This sample API doesn't include many endpoints, so it might be more instructive 
 * [BigCommerce API docs](https://developer.bigcommerce.com/api-docs)
 * [Namely API docs](https://developers.namely.com/1.0/getting-started/introduction)
 
-{% include random_ad3.html %}
+{: .note2}
 
 Note that Stoplight lets you mix both the API reference documentation along with the conceptual content, so it provides a more seamless experience across all of your documentation.
 
-{% include random_ad2.html %}
+{: .note2}

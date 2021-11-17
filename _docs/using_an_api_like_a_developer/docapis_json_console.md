@@ -18,7 +18,7 @@ Seeing the response from curl or Postman is cool, but how do you make use of the
 
 {% include content/activities/ajax_api_request.md %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## The AJAX method from jQuery
 
@@ -62,7 +62,7 @@ Some important values are the `url`, which is the URI or endpoint you are submit
 
 Look at the code sample you created. The `settings` variable is passed in as the argument to the `ajax` method. jQuery makes the request to the HTTP URL asynchronously, which means it won't hang up your computer while you wait for the response. You can continue using your application while the request executes.
 
-{% include random_ad2.html %}
+{: .note2}
 
 You get the response by calling the method `done`.
 
@@ -90,7 +90,7 @@ console.log(response);
 
 Logging responses to the console can be a useful way to test whether an API response is working (it's also helpful for debugging or troubleshooting your code). The console collapses each object inside an expandable section. You can inspect the payload in the console to see if contains the values you expect (without printing values to the page).
 
-{% include random_ad.html %}
+{: .note2}
 
 {% comment %}
 You can add other information to the console log message. To preface the log message with a string, add something like this:

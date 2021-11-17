@@ -144,14 +144,14 @@ Rather than approach the topic of publishing prescriptively, let's begin with so
 
 For a directory of API documentation sites on the open web, see the [Programmableweb.com docs](http://www.programmableweb.com/apis/directory). You can browse thousands of web API docs in a variety of categories.
 
-{% include random_ad.html %}
+{: .note2}
 
 <a rel="nofollow" href="http://www.programmableweb.com/apis/directory" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/programmableweb.png" alt="Programmable web directory" /></a>
 
-{% include random_ad3.html %}
+{: .note2}
 
 Note that Programmableweb lists only open web APIs, meaning APIs that you can access on the web (which also means it's usually a REST API). They don't list the countless internal, firewalled APIs that many companies provide at a cost to paying customers. There are many more thousands of private APIs out there that most of us will never know about.
 
 {% include content/activities/api_doc_patterns.md %}
 
-{% include random_ad2.html %}
+{: .note2}

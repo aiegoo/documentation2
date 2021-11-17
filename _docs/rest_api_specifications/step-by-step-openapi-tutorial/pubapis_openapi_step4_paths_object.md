@@ -30,7 +30,7 @@ We've been moving along at about 5 mph in the previous steps but are going to sp
 {: .note}
 My preferred term is "endpoint" rather than "path," but to be consistent with the terminology of the OpenAPI spec, I use the term "paths" here.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Each item in the `path` object contains an [operation object](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#operation-object). (Operations are the GET, POST, PUT, and DELETE methods we explored in the [Endpoints section](docapis_resource_endpoints.html) of the API reference tutorial.)
 
@@ -87,7 +87,7 @@ paths:
 {: .note}
 At this point, if you paste this content into the Swagger Editor, you will get errors until some additional properties are added.
 
-{% include random_ad.html %}
+{: .note2}
 
 Now we can remove a few unnecessary fields that we don't need for our OpenWeatherMap API documentation:
 
@@ -234,7 +234,7 @@ responses:
 
 See [Describing Parameters](https://swagger.io/docs/specification/describing-parameters/) in Swagger's OpenAPI documentation for more details.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Paths object code
 

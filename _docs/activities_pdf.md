@@ -56,7 +56,7 @@ Break time
 
 ## 12:00pm - 1:00pm: Lunch
 
-Lunch. Provided in room.  
+Lunch. Provided in room.
 
 ## 1:00pm - 2:00pm: Part IV continued (OpenAPI and Swagger)
 
@@ -119,9 +119,9 @@ Optional section if time permits.
 {% include workshop_button.html title="Activity 10b: Find an open-source project" activity="find_open_source_project" button_type="success" %}
 
 
-{% include random_ad.html %}
+{: .note2}
 
-{% include random_ad2.html %}
+{: .note2}
 
 {% endif %}
 

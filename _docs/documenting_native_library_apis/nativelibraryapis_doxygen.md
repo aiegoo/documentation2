@@ -33,7 +33,7 @@ In contrast to Javadoc, Doxygen also allows you to incorporate external files wr
 
 Doxygen is maintained by a single developer and, like Javadoc, hasn't changed much over the years. In my opinion, the interface is highly dated and somewhat confusing. But C++ developers will be accustomed to it.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Integrating builds automatically
 
@@ -43,8 +43,8 @@ In a lot of developer shops, document generators are integrated into the softwar
 
 You don't need to limit yourself to either Javadoc or Doxygen. There are dozens of different document generators for a variety of languages. Just search for "document generator + {programming language}" and you'll find plenty. However, don't get very excited about this genre of tools. Document generators are somewhat old, produce static front-ends that look dated, are often written by engineers for other engineers, and not very flexible.
 
-{% include random_ad.html %}
+{: .note2}
 
 Perhaps the biggest frustration of document generators is that you can't integrate the rest of your documentation with them. You're mostly stuck with the reference doc output. You'll also need to generate your how-to guides and other tutorials, and then link to the reference doc output. As such, you won't end up with a single integrated experience of documentation. Additionally, it will be hard to create links inline within topics between the two outputs. Fragmentation of outputs is a topic I explore with more detail in [Integrating Swagger UI with the rest of your docs](pubapis_combine_swagger_and_guide.html).
 
-{% include random_ad3.html %}
+{: .note2}

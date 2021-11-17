@@ -95,7 +95,7 @@ Other APIs will nest the response definitions to imitate the JSON structure. Her
 
 Multiple levels of bullets is usually an eyesore, but here it serves a purpose that works well without requiring sophisticated styling.
 
-{% include random_ad.html %}
+{: .note2}
 
 eBay's approach is a little more unique. In this case, `MinimumAdvertisedPrice` is nested inside `DiscountPriceInfo`, which is nested in `Item`, which is nested in `ItemArray`. (Note also that this response is in XML instead of JSON.)
 
@@ -107,7 +107,7 @@ Here's the response documentation:
 
 It's also interesting how much detail eBay includes for each item. Whereas the Twitter writers appear to omit descriptions, the eBay authors write small novels describing each item in the response.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Three-column designs
 
@@ -115,7 +115,7 @@ Some APIs put the response in a right column so you can see it while also lookin
 
 <a href="https://stripe.com/docs/api#charge_object" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/stripetripanedesign.png" alt="Stripe's tri-column design" /></a>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Stripe's design juxtaposes the sample response in a right side pane with the response schema in the main window. The idea is that you can see both at the same time. The description won't always line up with the response, which might be confusing. Still, separating the response example from the response schema in separate columns helps differentiate the two.
 

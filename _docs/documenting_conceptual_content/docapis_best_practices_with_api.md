@@ -18,13 +18,13 @@ API best practices can refer to any general advice your product team wants to co
 
 Although many of the topics in API documentation are standard, there will usually be a laundry list of things to know about working with the API. You can only probably get this information by asking the developers.
 
-{% include random_ad3.html %}
+{: .note2}
 
 The list of topics might include topics such as the following: pagination, time ranges, fault tolerance, cache values, connectivity, timeouts, downtime, SSL, versions, testing and validation, exports, languages, number handling, expanding resources, notifications, CORS, localization, and more.
 
 {% include course_image.html size="medium" border="true" filename="nonref_bestpractices" ext_print="png" ext_web="svg" alt="Best practices" caption="Best practices cover a range of topics usually unique to your API" %}
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Sample API best practices
 
@@ -36,7 +36,7 @@ The following are API best practices from several API documentation sites.
 
 Mailchimp's API best practices include tips about fault tolerance, using specific requests, authentication, cache values, connectivity, and registration. With fault tolerance, Mailchimp reminds developers that outages sometimes happen, so they should plan to handle scenarios accordingly if the API doesn't respond. With specific requests, Mailchimp warns users about the time it can take if the request is too general and hence returns too much information.
 
-{% include random_ad.html %}
+{: .note2}
 
 ### Coinbase
 

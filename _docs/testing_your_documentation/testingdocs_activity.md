@@ -13,7 +13,7 @@ Now that you've read about testing, it's time to get some more hands-on practice
 * TOC
 {:toc}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Test a topic
 
@@ -29,7 +29,7 @@ Now that you've read about testing, it's time to get some more hands-on practice
 
 3.  If you found information that was incorrect, either log an issue or reach out to the QA lead with the feedback.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Find out test details
 
@@ -45,4 +45,4 @@ Find answers to the following questions:
 * What kind of testing does the team do before a release?
 * If you encounter a bug while testing, how should you report it?
 
-{% include random_ad.html %}
+{: .note2}

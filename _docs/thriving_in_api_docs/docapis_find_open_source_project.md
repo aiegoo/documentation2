@@ -28,7 +28,7 @@ If you've already got an API project through your work, or if you're an engineer
 
 Finding the right project can be challenging, but it is critical to your portfolio and your success in breaking into API documentation. Fortunately, almost all open-source projects use GitHub, and GitHub provides various tags for documentation and "help wanted" in order to attract volunteers. (The task is so common, GitHub provides advice for [finding open-source projects](https://help.github.com/articles/finding-open-source-projects-on-github/).)
 
-{% include random_ad2.html %}
+{: .note2}
 
 The ideal open-source API project should meet the following criteria. The project should:
 
@@ -57,7 +57,7 @@ Don't worry so much about Git now. You can learn these skills later when you hav
 
 You may think that it's too early to even think about joining let alone contributing to an API documentation project, especially when you're learning. When you interact with the open-source team, you might feel intimidated that you don't have any programming skills.
 
-{% include random_ad.html %}
+{: .note2}
 
 However, don't undervalue your role as a contributor to documentation (regardless of the contribution). Open-source projects suffer greatly from lousy documentation. In [GitHub Survey: Open Source Is Popular, Plagued by Poor Docs and Rude People](https://adtmag.com/articles/2017/06/05/open-source-survey.aspx), David Ramel summarizes findings from the [2017 GitHub Survey](http://opensourcesurvey.org/2017/):
 
@@ -71,7 +71,7 @@ So yeah, as a technical writer, you may not be fixing bugs in the code or develo
 
 I know the value of the doc role intimately from my own experience in contributing to open source doc projects. At one point, before focusing my energy on this API doc course, I contributed several tutorials to the [Jekyll docs](https://jekyllrb.com/docs/home/). I added instructions that included a lot of new content and even added a [Tutorials section](https://jekyllrb.com/tutorials/home/).
 
-{% include random_ad3.html %}
+{: .note2}
 
 I thought other developers would continue creating new tutorials in a steady stream, but they didn't. Developers tend to add little snippets of documentation to pages &mdash; a sentence here, a paragraph there, an update here, a correction there. You will rarely find someone who writes a new article or tutorial from scratch. When there's a new release, there often aren't release notes &mdash; there are merely links to (cryptic) GitHub issue logs.
 

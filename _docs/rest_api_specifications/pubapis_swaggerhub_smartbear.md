@@ -71,7 +71,7 @@ You can link to specific versions of your documentation, or you can use a more g
 
 Versioning is helpful when you're collaborating on the spec with other team members. For example, suppose the original version was drafted by an engineer, and you want to make major edits. Rather than directly overwriting the content (or making a backup copy of an offline file), you can create a new version and then take more ownership to overhaul that version with your own updates, without fear that the engineer will react negatively about overwritten/lost content.
 
-When you publish your Swagger documentation on SwaggerHub, Swagger's base URL (`app.swaggerhub.com`) remains in the URL. Although this base URL isn't customizable, you can add your company logo and visual branding as desired.   
+When you publish your Swagger documentation on SwaggerHub, Swagger's base URL (`app.swaggerhub.com`) remains in the URL. Although this base URL isn't customizable, you can add your company logo and visual branding as desired.
 
 ## Inline commenting/review
 
@@ -119,7 +119,7 @@ Both outputs would need a healthy dose of custom styling to be usable.
 
 Another cool feature of SwaggerHub is the ability to [create mock API servers](https://app.swaggerhub.com/help/integrations/api-auto-mocking). Suppose you have an API in which you don't want users to generate real requests. (Maybe it's an ordering system where users might be ordering products through the API, or you don't have test accounts/systems). Even so, you can still simulate responses that let users get a sense of how your API works.
 
-{% include random_ad.html %}
+{: .note2}
 
 Assuming you have example responses in your API spec, you can set your API to "auto-mock." When a user tries out a request, SwaggerHub will return the example response from your spec. The response won't contain the custom parameters the user entered in the UI but will instead return the example responses coded into your spec as if returned from a server.
 
@@ -129,7 +129,7 @@ Simulating the API can be especially useful for testing your API with beta users
 
 Using the mock server approach, SwaggerHub not only provides documentation but also acts as a beta-testing tool to get the design of your API right before sinking thousands of hours of time into actual coding. You can enable auto-mocking for different versions of your API, creating variants and testing each of the variants.
 
-{% include random_ad3.html %}
+{: .note2}
 
 To set up a mocking server in SwaggerHub, click the plug icon {% if site.format == "web" %}<img class="inline" src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/swaggerhub_integration_button.png" />{% endif %} and select to add a new integration. Select the **API Auto Mocking** service and complete the configuration details. Make sure you have `examples` for each of the endpoint responses in your spec. See [API Auto Mocking](https://app.swaggerhub.com/help/integrations/api-auto-mocking) for more details.
 
@@ -157,7 +157,7 @@ Tech writers are positioned to be power players in the spec-first philosophy wit
 
 Designing a fully-featured, highly functioning OpenAPI spec is at the heart of this endeavor. Few engineers are familiar with creating these specs, and technical writers who are skilled at both creating the spec and setting up Swagger tooling can fill critical roles on API teams.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Great tools aren’t free. SwaggerHub does [cost money](https://swaggerhub.com/pricing/), but this is a good thing since free tools are frequently abandoned, poorly maintained, and lack documentation and support. By using a paid tool from a robust API company (the same company that maintains the Swagger tools and sponsors the OpenAPI specification), you can plug into the infrastructure you need to scale your API documentation efforts.
 

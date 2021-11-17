@@ -21,7 +21,7 @@ Note that unless you're using a platform that specifically requires API Blueprin
 
 The API Blueprint spec is written in a Markdown-flavored syntax. It's not regular Markdown, but it has a lot of the same, familiar Markdown syntax. However, the blueprint is a particular schema that is either valid or not valid based on the element names, order, spacing, and other details. In this way, it's not nearly as flexible or forgiving as Markdown. But it may be preferable to YAML.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Sample blueprint
 
@@ -219,7 +219,7 @@ For a tutorial on the blueprint syntax, see these resources:
 
 You can find [examples of different blueprints here](https://github.com/apiaryio/api-blueprint/tree/master/examples). The examples can often clarify different aspects of the spec.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Parsing the blueprint
 
@@ -485,6 +485,6 @@ To call the resource successfully, you'll need to customize the `lat` and `lon` 
 
 {% include course_image.html size="medium" filename="callresourceapiary" ext_print="png" ext_web="png" alt="Customizing the lat, long, and appid parameters in order to make a successful call" caption="Customizing the <code>lat</code>, <code>long</code>, and <code>appid</code> parameters in order to make a successful call" %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 [Apiary](https://apiary.io/) offers an impressive platform for both designing and publishing API reference docs. You don't have to use API Blueprint as your spec's format. You can also design your specification using OpenAPI (called "Swagger" in the Apiary UI).

@@ -87,7 +87,7 @@ Decide which projects should receive your most thorough attention (based on the 
 
 Keep in mind that strategic priorities differ by group. What might be a strategic priority for one group might not be a strategic priority for another group. This prioritization can be especially problematic if your group is cross-functional, meaning you support many organizations with different services (e.g., documentation, marketing, support, dev relations, and so on). In these cases, you'll have to figure out which priorities your own group wants to embrace.
 
-{% include random_ad2.html %}
+{: .note2}
 
 The review of strategic priorities and the assessment of projects should ideally take place at a regular cadence, and although filling up your calendar with meetings isn't ideal, this meeting (especially when it involves multiple people) can be a forcing function for this task. You might call this meeting "Project Prioritization" and even include field engineers in the meeting (especially if the field engineers have a close ear to important business partners).
 
@@ -101,7 +101,7 @@ These different buckets become areas of specialization for the writers. For exam
 
 It's important that each tech writer is assigned an area of specialization so that they can accrue the necessary knowledge and rapport with teams in those areas. Each project on your doc planning spreadsheet should be categorized into an area of specialization correlating to a tech writer's specialization.
 
-{% include random_ad.html %}
+{: .note2}
 
 What happens if the groups don't balance out evenly? Suppose Globex pushes out tons of features while ACME is much smaller and only has 1-2 releases a year? In that case, you might have to make adjustments so that the work is more balanced. These adjustments can only be decided based on the number of writers at your disposal, your org structures, and other factors. But if you have a list of strategic priorities for your org, these strategic priorities can serve as the guiding core for balancing the work. Ideally, balance writers based on strategic priorities rather than simply the number of projects.
 
@@ -260,7 +260,7 @@ Who will support the product post-launch:
 
 What wiki pages are important to be aware of for this project:
 
-* page:  
+* page:
 * page:
 * page:
 
@@ -299,7 +299,7 @@ The tech writer might decide to copy this information into a note-taking wiki an
 
 In cases where one tech writer leaves or transitions to another project, a new tech writer can review this wiki and get a sense of the project's status, contacts, and other details.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## 6. Chunk project work into tickets {#chunk_the_work}
 
@@ -355,7 +355,7 @@ Note that I'm only recommending writing in Google Docs, Quip, or Confluence as y
 As you're creating content, you don't need to start from a blank page. You can use common templates to help get started and shape the material. You can find templates in the following places:
 
 * [Conceptual topics in API docs](docconceptual.html)
-* [API reference tutorial](docapis_api_reference_tutorial_overview.html)  
+* [API reference tutorial](docapis_api_reference_tutorial_overview.html)
 * [The Good Docs Project](https://thegooddocsproject.dev/)
 
 Engineers and other product team members almost invariably have some product information on a wiki, but this information often needs to be reworked, sometimes from scratch. Avoid just lightly editing content that someone gives you, without assessing it on a deeper level.

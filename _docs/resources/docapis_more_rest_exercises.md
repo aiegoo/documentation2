@@ -19,7 +19,7 @@ To get more practice working with various APIs, I provide several examples in th
 
 There are several activities with different APIs. A challenge is listed for each activities. First, try to solve the challenge on your own. Then follow along in the sections below to see how I approached it.
 
-{% include random_ad2.html %}
+{: .note2}
 
 In these examples, I usually just print the code to a web page to visualize the response. The following activities are available:
 
@@ -29,7 +29,7 @@ In these examples, I usually just print the code to a web page to visualize the 
 
 ## Shortcuts for API keys
 
-{% include random_ad.html %}
+{: .note2}
 
 Each API requires you to use an API key, token, or some other form of authentication. Register for your own API keys.
 
@@ -45,4 +45,4 @@ I never insert API keys in code samples for a few reasons:
 
 When you see `APIKEY` in a code sample, remember to swap in an API key there. For example, if the API key were `123`, you would delete `APIKEY` and use `123`.
 
-{% include random_ad3.html %}
+{: .note2}

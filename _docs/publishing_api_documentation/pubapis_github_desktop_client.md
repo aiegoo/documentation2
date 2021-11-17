@@ -104,7 +104,7 @@ Now let's merge the development branch into the master branch.
 
     You will now see the changes reflected on the file on GitHub.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Merge the branch through a pull request
 
@@ -138,7 +138,7 @@ Now let's merge the development branch into the master using a pull request work
 {: .note}
 For a more detailed tutorial in making pull requests using the GitHub interface, see [Pull request workflows through GitHub](pubapis_github_pull_requests.html). I include an extensive tutorial with pull requests because it will likely be a common workflow if you are [contributing to an open-source project](docapis_find_open_source_project.html).
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Managing merge conflicts
 
@@ -176,7 +176,7 @@ This is an edit I made locally.
 
 Now you need to re-add the file to Git again. In the GitHub Desktop client, commit your changes to the updated files. Then click **Push origin.** The updates on your local get pushed to the remote without any more conflicts.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Conclusion
 

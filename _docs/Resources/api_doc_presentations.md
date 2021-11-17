@@ -25,7 +25,7 @@ This content doesn't embed well in print, as it contains YouTube videos. Please 
 
 I gave this presentation to the STC Silicon Valley chapter. More details are [here](https://idratherbewriting.com/2017/11/19/upcoming-api-doc-presentation-stc-sv-chapter/).
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### Docs as code tools and workflows
 
@@ -37,7 +37,7 @@ I gave this presentation to the WTD South Bay group. More details are  [here](ht
 
 I gave this presentation to STC/WTD Denver &mdash; more details are [here](https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/). The video covers the [Docs as code tools](pubapis_docs_as_code.html) and [Case study: Switching tools to docs-as-code](pubapis_switching_to_docs_as_code.html) topics.
 
-{% include random_ad.html %}
+{: .note2}
 
 ### OpenAPI and Swagger
 
@@ -51,7 +51,7 @@ I gave this presentation as a TC Dojo webinar. More details are [here](https://i
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/wC5hxY0RItQ" frameborder="0" allowfullscreen></iframe>
 
-{% include random_ad3.html %}
+{: .note2}
 
 ### Sacramento API workshop
 

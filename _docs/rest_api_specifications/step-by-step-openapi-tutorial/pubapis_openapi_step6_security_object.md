@@ -33,7 +33,7 @@ REST APIs can use different security approaches to authorize requests. I explore
 
 In this step of the OpenAPI tutorial, we'll use the API key approach, since this is what the OpenWeatherMap API uses. If your API uses [OAuth 2.0](docapis_more_about_authorization.html#oauth) or another method, you'll need to read the [Security Scheme information](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#security-scheme-object) for details on how to configure it. However, all the security methods mostly follow the same pattern.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## API key authorization
 
@@ -91,7 +91,7 @@ Properties you can use for each item in the `securitySchemes` object include the
 * [`flows`](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.3.md#oauthFlowsObject) (object): Used with `oauth2` type authorization.
 * `openIdConnectUrl`: Used with `openIdConnect` type authorization.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> View the Appearance in Swagger UI
 
@@ -207,4 +207,4 @@ The server response also appears directly in the Swagger UI display, with a link
 
 Note that when you implement Swagger UI, if you find that the curl request works but the response doesn't appear in Swagger UI, there might be a CORS issue with your API blocking requests from web applications like Swagger. See [Troubleshooting issues with Swagger UI](pubapis_swagger.html#troubleshooting_swagger) for details.
 
-{% include random_ad3.html %}
+{: .note2}

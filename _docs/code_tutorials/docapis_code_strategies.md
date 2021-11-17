@@ -54,7 +54,7 @@ Some of Twilio's screens actually blur out the irrelevant code, allowing you to 
 
 One challenge with this juxtaposed approach is screen space. To pull off a third-column design, you need to occupy the whole screen, without margins. (I'm surprised Twilio doesn't include a switch to collapse the left-side navigation, which would give more space for the code.)
 
-{% include random_ad2.html %}
+{: .note2}
 
 As is, the code is only partially visible (on my 13" Macbook Pro screen). The code extends horizontally with an option to scroll right, but surely the designers must have cringed in developing a UI that involves a healthy dose of back-and-forth horizontal scrolling.
 
@@ -108,7 +108,7 @@ I like the Nautilus approach. The problem is that we often want to explain how t
 
 To the technical writer looking at the finalized code, there's no clear sense of how the developer got there. We often can't decouple the nautilus-like logic that the developer started with, which led him or her toward this more complex end. All we see is this complex end. How do you decompile the code to reconstruct the logic that the developer started with? How do you know what these initial nautilus patterns were that started the whole process? If you didn't develop the code, nor are you a developer, it will be nearly impossible to reconstruct the nautilus pattern behind the code in your explanations.
 
-{% include random_ad.html %}
+{: .note2}
 
 As another analogy, consider teaching others how to paint. Suppose your task is to describe a finished painting to a would-be painter. You need to describe how to paint the Mona Lisa:
 
@@ -118,7 +118,7 @@ To document the process of producing this painting, would you start at the top a
 
 However, if you're not a painter, how would you know how to describe the process of creating a painting? You would need to know the painter's logic &mdash; where to start, and how to proceed toward the end. If you instead just started at the end and tried to work your way backward, the tutorial would likely be insanely complex.
 
-{% include random_ad3.html %}
+{: .note2}
 
 To illustrate this point more clearly, let me provide a code example. Although I'm not an engineer, I'm handy with Jekyll and theming, and the other day I set about creating a template that would take a content export from a ticketing tool (like JIRA) and render it as a documentation report on a web page.
 

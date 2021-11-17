@@ -23,7 +23,7 @@ In this Flickr API example, we want to get all the photos from a specific Flickr
 
 To achieve our goal, we'll need to call several endpoints. Hopefully, this activity will demonstrate the shortcomings of just having reference documentation. When one endpoint requires another endpoint response as an input, you might have to communicate these workflows through tutorials.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## 1. Get an API key to make requests
 
@@ -43,7 +43,7 @@ Instead, we use the [`flickr.urls.lookupGallery`](https://www.flickr.com/service
 
 The `gallery_id` for [Color in Nature](https://www.flickr.com/photos/flickr/galleries/72157647277042064/) is `66911286-72157647277042064`. We now have the arguments we need for the [`flickr.galleries.getPhotos`](https://www.flickr.com/services/api/flickr.galleries.getPhotos.html) endpoint.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## 3. Construct the request
 
@@ -129,7 +129,7 @@ Here's what an item in the JSON response looks like:
 
 You access these fields through dot notation. It's a good idea to log the whole object to the console just to explore it better.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## 5. Pull out the information you need
 

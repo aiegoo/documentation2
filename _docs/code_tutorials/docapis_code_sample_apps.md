@@ -20,7 +20,7 @@ Whether a sample app is relevant and available depends on the nature of the prod
 
 Let me start the discussion by sharing an experience related to sample apps. At one company, I was working on documentation for a project called [Video Skills for Fire TV Apps](https://developer.amazon.com/docs/video-skills-fire-tv-apps/introduction.html). This product involves implementing Alexa video skills into Fire TV apps so that customers can say phrases like "Play Bosch" and the app will automatically play the content, without the need to use a remote control.
 
-{% include random_ad.html %}
+{: .note2}
 
 The implementation process was pretty involved and required a [series of steps listed here](https://developer.amazon.com/docs/video-skills-fire-tv-apps/integration-overview.html). I inherited an initial set of docs (written by a PM + engineers) and sample app. I spent a month just getting the steps to work with the sample app. Then I spent another month fixing and updating the documentation. Using a sample app was critical for determining which steps in the initial docs were missing or incomplete. After I was confident that the steps worked well (because by following said steps, the sample app actually worked), I published the [sample app as a companion to the docs](https://developer.amazon.com/docs/video-skills-fire-tv-apps/set-up-sample-app.html).
 
@@ -28,7 +28,7 @@ Without testing the docs through this sample app, I wouldn't have had any idea i
 
 Having little disconnected pieces of code that aren't associated within a sample app often isn't a testable scenario. And if you have a bunch of code that you can't easily test, how do you even know that it works? If you don't know whether the code you're documenting works, how can you feel good about the technical documentation you're writing? This is why sample apps are critical &mdash; they let you know that your instructions probably work.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Getting approval to publish sample apps
 
@@ -44,7 +44,7 @@ Ideally, you want to make the sample app as simple as possible, elucidating the 
 
 With one project I worked on, developers didn't want to provide a sample app because they felt that any app that implemented Technique A but not Techniques B, C, D, E, and F would mislead developers. Developers implementing the feature might use the sample app as a starting point (copying the code wholesale, or using the sample app as a starting point for their app) and not realize that Techniques B, C, D, E, and F were also required.
 
-{% include random_ad3.html %}
+{: .note2}
 
 But coding Techniques B, C, D, and E were beyond the scope of this sample app and accompanying documentation, and they made everything much more complex. Was it better to not provide any sample app at all rather than provide one that was either overly complex or which was rudimentary/incomplete?
 
@@ -77,7 +77,7 @@ As such, internal engineers are usually a lot more cautious about sharing shoddy
 
 Is it better to require third-party developers to work out the implementation code on their own (probably misinterpreting and also implementing it incorrectly) rather than potentially leading them astray with bad sample code? I think most developers would say yes. If you push for sample apps as companion pieces to documentation, you might have to find a compromise here between simple, half-baked but functional code and more robust, "showcase" code that would scale in a production environment. Even if you can't release the sample app, you can probably use the sample app for your own testing and validation of the documentation.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Who owns and maintains the sample app?
 
@@ -85,4 +85,4 @@ If you do manage to publish the sample app, questions about ownership will need 
 
 I've seen repos abandoned by engineering teams who simply move on to other projects. Engineers transition to other teams/projects/initiatives and don't want to be supporting the same GitHub repos for the rest of their lives. Other times, projects get de-prioritized or sunset, but the GitHub repo stays in the public space, and the initial docs remain, still supported by the doc team. In these cases, you might end up with a sample app that is seemingly inactive or unsupported (with issues piling up), and docs that you still continue support in a "keep the lights on" kind of way. You might have to keep tabs on the GitHub issues logs and champion internal sources to provide support.
 
-{% include random_ad3.html %}
+{: .note2}

@@ -28,7 +28,7 @@ Before diving into the first step of the OpenAPI tutorial here, read the [OpenAP
 * This OpenAPI tutorial is a subset of the information in both the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification) and the [OpenAPI specification commentary](https://swagger.io/docs/specification/about/). In other words, it's not comprehensive of all the possible information in the spec.
 * This OpenAPI tutorial covers the *3.0 version* of the OpenAPI spec, which is the latest version. (Surprisingly, many tools still support only the 2.0 version.)
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## The root-level objects in OpenAPI spec
 
@@ -51,7 +51,7 @@ The whole document (the object that contains these eight root-level objects) is 
 {: .note}
 "OpenAPI" refers to the specification; "Swagger" refers to the tooling (at least from SmartBear) that supports the OpenAPI specification.
 
-{% include random_ad.html %}
+{: .note2}
 
 Although one could approach the assembly of an OpenAPI document in many ways, I've decided to structure each step in this tutorial based on each of these root-level objects. You'll see two approaches: one using Swagger working at a code-level, and another using Stoplight Studio working in a user interface.
 
@@ -85,7 +85,7 @@ Add the first root-level property for the specification document: `openapi`. In 
 openapi: "3.0.2"
 ```
 
-{% include random_ad2.html %}
+{: .note2}
 
 Until you add more information in here, you'll see error messages and notes such as "No operations defined in spec!" To avoid these errors, add some placeholder info here like this:
 

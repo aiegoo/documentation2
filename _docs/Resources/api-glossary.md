@@ -89,10 +89,10 @@ glossary_keys:
 
 {% include glossary_full.html letters="a,b,c,e,g,h,j,m,o,p,q,r,s,v,y" file="glossary" %}
 
-{% include random_ad3.html %}
+{: .note2}
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% include random_ad.html %}
+{: .note2}
 
 {% include image_ad_left.html %}

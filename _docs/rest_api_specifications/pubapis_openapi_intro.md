@@ -28,7 +28,7 @@ If you want to jump straight into a step-by-step tutorial for creating the OpenA
 
 To get a better sense of the OpenAPI specification, let's take a glance at some specification excerpts. We'll dive deeper into each element in an upcoming tutorial.
 
-{% include random_ad2.html %}
+{: .note2}
 
 The official description of the OpenAPI specification is available in a [Github repository here](https://github.com/OAI/OpenAPI-Specification). Some of the OpenAPI elements are `paths`, `parameters`, `responses`, and `security`. Each of these elements is a JSON object that holds some properties and arrays.
 
@@ -59,7 +59,7 @@ paths:
               schema:
                 type: string
           content:
-            application/json:    
+            application/json:
               schema:
                 $ref: "#/components/schemas/Pets"
         default:
@@ -83,7 +83,7 @@ Here's what these objects mean:
 
 Learning the OpenAPI spec and constructing the YAML or JSON code by hand the first time, when you're also trying to sort out what the values should be, can be daunting. It might be easier to start in a visual editor like Stoplight and then, if desired, transition into more of a direct code-based approach. For this reason I have arranged the sequence of this course to start out first in the visual editor, with [Create an OpenAPI document using a visual editor (Stoplight Studio)](pubapis_stoplight.html), and then later in the course provide an [OpenAPI tutorial overview using Swagger Editor and Swagger UI](pubapis_openapi_tutorial_overview.html). However, you can probably do most everything from within the visual editor.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Auto-generation options for creating the OpenAPI spec {#autogeneration}
 
@@ -93,7 +93,7 @@ Before we dive into ways to manually create the OpenAPI specification document, 
 
 If you want to go the code-generation route, Swagger offers a variety of libraries that you can add to your programming code to generate the specification document. These Swagger libraries then parse the annotations that developers add and generate the OpenAPI specification document. These libraries are considered part of the ["Swagger Codegen"](https://swagger.io/swagger-codegen/) project. The annotation methods vary based on the programming language. For example, here's a [tutorial on annotating code with Swagger for Scalatra](http://www.infoq.com/articles/swagger-scalatra).
 
-{% include random_ad3.html %}
+{: .note2}
 
 See [There's No Reason to Write OpenAPI By Hand](https://apisyouwonthate.com/blog/theres-no-reason-to-write-openapi-by-hand) by Phil Sturgeon for some more discussion. For example, Phil provides this sample of code annotations in Java:
 

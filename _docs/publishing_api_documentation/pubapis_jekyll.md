@@ -17,7 +17,7 @@ path1: /publishingapis.html
 
 Jekyll is a Ruby-based [static site generator](pubapis_static_site_generators.html#jekyll), meaning it uses Ruby as the underlying programming language to compile the website. This site and my [blog](https://idratherbewriting.com) use Jekyll, and I used Jekyll for the documentation at my past two jobs. For example, all the docs [here](https://developer.amazon.com/appstore/documentation) use Jekyll. With Jekyll, you can publish a fully functional tech comm website that includes content re-use, conditional filtering, variables, PDF output, and everything else you might need as a technical writer.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Here's a [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/) that I developed for Jekyll:
 
@@ -83,7 +83,7 @@ You can integrate Jekyll into platforms such as GitHub Pages or CloudCannon to c
 
 In this activity, we'll publish to CloudCanon using the [Documentation Theme for Jekyll](https://idratherbewriting.com/documentation-theme-jekyll) (the theme I built). You don't need to have a Windows machine to facilitate the building and publishing &mdash; you'll do that via CloudCannon and Github. (Of course, being able to build locally is important if you're developing with Jekyll, but I want to avoid [Jekyll installation](https://jekyllrb.com/docs/installation/) issues here and just demonstrate the continuous deployment features that a host like CloudCannon provides.) This tutorial will show you how to plug into a robust hosting platform that reads content stored and managed on GitHub.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Set up your doc theme on Github
 
@@ -122,7 +122,7 @@ The only drawback with CloudCannon is that your company must allow you to host d
 
 If cost is an issue and you don't have any privacy restrictions around your docs, consider using [GitHub Pages](https://pages.github.com/) instead. GitHub Pages also gives you continuous integration delivery for GitHub projects, and it's free.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Make an update to your Github repo
 

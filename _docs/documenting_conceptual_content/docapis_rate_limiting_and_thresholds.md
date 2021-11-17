@@ -22,7 +22,7 @@ Companies with APIs make money by charging for access to the API, but they usual
 
 If your site has hundreds of thousands of visitors a day, and with each page reload calls an API endpoint, you want to be sure the API can support that kind of traffic.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Pricing related to rate limiting is probably information that's within the marketing domain rather than documentation domain. However, developers will still want to know a few key behaviors around the rate-limiting thresholds. For example:
 
@@ -34,7 +34,7 @@ Also, when developers implement the code into their applications, how are they h
 
 {% include course_image.html size="medium" border="true" filename="nonref_ratelimiting" ext_print="png" ext_web="svg" alt="Rate limiting affects development" caption="Rate limiting might seem like a marketing topic, but the rate limiting policies and how they affect API calls can have a significant impact on development." %}
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Examples rate limiting sections
 
@@ -46,7 +46,7 @@ Here are a few examples of rate limiting sections in API documentation.
 
 GitHub's documentation explains rate limits for authenticated versus unauthenticated requests, the header returned, the meaning of the rate-limiting titles (`X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `X-RateLimit-Reset`), how to check your current usage, how to increase rate limits for a specific application, what happens when rate limits are abused, and more.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### Linkedin
 

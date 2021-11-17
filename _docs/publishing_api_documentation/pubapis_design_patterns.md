@@ -145,7 +145,7 @@ Given that REST APIs follow similar characteristics and sections, wouldn't it ma
 
 My point here is that you shouldn't be overwhelmed by the coding challenges around creating your own API templates. The Aviator theme shows one custom approach, and I highlight it here with code samples to demonstrate the complexity and custom-nature of defining your own templates. But this isn't the only approach nor is it even the recommended approach.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Pattern 2: A single seamless website {#website_platform}
 
@@ -159,7 +159,7 @@ One of the challenges in using documentation generated from [OpenAPI and Swagger
 
 If you can integrate the branding and search, users may not care. But if it feels like users are navigating several sites that are poorly cobbled together, the UX experience will be somewhat fragmented.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Think about other content that users will interact with, such as marketing content, terms of service, support, and so on. How do you pull together all of this information into a single site experience without resorting to an overbloated CMS or some other web framework?
 
@@ -179,7 +179,7 @@ James Yu at Parse gives the following advice:
 
 For code samples, you'll want to incorporate syntax highlighting. The syntax highlighter colors different elements of the code sample appropriately based on the programming language. There are many syntax highlighters that you can usually incorporate into your platform. For example, Jekyll uses [rouge](https://github.com/jneen/rouge) by default. Another common highlighter is [pygments](http://pygments.org/). These highlighters have stylesheets prepared to highlight languages based on specific syntax.
 
-{% include random_ad.html %}
+{: .note2}
 
 Usually, tools that you use for authoring will incorporate highlighting utilities (based on Ruby or Python) into their HTML generation process. You don't normally implement the syntax highlighter as a standalone tool. If you don't have access to a syntax highlighter for your platform, you can [manually add a highlighting using syntax highlighter library](http://code.tutsplus.com/tutorials/quick-tip-how-to-add-syntax-highlighting-to-any-project--net-21099).
 

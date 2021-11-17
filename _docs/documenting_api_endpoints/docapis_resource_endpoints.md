@@ -70,7 +70,7 @@ It's common to list the method (GET, POST, and so on) next to the endpoint. The 
 
 See [Request methods](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) in Wikipedia's article on HTTP for more details. (There are some additional methods, but they're rarely used.)
 
-{% include random_ad3.html %}
+{: .note2}
 
 Since there's not much to say about the method itself, it makes sense to group the method with the endpoint. Here's an example from the Box API:
 
@@ -83,7 +83,7 @@ And here's an example from the Linkedin API:
 {: .tip}
 Sometimes the method is referred to as the "verb." GET, PUT, POST, PATCH, and DELETE are all verbs or actions.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## The endpoint shows the end path only
 
@@ -106,7 +106,7 @@ In a later section on [design patterns](pubapis_design_patterns.html), I explain
 
 In tutorials and other conceptual content, how do you refer to the endpoints within an API reference topic? Referring to the "`/aqi` endpoint" or to the "`/weatherdata`" endpoint doesn't make a huge difference. But with more complex APIs, using the endpoint to talk about the resource can be tricky.
 
-{% include random_ad2.html %}
+{: .note2}
 
 At one company I worked at, our URLs for the Rewards endpoints looked like this:
 

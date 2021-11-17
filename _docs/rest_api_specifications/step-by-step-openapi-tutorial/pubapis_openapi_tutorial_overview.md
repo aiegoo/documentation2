@@ -58,7 +58,7 @@ You can find many Swagger tutorials online. What makes mine different? Besides t
 
 Many other display frameworks besides [Swagger UI](https://github.com/swagger-api/swagger-ui) can parse and display information in an OpenAPI specification document, and you can even create your own custom parsing tools.
 
-{% include random_ad2.html %}
+{: .note2}
 
 [Swagger UI](https://github.com/swagger-api/swagger-ui) is sponsored by [Smartbear](https://smartbear.com/), the same company that is heavily invested in the [OpenAPI initiative](https://www.openapis.org/) and which develops [SwaggerHub](pubapis_swaggerhub_smartbear.html) (the premium version of Swagger UI) and drives other Swagger tooling (including Swagger Editor, Swagger UI, Swagger Codegen, and others). Note that SmartBear does not own the [OpenAPI specification](https://github.com/OAI/OpenAPI-Specification/), as the Linux Foundation drives this [initiative](https://www.openapis.org/). The OpenAPI spec's development is driven by [many companies and organizations](https://www.openapis.org/membership/members).
 
@@ -72,7 +72,7 @@ Before continuing, I want to clarify the difference between "Swagger" and "OpenA
 
 People still often refer to both names interchangeably, but "OpenAPI" is how the spec should be referred to. The "OpenAPI specification document" or "OpenAPI document" is the Swagger YAML file that you create to describe your API. For other terms, see the [API Glossary](api-glossary.html). See also [What Is the Difference Between Swagger and OpenAPI?](https://blog.smartbear.com/open-source/what-is-the-difference-between-swagger-and-openapi/).
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Customizing Swagger UI
 
@@ -80,7 +80,7 @@ You might be concerned that Swagger UI outputs look similar. First, note that yo
 
 With my OpenAPI projects, I usually customize the Swagger UI's colors a bit, add a custom logo and a few other custom styles. With one project, I integrated [Bootstrap](https://getbootstrap.com/) so that I could have [modals](https://getbootstrap.com/docs/4.1/components/modal/) where users could generate their authorization codes. You can even add [collapse-and-expand features](https://getbootstrap.com/docs/4.1/components/collapse/) in the `description` element to provide more information to users.
 
-{% include random_ad.html %}
+{: .note2}
 
 Beyond these simple modifications, however, it takes a bit of web-developer prowess to significantly alter the Swagger UI display. It's possible, but you need web development skills.
 
@@ -129,4 +129,4 @@ As you embark on creating an OpenAPI specification file, you might find the reco
 
 Brace yourself &mdash; this is where you'll find out if you're cut out for API technical writing.
 
-{% include random_ad.html %}
+{: .note2}

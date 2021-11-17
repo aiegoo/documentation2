@@ -28,7 +28,7 @@ You can see a demo with the [Google Drive API](https://mulesoft.github.io/api-co
 
 ## Auto-generating client SDK code
 
-{% include random_ad.html %}
+{: .note2}
 
 It's important to note that with these REST API specifications (as with the OpenAPI spec), you're not just describing an API to generate a nifty doc output with an interactive console. There are tools that can also generate client SDKs and other code from the spec into a library that you can integrate into your project. These tools can make it easier for developers to make requests to your API and receive responses.
 
@@ -40,7 +40,7 @@ Additionally, the interactive console can provide a way to prototype and beta te
 
 To understand the proper syntax and format for RAML, you need to read the [RAML spec](http://raml.org/spec.html) and look at some examples. See [this RAML tutorial](http://raml.org/docs.html) to get started.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Here's the OpenWeatherMap API (which we've been [using in this course](docapis_scenario_for_using_weather_api.html)) formatted in the RAML spec. (I actually just used [API Transformer](https://apimatic.io/transformer) to convert my OpenAPI 3.0 spec to RAML.) As you can see, RAML is highly similar to the OpenAPI spec.
 
@@ -459,7 +459,7 @@ Here's the [OpenWeather API in API Console](https://idratherbewriting.com/assets
 
 You can also [embed the API console as an HTML element](https://github.com/mulesoft/api-console#embed-as-an-html-element).
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## RAML2HTML project {#raml2html}
 

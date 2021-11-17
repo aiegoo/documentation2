@@ -39,7 +39,7 @@ For an example, take a look at Algolia's API. You can view the documentation for
 
 <a href="https://www.algolia.com/doc" class="noExtIcon"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/algolia_clientsdks.png" alt="Algolia client implementations" /></a>
 
-{% include random_ad3.html %}
+{: .note2}
 
 Although users could construct their own code when using the REST endpoints, most developers would rather leverage existing code and copy and paste what they need.
 
@@ -53,7 +53,7 @@ If you were recruiting for a technical writer to document Algolia, how would you
 
 The number of SDKs a company distributes can vary considerably. You might not have six SDKs in multiple languages and frameworks for your API. You might be in a C++ only shop where all you need to know is C++ and nothing more. If that's the case, you'll need to develop a deeper knowledge of C++ so you can provide more value in your writing role.
 
-{% include random_ad2.html %}
+{: .note2}
 
 Although the proliferation of code and platforms creates pressure on the multi-lingual capabilities of technical writers, if you can understand what's going on in one programming language, your description of the reference implementations in other programming languages will follow highly similar patterns.
 
@@ -71,7 +71,7 @@ A lack of more technical knowledge will likely remove some of the value from you
 
 Without in-depth, authoritative knowledge of the API, it will be challenging to complete, clarify, and correct errors in the content.
 
-{% include random_ad.html %}
+{: .note2}
 
 The balance between generalist and specialist roles is an ongoing challenge that I'll explore more in the next topic: [How much code do you need to know?](jobapis_learning_code.html) In short, if you want to solve the biggest problem with API documentation, you'll need to develop more technical expertise in the subject domain.
 

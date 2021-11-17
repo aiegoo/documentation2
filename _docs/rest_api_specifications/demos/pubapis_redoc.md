@@ -18,8 +18,8 @@ Redocly offers robust tools for authoring and publishing API docs using the comm
 
 {% include image_ad_right.html %}
 
-{% include random_ad2.html %}
+{: .note2}
 
-{% include random_ad3.html %}
+{: .note2}
 
-{% include random_ad.html %}
+{: .note2}

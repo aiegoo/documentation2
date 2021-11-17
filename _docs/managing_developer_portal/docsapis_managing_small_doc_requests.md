@@ -11,7 +11,7 @@ path1: /docapis_managing_dev_portals.html
 With any developer portal, you'll receive not only incoming [documentation projects](docapis_managing_doc_projects.html) but also a healthy dose of small documentation requests too. These small requests can be managed in a similar way as documentation projects but can also be scaled down with a simpler workflow. Even so, small requests have unique challenges when it comes to prioritization, weighting, and cadence.
 
 * TOC
-{:toc}  
+{:toc}
 
 ## Definition of small documentation requests
 
@@ -88,7 +88,7 @@ Think about the different kinds of doc requests you receive, and then customize 
 
 Create a custom intake form that solicits the information you need for each of these different doc types. Advertise your intake process on your team wiki page and point users to it when they ask for docs.
 
-{% include random_ad.html %}
+{: .note2}
 
 It's important that small doc request tickets be completed by the requester. This ensures that the tech writer isn't stuck digging around for the information needed to complete the task. It also ensures commitment and allows the requester to receive updates on the status of the ticket.
 
@@ -108,7 +108,7 @@ Suppose a thread goes a dozen rounds and multiple Cc lists. By the time the thre
 
 Most small doc requests can be made directly within your authoring system rather than starting out in a collaborative platform like Google Docs or Quip. When you're creating content in your authoring system, you might choose to follow a standard branching workflow (or whatever Git workflow you've decided to implement in your group). Usually, create a branch from production and make your changes in the branch.
 
-{% include random_ad3.html %}
+{: .note2}
 
 When you're ready to review this version with reviewers, merge your feature branch into beta, push the build into a beta environment of some kind, and provide a link to reviewers. Also, create a code review so the requester can see specifically what you changed. I find that code reviews provide more granular detail if people want it, though I'm somewhat mixed about whether code reviews are useful for more extensive updates. I personally like that code reviews objectively demonstrate the changes made so that readers get a sense of the effort involved.
 
@@ -122,7 +122,7 @@ If the ticket doesn't require any review (e.g., fixing a broken link), you can j
 
 In your monthly report listing doc work completed, consider listing all closed tickets. You might decide to put the small doc requests into a section at the end (e.g., "Small Doc Requests Resolved") so that readers can focus on the important changes. If you simply list all tickets in order of resolution, it might juxtapose trivial changes alongside more substantial efforts and dilute your communication.
 
-{% include random_ad2.html %}
+{: .note2}
 
 In the Small Doc Requests Resolved section, you might also provide a link to your intake form for these types of requests. This helps others know your process for managing small doc requests. The next time they have a request, they'll know what the process is and what to expect.
 

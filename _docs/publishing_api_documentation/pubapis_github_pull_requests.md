@@ -60,7 +60,7 @@ To create a pull request:
 
    The maintainers will then see the Pull Request and can take action to merge it.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Process the pull request
 
@@ -87,7 +87,7 @@ Now pretend you are the project owner, and you see that you received a new pull 
 
 	 If you look at your list of branches, you'll see that the deleted branch no longer appears.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Add collaborators to your project
 
@@ -104,4 +104,4 @@ To add collaborators to your Github project:
 3. Type the Github usernames of those you want to have access in the Collaborator area.
 4. Click **Add collaborator**.
 
-{% include random_ad2.html %}
+{: .note2}

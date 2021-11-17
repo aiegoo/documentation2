@@ -17,7 +17,7 @@ The Javadoc output hasn't changed much in the past 20 years, so in some sense, i
 
 ## Class summary
 
-{% include random_ad3.html %}
+{: .note2}
 
 Open the index.html file in the Javadoc folder you generated in [Activity: Generate a Javadoc from a sample project](nativelibraryapis_create_javadoc.html).
 
@@ -33,7 +33,7 @@ When you view a class page, you're presented with a summary of the fields, const
 
 {% include course_image.html size="large" url="http://docs.oracle.com/javase/7/docs/api/" filename="fulldetails" ext_print="png" ext_web="png" alt="Full class details" caption="Full class details" %}
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Other navigation
 
@@ -41,7 +41,7 @@ If you click **Package** at the top, you can also browse the classes by package.
 
 {% include course_image.html size="large" filename="allclassesjavadoc" ext_print="png" ext_web="png" alt="All the ways to browse the classes" caption="All the ways to browse the classes" %}
 
-{% include random_ad.html %}
+{: .note2}
 
 For more information about how the Javadoc is organized, click the **Help** button in the Javadoc top navigation bar.
 

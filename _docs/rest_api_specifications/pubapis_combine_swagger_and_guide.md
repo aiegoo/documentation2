@@ -223,7 +223,7 @@ layout: null
 
 In your `jekyll serve` command, configure the `destination` to build your output into an `htdocs` folder where you have a [simple local HTTP server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) running. With each build, check the display to see whether it's valid or not.
 
-{% include random_ad2.html %}
+{: .note2}
 
 By storing the values in data files, you can then include them elsewhere in your doc as well. For example, you might have a parameters section in your doc where you would also include the `{% raw %}{{site.data.parameters.acme_parameter}}{% endraw %}` description.
 
@@ -237,7 +237,7 @@ Sites like [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/
 
 Cherryleaf has an interesting post called [Example of API documentation portal using MadCap Flare](https://www.cherryleaf.com/blog/2017/06/example-api-documentation-portal-using-madcap-flare/). In the post, Ellis Pratt shows a proof of concept with a Flare project that reads an OpenAPI spec and generates static HTML content from it. If you're using Flare, it might be worth exploring.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Option 6: Change perspectives &mdash; Having two sites isn't so bad {#option6}
 
@@ -247,7 +247,7 @@ The truth is that programmers have been operating this way for years with [Javad
 
 So in the end, instead of feeling that having two outputs is fragmented or disjointed, reframe your perspective. Your Swagger output provides a clear go-to source for reference information about the endpoints, parameters, requests, and responses. The rest of your docs provide tutorials and other conceptual information. Your two outputs just became an organizational strategy for your documentation.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Next steps
 

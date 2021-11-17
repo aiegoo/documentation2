@@ -10,7 +10,7 @@ path1: /nativelibraryapis.html
 
 Javadoc is the standard output for Java APIs, and it's somewhat effortless to build a Javadoc. The Javadoc is generated through something called a "doclet." Different doclets can parse the Java annotations in different ways and produce different outputs. But by and large, almost every Java documentation uses the standard doclet. The Javadoc output will be familiar and welcome to Java developers.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Javadoc is supported by Oracle. Developers can integrate the Javadoc output directly into their IDE, which makes the documentation convenient and easily accessible. In fact, Javadoc is often delivered this way rather than deployed and uploaded to a server. Javadoc contains reference documentation only. You can't add any conceptual help files into the output, nor change the layout.
 
@@ -64,7 +64,7 @@ In this activity, you'll generate a Javadoc from the [sample java project](nativ
     {: .tip}
     If you had trouble building your Javadoc, you could [view the output here](https://idratherbewriting.com/learnapidoc/assets/files/javadoc/index.html).
 
-{% include random_ad2.html %}
+{: .note2}
 
 ## Javadoc and error checking
 
@@ -72,7 +72,7 @@ Javadoc also checks your tags against the actual code. If you have parameters, e
 
 {% include course_image.html size="medium"  filename="javadocerrorchecking" ext_print="png" ext_web="png" alt="Javadoc error checking" caption="Javadoc error checking" %}
 
-{% include random_ad.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> Play with Javadoc parameters
 

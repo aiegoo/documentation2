@@ -33,7 +33,7 @@ This content doesn't embed well in print, as it contains YouTube videos. Please 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/LSLg6Oy1OzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-{% include random_ad.html %}
+{: .note2}
 
 ### Audio only version
 
@@ -49,14 +49,14 @@ Part II:
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/denverapiworkshop_part2.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Part III:
 <div class="audioControls">
 <p><audio controls="controls"><source src="http://www.podtrac.com/pts/redirect.mp3/s3.us-west-1.wasabisys.com/idbwmedia.com/podcasts/denverapiworkshop_part3.mp3" type="audio/mpeg" /></audio></p>
 </div>
 
-{% include random_ad3.html %}
+{: .note2}
 
 {% include image_ad_left.html %}
 

@@ -241,7 +241,7 @@ In this step, you'll break up an existing OpenAPI file into smaller files. We'll
 
     See the `README.md` in the `openapi` folder for more details on these conventions. These conventions are recommendations only. You can decide how you reference the paths from `openapi.yaml`.
 
-{% include random_ad.html %}
+{: .note2}
 
 ### 3. Check your OpenAPI definition against rules {#check_rules}
 
@@ -492,7 +492,7 @@ Redocly has some unique offerings when it comes to organizing and working with c
 
 If integrating your conceptual content like this doesn't work for your doc needs, Redocly offers a more robust option: [Redocly Developer Portals](#redocly-developer-portals). The Redocly Developer Portals use Gatsby as a static site generator to give you more complete control and customization for non-reference content. Gatsby also provides many pre-built React components, which makes building out other features of a developer portal, such as marketing landing pages and other UI elements in a console, much easier.
 
-{% include random_ad2.html %}
+{: .note2}
 
 ### 7. Explore the premium version: Redocly API Reference {#explore_premium}
 
@@ -669,7 +669,7 @@ Redoc provides a lot of options to configure the output. Options to configure th
 
 For sample API reference docs built with Redoc, see [Some Real-life usages](https://github.com/Redocly/redoc#some-real-life-usages) on the Redoc GitHub page.
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Conclusion
 

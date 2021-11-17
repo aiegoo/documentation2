@@ -28,7 +28,7 @@ For a more conceptual overview of OpenAPI and Swagger, see [Introduction to the 
 
 Swagger UI is one of the most popular tools for generating interactive documentation from your OpenAPI document. Swagger UI generates an interactive API console for users to quickly learn about your API and experiment with requests. Additionally, Swagger UI (which is an [actively managed project](https://github.com/swagger-api/swagger-ui) with an Apache 2.0 license) supports the latest version of the OpenAPI spec (3.x) and integrates with other Swagger tooling.
 
-{% include random_ad2.html %}
+{: .note2}
 
 For definitions of common terms, see [Key terms](#key_terms) at the end of this article.
 
@@ -81,7 +81,7 @@ Now let's make a request:
 3.  Enter the pet ID you used in the previous operation. (If you forgot it, look back in the **POST Pet** endpoint to check the value.)
 4.  Click **Execute**. You should see your pet's name returned in the Response section.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## Some sample Swagger UI doc sites
 
@@ -95,7 +95,7 @@ Before we get into this Swagger tutorial with another API (other than the Petsto
 
 Some of these sites look the same, but others, such as The Movie Database API and Zomato, have been integrated seamlessly into the rest of their documentation website.
 
-{% include random_ad3.html %}
+{: .note2}
 
 Looking at the examples, you'll notice the documentation is short and sweet in a Swagger implementation. This brevity is because the Swagger display is meant to be an interactive experience where you can try out calls and see responses &mdash; using your own API key to see your own data. It's the learn-by-doing-and-seeing-it approach. Also, Swagger UI only covers the [reference topics](docendpoints.html) of your documentation. The [conceptual topics](docnonref.html) are usually covered in a separate guide.
 

@@ -24,7 +24,7 @@ Here's an example of a resource description from the Mailchimp API's [Campaigns 
 
 <a class="noExtIcon" href="http://developer.mailchimp.com/documentation/mailchimp/reference/campaigns/"><img src="https://s3.us-west-1.wasabisys.com/idbwmedia.com/images/api/mailchimpcampaigns.png"/></a>
 
-{% include random_ad2.html %}
+{: .note2}
 
 Typically, an API will have a number of endpoints grouped under the same resource. In this case, you describe both the general resource and the individual endpoints. For example, the Campaigns resource has various endpoints that are also described:
 
@@ -89,7 +89,7 @@ The Relationships resource isn't described but rather acts as a container for re
 
 (Instagram has since shifted to a [Graph API](https://developers.facebook.com/docs/instagram-api/).)
 
-{% include random_ad.html %}
+{: .note2}
 
 For another example of an API with resources and endpoints, check out the [Trello API](https://developers.trello.com/v1.0/reference#introduction).
 
@@ -115,7 +115,7 @@ Resource descriptions (as well as endpoint descriptions) are typically short, us
 
 Although the description in an API reference topic provides a 1-3 sentence summary of the information that the resource contains, you might expand on this with much greater detail in the user guide. (You could link the reference description to the places in the guide where you provide more detail.)
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> Resource description for the surfreport endpoint
 

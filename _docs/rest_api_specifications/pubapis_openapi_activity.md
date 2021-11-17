@@ -15,7 +15,7 @@ The [OpenAPI tutorial](pubapis_openapi_tutorial_overview.html) walked you throug
 
 {% include content/activities/edit_openapi_spec_file.md %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Create the OpenAPI specification document for an API of your choosing
 
@@ -25,7 +25,7 @@ In an earlier activity, you [found an open-source API project](docapis_find_open
 
 If your open-source project doesn't have an API, or if it's API already has an OpenAPI specification, find another API (perhaps from this [list of 100+ APIs](pubapis_apilist.html)) and create the OpenAPI specification.
 
-{% include random_ad.html %}
+{: .note2}
 
 Go through each step of the OpenAPI specification tutorial to build out the specification document:
 
@@ -40,4 +40,4 @@ Go through each step of the OpenAPI specification tutorial to build out the spec
 
 Validate your specification document in the [Swagger Editor](https://swagger.io/swagger-editor/). Execute a request to make sure it's working correctly.
 
-{% include random_ad2.html %}
+{: .note2}

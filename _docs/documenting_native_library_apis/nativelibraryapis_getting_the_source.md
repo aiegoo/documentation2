@@ -15,17 +15,17 @@ To understand the documentation for Java APIs, it helps to see the context of wh
 {:toc}
 {% endif %}
 
-{% include random_ad3.html %}
+{: .note2}
 
 ## Sample Java Project
 
 The sample Java project (available at [github.com/tomjoht/sample-java-project](https://github.com/tomjoht/sample-java-project)) is a little Java application about different tools that a coyote will use to capture a roadrunner. There are two classes (`ACMESmartphone` and `Dynamite`) and another class file called `App` that references the classes.
 
-{% include random_ad2.html %}
+{: .note2}
 
 This program only prints little messages to the console, but it's simple enough to be instructive in its purpose. The purpose of the app is to demonstrate different doc tags, their placement, and how they get rendered in the Javadoc.
 
-{% include random_ad.html %}
+{: .note2}
 
 ## <i class="fa fa-user-circle"></i> Download and open the project in Eclipse
 
